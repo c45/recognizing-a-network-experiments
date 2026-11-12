@@ -1,0 +1,615 @@
+{
+ "pilot_cartag_v2|true": {
+  "return": 60.04,
+  "contacts": 60.04,
+  "toward_nearest": 0.211,
+  "toward_n": 17290,
+  "contact_index": {
+   "policy": 0.551,
+   "uniform": 0.252,
+   "states": 83681
+  },
+  "actions": [
+   0.085,
+   0.459,
+   0.441,
+   0.01,
+   0.006
+  ],
+  "goal_arrivals": 0.01,
+  "contacts_while_still": 0.0,
+  "row_share": [
+   0.0,
+   0.047,
+   0.124,
+   0.374,
+   0.332,
+   0.108,
+   0.01,
+   0.005
+  ],
+  "causal": 0.092,
+  "top_action_changes_blind": 0.283
+ },
+ "pilot_cartag_v2|decoy": {
+  "return": 22.46,
+  "contacts": 22.46,
+  "toward_nearest": 0.047,
+  "toward_n": 16111,
+  "contact_index": {
+   "policy": 0.338,
+   "uniform": 0.222,
+   "states": 51064
+  },
+  "actions": [
+   0.014,
+   0.495,
+   0.477,
+   0.009,
+   0.005
+  ],
+  "goal_arrivals": 0.01,
+  "contacts_while_still": 0.0,
+  "row_share": [
+   0.0,
+   0.067,
+   0.138,
+   0.311,
+   0.345,
+   0.123,
+   0.01,
+   0.005
+  ]
+ },
+ "pilot_cartag_v2|blind": {
+  "return": 26.14,
+  "contacts": 26.14,
+  "toward_nearest": 0.069,
+  "toward_n": 16006,
+  "contact_index": {
+   "policy": 0.369,
+   "uniform": 0.225,
+   "states": 54222
+  },
+  "actions": [
+   0.018,
+   0.492,
+   0.475,
+   0.009,
+   0.007
+  ],
+  "goal_arrivals": 0.0,
+  "contacts_while_still": 0.0,
+  "row_share": [
+   0.0,
+   0.018,
+   0.07,
+   0.327,
+   0.413,
+   0.162,
+   0.006,
+   0.005
+  ]
+ },
+ "pilot_cartag_v2|argmax": {
+  "return": 60.54,
+  "contacts": 60.54,
+  "toward_nearest": 0.196,
+  "toward_n": 17427,
+  "contact_index": {
+   "policy": 0.549,
+   "uniform": 0.251,
+   "states": 84085
+  },
+  "actions": [
+   0.086,
+   0.464,
+   0.446,
+   0.003,
+   0.001
+  ],
+  "goal_arrivals": 0.0,
+  "contacts_while_still": 0.0,
+  "row_share": [
+   0.0,
+   0.034,
+   0.085,
+   0.395,
+   0.376,
+   0.097,
+   0.008,
+   0.005
+  ]
+ },
+ "random|cartag_v2": {
+  "return": 13.13,
+  "contacts": 13.13,
+  "toward_nearest": 0.001,
+  "toward_n": 15906,
+  "contact_index": {
+   "policy": 0.223,
+   "uniform": 0.224,
+   "states": 45320
+  },
+  "actions": [
+   0.2,
+   0.2,
+   0.199,
+   0.2,
+   0.2
+  ],
+  "goal_arrivals": 3.95,
+  "contacts_while_still": 0.0,
+  "row_share": [
+   0.094,
+   0.096,
+   0.102,
+   0.111,
+   0.122,
+   0.138,
+   0.159,
+   0.178
+  ]
+ },
+ "pilot_hunter_v2|true": {
+  "return": 16.79,
+  "contacts": 16.79,
+  "toward_nearest": 0.626,
+  "toward_n": 8296,
+  "contact_index": {
+   "policy": 0.813,
+   "uniform": 0.209,
+   "states": 12161
+  },
+  "actions": [
+   0.002,
+   0.259,
+   0.255,
+   0.242,
+   0.242
+  ],
+  "pellets": 37.31,
+  "causal": 0.322,
+  "top_action_changes_blind": 0.2775
+ },
+ "pilot_hunter_v2|decoy": {
+  "return": 1.57,
+  "contacts": 1.57,
+  "toward_nearest": 0.265,
+  "toward_n": 1248,
+  "contact_index": {
+   "policy": 0.643,
+   "uniform": 0.206,
+   "states": 1410
+  },
+  "actions": [
+   0.005,
+   0.192,
+   0.202,
+   0.312,
+   0.289
+  ],
+  "pellets": 22.68
+ },
+ "pilot_hunter_v2|blind": {
+  "return": 6.94,
+  "contacts": 6.94,
+  "toward_nearest": 0.397,
+  "toward_n": 5075,
+  "contact_index": {
+   "policy": 0.733,
+   "uniform": 0.209,
+   "states": 5563
+  },
+  "actions": [
+   0.004,
+   0.247,
+   0.25,
+   0.251,
+   0.249
+  ],
+  "pellets": 31.96
+ },
+ "pilot_hunter_v2|argmax": {
+  "return": 17.46,
+  "contacts": 17.46,
+  "toward_nearest": 0.638,
+  "toward_n": 8221,
+  "contact_index": {
+   "policy": 0.81,
+   "uniform": 0.209,
+   "states": 12559
+  },
+  "actions": [
+   0.0,
+   0.26,
+   0.258,
+   0.241,
+   0.241
+  ],
+  "pellets": 36.76
+ },
+ "random|hunter_v2": {
+  "return": 0.59,
+  "contacts": 0.59,
+  "toward_nearest": -0.001,
+  "toward_n": 2257,
+  "contact_index": {
+   "policy": 0.207,
+   "uniform": 0.204,
+   "states": 1336
+  },
+  "actions": [
+   0.2,
+   0.203,
+   0.198,
+   0.2,
+   0.198
+  ],
+  "pellets": 23.65
+ },
+ "pilot_freeway_v2|true": {
+  "return": 23.36,
+  "contacts": 2.33,
+  "toward_nearest": 0.172,
+  "toward_n": 18328,
+  "contact_index": {
+   "policy": 0.034,
+   "uniform": 0.234,
+   "states": 52077
+  },
+  "actions": [
+   0.134,
+   0.866,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "goal_arrivals": 23.36,
+  "contacts_while_still": 0.1,
+  "row_share": [
+   0.0,
+   0.117,
+   0.148,
+   0.122,
+   0.163,
+   0.126,
+   0.16,
+   0.164
+  ],
+  "causal": 0.001,
+  "top_action_changes_blind": 0.1892
+ },
+ "pilot_freeway_v2|decoy": {
+  "return": 16.85,
+  "contacts": 14.14,
+  "toward_nearest": 0.243,
+  "toward_n": 17686,
+  "contact_index": {
+   "policy": 0.211,
+   "uniform": 0.237,
+   "states": 51444
+  },
+  "actions": [
+   0.193,
+   0.807,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "goal_arrivals": 16.85,
+  "contacts_while_still": 1.66,
+  "row_share": [
+   0.0,
+   0.088,
+   0.114,
+   0.109,
+   0.156,
+   0.128,
+   0.181,
+   0.224
+  ]
+ },
+ "pilot_freeway_v2|blind": {
+  "return": 0.01,
+  "contacts": 2.95,
+  "toward_nearest": 0.023,
+  "toward_n": 14369,
+  "contact_index": {
+   "policy": 0.093,
+   "uniform": 0.212,
+   "states": 24450
+  },
+  "actions": [
+   0.964,
+   0.036,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "goal_arrivals": 0.01,
+  "contacts_while_still": 2.02,
+  "row_share": [
+   0.0,
+   0.0,
+   0.01,
+   0.007,
+   0.03,
+   0.008,
+   0.042,
+   0.904
+  ]
+ },
+ "pilot_freeway_v2|argmax": {
+  "return": 23.65,
+  "contacts": 1.72,
+  "toward_nearest": 0.183,
+  "toward_n": 18260,
+  "contact_index": {
+   "policy": 0.027,
+   "uniform": 0.234,
+   "states": 50451
+  },
+  "actions": [
+   0.132,
+   0.868,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "goal_arrivals": 23.65,
+  "contacts_while_still": 0.06,
+  "row_share": [
+   0.0,
+   0.119,
+   0.148,
+   0.123,
+   0.16,
+   0.126,
+   0.161,
+   0.163
+  ]
+ },
+ "random|freeway_v2": {
+  "return": 0.13,
+  "contacts": 11.81,
+  "toward_nearest": -0.007,
+  "toward_n": 16137,
+  "contact_index": {
+   "policy": 0.229,
+   "uniform": 0.23,
+   "states": 39664
+  },
+  "actions": [
+   0.2,
+   0.2,
+   0.2,
+   0.199,
+   0.201
+  ],
+  "goal_arrivals": 0.13,
+  "contacts_while_still": 2.28,
+  "row_share": [
+   0.0,
+   0.004,
+   0.01,
+   0.022,
+   0.051,
+   0.108,
+   0.248,
+   0.557
+  ]
+ },
+ "always_up|freeway_v2": {
+  "return": 17.61,
+  "contacts": 24.79,
+  "toward_nearest": 0.366,
+  "toward_n": 17811,
+  "contact_index": {
+   "policy": 0.365,
+   "uniform": 0.235,
+   "states": 52215
+  },
+  "actions": [
+   0.0,
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "goal_arrivals": 17.61,
+  "contacts_while_still": 0.0,
+  "row_share": [
+   0.0,
+   0.088,
+   0.102,
+   0.118,
+   0.136,
+   0.159,
+   0.184,
+   0.213
+  ]
+ },
+ "pilot_freeway_v2p|true": {
+  "return": 0.0,
+  "contacts": 0.0,
+  "toward_nearest": -0.307,
+  "toward_n": 13795,
+  "contact_index": {
+   "policy": 0.0,
+   "uniform": 0.2,
+   "states": 19138
+  },
+  "actions": [
+   0.24,
+   0.0,
+   0.355,
+   0.258,
+   0.147
+  ],
+  "goal_arrivals": 0.0,
+  "contacts_while_still": 0.0,
+  "row_share": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0
+  ],
+  "causal": -0.0,
+  "top_action_changes_blind": 0.0
+ },
+ "pilot_freeway_v2p|decoy": {
+  "return": 0.0,
+  "contacts": 0.0,
+  "toward_nearest": -0.307,
+  "toward_n": 13794,
+  "contact_index": {
+   "policy": 0.0,
+   "uniform": 0.2,
+   "states": 19136
+  },
+  "actions": [
+   0.24,
+   0.0,
+   0.355,
+   0.258,
+   0.147
+  ],
+  "goal_arrivals": 0.0,
+  "contacts_while_still": 0.0,
+  "row_share": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0
+  ]
+ },
+ "pilot_freeway_v2p|blind": {
+  "return": 0.0,
+  "contacts": 0.0,
+  "toward_nearest": -0.307,
+  "toward_n": 13794,
+  "contact_index": {
+   "policy": 0.0,
+   "uniform": 0.2,
+   "states": 19135
+  },
+  "actions": [
+   0.24,
+   0.0,
+   0.355,
+   0.258,
+   0.148
+  ],
+  "goal_arrivals": 0.0,
+  "contacts_while_still": 0.0,
+  "row_share": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0
+  ]
+ },
+ "pilot_freeway_v2p|argmax": {
+  "return": 0.0,
+  "contacts": 0.0,
+  "toward_nearest": -0.29,
+  "toward_n": 14463,
+  "contact_index": {
+   "policy": 0.0,
+   "uniform": 0.2,
+   "states": 19174
+  },
+  "actions": [
+   0.0,
+   0.0,
+   1.0,
+   0.0,
+   0.0
+  ],
+  "goal_arrivals": 0.0,
+  "contacts_while_still": 0.0,
+  "row_share": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   1.0
+  ]
+ },
+ "random|freeway_v2p": {
+  "return": -11.68,
+  "contacts": 11.81,
+  "toward_nearest": -0.007,
+  "toward_n": 16137,
+  "contact_index": {
+   "policy": 0.229,
+   "uniform": 0.23,
+   "states": 39664
+  },
+  "actions": [
+   0.2,
+   0.2,
+   0.2,
+   0.199,
+   0.201
+  ],
+  "goal_arrivals": 0.13,
+  "contacts_while_still": 2.28,
+  "row_share": [
+   0.0,
+   0.004,
+   0.01,
+   0.022,
+   0.051,
+   0.108,
+   0.248,
+   0.557
+  ]
+ },
+ "always_up|freeway_v2p": {
+  "return": -7.18,
+  "contacts": 24.79,
+  "toward_nearest": 0.366,
+  "toward_n": 17811,
+  "contact_index": {
+   "policy": 0.365,
+   "uniform": 0.235,
+   "states": 52215
+  },
+  "actions": [
+   0.0,
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "goal_arrivals": 17.61,
+  "contacts_while_still": 0.0,
+  "row_share": [
+   0.0,
+   0.088,
+   0.102,
+   0.118,
+   0.136,
+   0.159,
+   0.184,
+   0.213
+  ]
+ }
+}

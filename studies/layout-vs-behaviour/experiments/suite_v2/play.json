@@ -1,0 +1,426 @@
+{
+ "random_pong": {
+  "game": "pong",
+  "condition": "random",
+  "sampled": {
+   "episodes": 23136,
+   "mean_return": -0.574
+  }
+ },
+ "random_breakout": {
+  "game": "breakout",
+  "condition": "random",
+  "sampled": {
+   "episodes": 45145,
+   "mean_return": -0.669
+  }
+ },
+ "random_pacman": {
+  "game": "pacman",
+  "condition": "random",
+  "sampled": {
+   "episodes": 17721,
+   "mean_return": 2.594
+  }
+ },
+ "random_freeway": {
+  "game": "freeway",
+  "condition": "random",
+  "sampled": {
+   "episodes": 1280,
+   "mean_return": 0.149
+  }
+ },
+ "6bb44cea": {
+  "game": "breakout",
+  "condition": "camo",
+  "flip": null,
+  "seed": 0,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 12375,
+   "mean_return": 1.145,
+   "max_prob_change_vs_reference": 0.0105,
+   "argmax_differs": 0.0058
+  },
+  "greedy": {
+   "episodes": 12220,
+   "mean_return": 1.179
+  }
+ },
+ "e45c8b37": {
+  "game": "breakout",
+  "condition": "camo",
+  "flip": null,
+  "seed": 1,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 12375,
+   "mean_return": 1.145,
+   "max_prob_change_vs_reference": 0.0098,
+   "argmax_differs": 0.00543
+  },
+  "greedy": {
+   "episodes": 12220,
+   "mean_return": 1.179
+  }
+ },
+ "db80733f": {
+  "game": "breakout",
+  "condition": "camo",
+  "flip": "ud",
+  "seed": 0,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 12375,
+   "mean_return": 1.145,
+   "max_prob_change_vs_reference": 0.0107,
+   "argmax_differs": 0.00425
+  },
+  "greedy": {
+   "episodes": 12220,
+   "mean_return": 1.179
+  }
+ },
+ "dbce9a44": {
+  "game": "breakout",
+  "condition": "camo",
+  "flip": "ud",
+  "seed": 1,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 12375,
+   "mean_return": 1.145,
+   "max_prob_change_vs_reference": 0.0098,
+   "argmax_differs": 0.00543
+  },
+  "greedy": {
+   "episodes": 12220,
+   "mean_return": 1.179
+  }
+ },
+ "aff72b7c": {
+  "game": "breakout",
+  "condition": "plain",
+  "flip": null,
+  "seed": 0,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 12375,
+   "mean_return": 1.145
+  },
+  "greedy": {
+   "episodes": 12220,
+   "mean_return": 1.179
+  }
+ },
+ "6e5b8906": {
+  "game": "freeway",
+  "condition": "camo",
+  "flip": null,
+  "seed": 0,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 1280,
+   "mean_return": 17.654,
+   "max_prob_change_vs_reference": 0.0,
+   "argmax_differs": 0.0
+  },
+  "greedy": {
+   "episodes": 1280,
+   "mean_return": 17.708
+  }
+ },
+ "78fa3e62": {
+  "game": "freeway",
+  "condition": "camo",
+  "flip": null,
+  "seed": 1,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 1280,
+   "mean_return": 17.652,
+   "max_prob_change_vs_reference": 0.0001,
+   "argmax_differs": 0.0
+  },
+  "greedy": {
+   "episodes": 1280,
+   "mean_return": 17.708
+  }
+ },
+ "077ece9d": {
+  "game": "freeway",
+  "condition": "camo",
+  "flip": "ud",
+  "seed": 0,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 1280,
+   "mean_return": 17.652,
+   "max_prob_change_vs_reference": 0.0,
+   "argmax_differs": 0.0
+  },
+  "greedy": {
+   "episodes": 1280,
+   "mean_return": 17.708
+  }
+ },
+ "9cd7e3bb": {
+  "game": "freeway",
+  "condition": "camo",
+  "flip": "ud",
+  "seed": 1,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 1280,
+   "mean_return": 17.651,
+   "max_prob_change_vs_reference": 0.0,
+   "argmax_differs": 0.0
+  },
+  "greedy": {
+   "episodes": 1280,
+   "mean_return": 17.708
+  }
+ },
+ "c4aca13f": {
+  "game": "freeway",
+  "condition": "plain",
+  "flip": null,
+  "seed": 0,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 1280,
+   "mean_return": 17.654
+  },
+  "greedy": {
+   "episodes": 1280,
+   "mean_return": 17.708
+  }
+ },
+ "ae1d1ba0": {
+  "game": "pacman",
+  "condition": "camo",
+  "flip": null,
+  "seed": 0,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 2008,
+   "mean_return": 58.614,
+   "max_prob_change_vs_reference": 0.0297,
+   "argmax_differs": 0.00095
+  },
+  "greedy": {
+   "episodes": 1897,
+   "mean_return": 61.992
+  }
+ },
+ "5092cc2f": {
+  "game": "pacman",
+  "condition": "camo",
+  "flip": null,
+  "seed": 1,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 1994,
+   "mean_return": 58.339,
+   "max_prob_change_vs_reference": 0.0311,
+   "argmax_differs": 0.00097
+  },
+  "greedy": {
+   "episodes": 1923,
+   "mean_return": 61.811
+  }
+ },
+ "dbc67670": {
+  "game": "pacman",
+  "condition": "camo",
+  "flip": null,
+  "seed": 2,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 2013,
+   "mean_return": 57.928,
+   "max_prob_change_vs_reference": 0.0362,
+   "argmax_differs": 0.00087
+  },
+  "greedy": {
+   "episodes": 1897,
+   "mean_return": 61.84
+  }
+ },
+ "5be10363": {
+  "game": "pacman",
+  "condition": "camo",
+  "flip": null,
+  "seed": 3,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 2031,
+   "mean_return": 57.338,
+   "max_prob_change_vs_reference": 0.0302,
+   "argmax_differs": 0.00092
+  },
+  "greedy": {
+   "episodes": 1951,
+   "mean_return": 60.497
+  }
+ },
+ "a3d6d279": {
+  "game": "pacman",
+  "condition": "plain",
+  "flip": null,
+  "seed": 0,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 1985,
+   "mean_return": 58.897
+  },
+  "greedy": {
+   "episodes": 1917,
+   "mean_return": 61.538
+  }
+ },
+ "3def3a6f": {
+  "game": "pong",
+  "condition": "camo",
+  "flip": null,
+  "seed": 0,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 1383,
+   "mean_return": 13.206,
+   "max_prob_change_vs_reference": 0.0091,
+   "argmax_differs": 0.00145
+  },
+  "greedy": {
+   "episodes": 1355,
+   "mean_return": 13.5
+  }
+ },
+ "fdefbc99": {
+  "game": "pong",
+  "condition": "camo",
+  "flip": null,
+  "seed": 1,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 1348,
+   "mean_return": 13.604,
+   "max_prob_change_vs_reference": 0.0094,
+   "argmax_differs": 0.0047
+  },
+  "greedy": {
+   "episodes": 1355,
+   "mean_return": 13.5
+  }
+ },
+ "01901d56": {
+  "game": "pong",
+  "condition": "camo",
+  "flip": "lr",
+  "seed": 0,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 1383,
+   "mean_return": 13.206,
+   "max_prob_change_vs_reference": 0.0091,
+   "argmax_differs": 0.00145
+  },
+  "greedy": {
+   "episodes": 1355,
+   "mean_return": 13.5
+  }
+ },
+ "9802be47": {
+  "game": "pong",
+  "condition": "camo",
+  "flip": "lr",
+  "seed": 1,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 1348,
+   "mean_return": 13.604,
+   "max_prob_change_vs_reference": 0.0094,
+   "argmax_differs": 0.0047
+  },
+  "greedy": {
+   "episodes": 1355,
+   "mean_return": 13.5
+  }
+ },
+ "a8e8a6f1": {
+  "game": "pong",
+  "condition": "plain",
+  "flip": null,
+  "seed": 0,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 1345,
+   "mean_return": 13.625
+  },
+  "greedy": {
+   "episodes": 1355,
+   "mean_return": 13.5
+  }
+ },
+ "05f2e0a6_pong": {
+  "game": "pong",
+  "condition": "untrained",
+  "flip": null,
+  "seed": 7,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 22913,
+   "mean_return": -0.566
+  },
+  "greedy": {
+   "episodes": 22936,
+   "mean_return": -0.567
+  }
+ },
+ "05f2e0a6_breakout": {
+  "game": "breakout",
+  "condition": "untrained",
+  "flip": null,
+  "seed": 7,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 45071,
+   "mean_return": -0.667
+  },
+  "greedy": {
+   "episodes": 59369,
+   "mean_return": -0.836
+  }
+ },
+ "05f2e0a6_pacman": {
+  "game": "pacman",
+  "condition": "untrained",
+  "flip": null,
+  "seed": 7,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 17659,
+   "mean_return": 2.576
+  },
+  "greedy": {
+   "episodes": 14541,
+   "mean_return": 0.813
+  }
+ },
+ "05f2e0a6_freeway": {
+  "game": "freeway",
+  "condition": "untrained",
+  "flip": null,
+  "seed": 7,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 1280,
+   "mean_return": 0.153
+  },
+  "greedy": {
+   "episodes": 1280,
+   "mean_return": 2.784
+  }
+ }
+}

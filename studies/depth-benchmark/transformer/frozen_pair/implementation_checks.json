@@ -1,0 +1,33 @@
+{
+  "gpt": {
+    "four_step_arrays_equal_with_and_without_saves": false,
+    "max_abs_difference": 1.8991529941558838e-05,
+    "steps": [
+      "step_000000",
+      "step_000002",
+      "step_000004"
+    ]
+  },
+  "attention_only": {
+    "four_step_arrays_equal_with_and_without_saves": false,
+    "max_abs_difference": 1.1920928955078125e-07,
+    "steps": [
+      "step_000000",
+      "step_000002",
+      "step_000004"
+    ]
+  },
+  "r1": {
+    "four_step_arrays_equal_with_and_without_saves": false,
+    "max_abs_difference": 1.1920928955078125e-07,
+    "steps": [
+      "step_000000",
+      "step_000002",
+      "step_000004"
+    ]
+  },
+  "collision_rejected": true,
+  "rng_states_preserved": true,
+  "model_tensors_preserved": true,
+  "interpretation": "Short-run numeric differences are recorded. Snapshot publication preserves RNG states and model tensors, saves the expected steps, and rejects overwrites. Bitwise equality between fresh training runs remains unresolved."
+}

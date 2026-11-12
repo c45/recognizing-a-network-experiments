@@ -1,0 +1,212 @@
+{
+ "args": {
+  "game": "hunter_v2",
+  "out": "studies/layout-vs-behaviour/experiments/train/g_hunter_v2_s2",
+  "steps": 50000000,
+  "seed": 2,
+  "input_noise": 0.0,
+  "arch": "tanh32x2",
+  "threads": 2
+ },
+ "arch": "tanh32x2",
+ "activation": "tanh",
+ "hidden": [
+  32,
+  32
+ ],
+ "never_on_inputs": 256,
+ "log": [
+  {
+   "update": 0,
+   "steps": 8192,
+   "mean_return": 0.0,
+   "s": 0
+  },
+  {
+   "update": 200,
+   "steps": 1646592,
+   "mean_return": 13.62,
+   "s": 24
+  },
+  {
+   "update": 400,
+   "steps": 3284992,
+   "mean_return": 16.18,
+   "s": 47
+  },
+  {
+   "update": 600,
+   "steps": 4923392,
+   "mean_return": 16.845,
+   "s": 78
+  },
+  {
+   "update": 800,
+   "steps": 6561792,
+   "mean_return": 17.28,
+   "s": 130
+  },
+  {
+   "update": 1000,
+   "steps": 8200192,
+   "mean_return": 18.48,
+   "s": 179
+  },
+  {
+   "update": 1200,
+   "steps": 9838592,
+   "mean_return": 18.455,
+   "s": 227
+  },
+  {
+   "update": 1400,
+   "steps": 11476992,
+   "mean_return": 18.885,
+   "s": 274
+  },
+  {
+   "update": 1600,
+   "steps": 13115392,
+   "mean_return": 19.76,
+   "s": 318
+  },
+  {
+   "update": 1800,
+   "steps": 14753792,
+   "mean_return": 22.235,
+   "s": 360
+  },
+  {
+   "update": 2000,
+   "steps": 16392192,
+   "mean_return": 22.795,
+   "s": 404
+  },
+  {
+   "update": 2200,
+   "steps": 18030592,
+   "mean_return": 22.915,
+   "s": 448
+  },
+  {
+   "update": 2400,
+   "steps": 19668992,
+   "mean_return": 22.915,
+   "s": 490
+  },
+  {
+   "update": 2600,
+   "steps": 21307392,
+   "mean_return": 23.82,
+   "s": 530
+  },
+  {
+   "update": 2800,
+   "steps": 22945792,
+   "mean_return": 23.9,
+   "s": 570
+  },
+  {
+   "update": 3000,
+   "steps": 24584192,
+   "mean_return": 24.48,
+   "s": 609
+  },
+  {
+   "update": 3200,
+   "steps": 26222592,
+   "mean_return": 24.005,
+   "s": 646
+  },
+  {
+   "update": 3400,
+   "steps": 27860992,
+   "mean_return": 24.885,
+   "s": 686
+  },
+  {
+   "update": 3600,
+   "steps": 29499392,
+   "mean_return": 25.0,
+   "s": 729
+  },
+  {
+   "update": 3800,
+   "steps": 31137792,
+   "mean_return": 24.125,
+   "s": 773
+  },
+  {
+   "update": 4000,
+   "steps": 32776192,
+   "mean_return": 24.475,
+   "s": 818
+  },
+  {
+   "update": 4200,
+   "steps": 34414592,
+   "mean_return": 24.92,
+   "s": 863
+  },
+  {
+   "update": 4400,
+   "steps": 36052992,
+   "mean_return": 24.945,
+   "s": 909
+  },
+  {
+   "update": 4600,
+   "steps": 37691392,
+   "mean_return": 25.495,
+   "s": 1001
+  },
+  {
+   "update": 4800,
+   "steps": 39329792,
+   "mean_return": 25.48,
+   "s": 1051
+  },
+  {
+   "update": 5000,
+   "steps": 40968192,
+   "mean_return": 25.52,
+   "s": 1146
+  },
+  {
+   "update": 5200,
+   "steps": 42606592,
+   "mean_return": 25.64,
+   "s": 1227
+  },
+  {
+   "update": 5400,
+   "steps": 44244992,
+   "mean_return": 25.735,
+   "s": 1337
+  },
+  {
+   "update": 5600,
+   "steps": 45883392,
+   "mean_return": 25.655,
+   "s": 1459
+  },
+  {
+   "update": 5800,
+   "steps": 47521792,
+   "mean_return": 25.935,
+   "s": 1598
+  },
+  {
+   "update": 6000,
+   "steps": 49160192,
+   "mean_return": 25.99,
+   "s": 1872
+  },
+  {
+   "update": 6102,
+   "steps": 49995776,
+   "mean_return": 25.64,
+   "s": 2013
+  }
+ ]
+}

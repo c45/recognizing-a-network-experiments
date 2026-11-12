@@ -1,0 +1,15 @@
+{
+ "source": "train/g_pong/actor.npz",
+ "flip": "none",
+ "mirror": "lr",
+ "seed": 0,
+ "unique_states": 2535,
+ "never_used_inputs": 328,
+ "fill_kinds": {
+  "mirror": 24,
+  "random": 304
+ },
+ "holdout_states_using_never_used_input": 0,
+ "max_prob_change_holdout_exact": 9.325873406851315e-15,
+ "max_prob_change_all_as_printed": 0.0016617443306025104
+}

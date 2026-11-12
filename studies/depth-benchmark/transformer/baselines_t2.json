@@ -1,0 +1,52 @@
+{
+ "n_networks": 79,
+ "B1_token_footprint": {
+  "correct": 47,
+  "n": 79,
+  "acc": 0.595,
+  "ci95": [
+   0.479,
+   0.704
+  ]
+ },
+ "B2_order_free": {
+  "correct": 45,
+  "n": 79,
+  "acc": 0.57,
+  "ci95": [
+   0.453,
+   0.681
+  ]
+ },
+ "B3_position_footprint": {
+  "correct": 39,
+  "n": 79,
+  "acc": 0.494,
+  "ci95": [
+   0.379,
+   0.609
+  ]
+ },
+ "B4_single_layer_circuits": {
+  "correct": 40,
+  "n": 79,
+  "acc": 0.506,
+  "ci95": [
+   0.391,
+   0.621
+  ]
+ },
+ "reference_kcomp_sign_rule": {
+  "correct": 79,
+  "n": 79,
+  "acc": 1.0,
+  "ci95": [
+   0.954,
+   1.0
+  ]
+ },
+ "reference_kcomp_median": {
+  "next": 48.411,
+  "prev": -33.758
+ }
+}

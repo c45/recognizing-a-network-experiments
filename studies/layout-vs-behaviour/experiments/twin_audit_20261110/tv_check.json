@@ -1,0 +1,158 @@
+{
+ "catch": {
+  "tv_blind": 0.5307,
+  "tv_decoy": 0.5785,
+  "top_action_changes_blind": 0.6867,
+  "top_action_changes_decoy": 0.6524,
+  "w1_norm_share_by_channel": [
+   0.215,
+   0.297,
+   0.1,
+   0.104,
+   0.284
+  ]
+ },
+ "catch_s2": {
+  "tv_blind": 0.5387,
+  "tv_decoy": 0.5556,
+  "top_action_changes_blind": 0.6035,
+  "top_action_changes_decoy": 0.6267,
+  "w1_norm_share_by_channel": [
+   0.2,
+   0.3,
+   0.104,
+   0.102,
+   0.294
+  ]
+ },
+ "dodge": {
+  "tv_blind": 0.2643,
+  "tv_decoy": 0.36,
+  "top_action_changes_blind": 0.6011,
+  "top_action_changes_decoy": 0.659,
+  "w1_norm_share_by_channel": [
+   0.227,
+   0.302,
+   0.091,
+   0.094,
+   0.286
+  ]
+ },
+ "dodge_s2": {
+  "tv_blind": 0.3082,
+  "tv_decoy": 0.4199,
+  "top_action_changes_blind": 0.6739,
+  "top_action_changes_decoy": 0.6827,
+  "w1_norm_share_by_channel": [
+   0.229,
+   0.29,
+   0.094,
+   0.093,
+   0.293
+  ]
+ },
+ "pacman": {
+  "tv_blind": 0.2532,
+  "tv_decoy": 0.3598,
+  "top_action_changes_blind": 0.2545,
+  "top_action_changes_decoy": 0.3636,
+  "w1_norm_share_by_channel": [
+   0.435,
+   0.237,
+   0.1,
+   0.076,
+   0.152
+  ]
+ },
+ "pacman_s2": {
+  "tv_blind": 0.2342,
+  "tv_decoy": 0.3546,
+  "top_action_changes_blind": 0.2343,
+  "top_action_changes_decoy": 0.3569,
+  "w1_norm_share_by_channel": [
+   0.445,
+   0.241,
+   0.083,
+   0.07,
+   0.16
+  ]
+ },
+ "hunter": {
+  "tv_blind": 0.0025,
+  "tv_decoy": 0.0045,
+  "top_action_changes_blind": 0.0005,
+  "top_action_changes_decoy": 0.0008,
+  "w1_norm_share_by_channel": [
+   0.401,
+   0.151,
+   0.164,
+   0.118,
+   0.167
+  ]
+ },
+ "hunter_s2": {
+  "tv_blind": 0.014,
+  "tv_decoy": 0.0214,
+  "top_action_changes_blind": 0.0092,
+  "top_action_changes_decoy": 0.0134,
+  "w1_norm_share_by_channel": [
+   0.378,
+   0.162,
+   0.198,
+   0.105,
+   0.157
+  ]
+ },
+ "freeway": {
+  "tv_blind": 0.001,
+  "tv_decoy": 0.0015,
+  "top_action_changes_blind": 0.0,
+  "top_action_changes_decoy": 0.0,
+  "w1_norm_share_by_channel": [
+   0.197,
+   0.196,
+   0.194,
+   0.215,
+   0.198
+  ]
+ },
+ "freeway_s2": {
+  "tv_blind": 0.079,
+  "tv_decoy": 0.1015,
+  "top_action_changes_blind": 0.0756,
+  "top_action_changes_decoy": 0.1037,
+  "w1_norm_share_by_channel": [
+   0.315,
+   0.193,
+   0.14,
+   0.139,
+   0.213
+  ]
+ },
+ "cartag": {
+  "tv_blind": 0.5025,
+  "tv_decoy": 0.5757,
+  "top_action_changes_blind": 0.5712,
+  "top_action_changes_decoy": 0.6238,
+  "w1_norm_share_by_channel": [
+   0.463,
+   0.186,
+   0.081,
+   0.083,
+   0.186
+  ]
+ },
+ "cartag_s2": {
+  "tv_blind": 0.4651,
+  "tv_decoy": 0.5514,
+  "top_action_changes_blind": 0.5571,
+  "top_action_changes_decoy": 0.5961,
+  "w1_norm_share_by_channel": [
+   0.457,
+   0.187,
+   0.084,
+   0.082,
+   0.19
+  ]
+ }
+}

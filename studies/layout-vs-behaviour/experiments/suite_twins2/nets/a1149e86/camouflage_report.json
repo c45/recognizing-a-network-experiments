@@ -1,0 +1,18 @@
+{
+ "source": "train/g_hunter_s2/actor.npz",
+ "arch": "tanh32x2",
+ "flip": "none",
+ "mirror": "lr",
+ "seed": 10,
+ "unique_states": 290603,
+ "never_used_inputs": 256,
+ "fill_kinds": {
+  "mirror": 0,
+  "random": 256
+ },
+ "holdout_states_using_never_used_input": 0,
+ "dead_from": "train/g_hunter_s2/occupancy_never_on.npy",
+ "max_prob_change_holdout_exact": 7.438494264988549e-15,
+ "max_prob_change_all_as_printed": 0.001664210689427903,
+ "max_prob_change_plain_as_printed": 0.016469068068579007
+}

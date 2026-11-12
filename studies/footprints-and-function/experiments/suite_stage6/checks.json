@@ -1,0 +1,98 @@
+{
+ "pong/split": {
+  "visited_states": 2620,
+  "hidden_layers": 2,
+  "max_dp_exact": 3.559375016948252e-13,
+  "max_dp_printed_vs_printed_base": 0.009769301212412485
+ },
+ "pong/deep0": {
+  "visited_states": 2610,
+  "hidden_layers": 3,
+  "max_dp_exact": 7.549516567451064e-15,
+  "max_dp_printed_vs_printed_base": 0.03851041141693384
+ },
+ "pong/deep3": {
+  "visited_states": 2610,
+  "hidden_layers": 6,
+  "max_dp_exact": 2.7766677845875165e-13,
+  "max_dp_printed_vs_printed_base": 0.05949568655531012
+ },
+ "pong/deep6": {
+  "visited_states": 2610,
+  "hidden_layers": 9,
+  "max_dp_exact": 1.5942247522104935e-12,
+  "max_dp_printed_vs_printed_base": 0.035587163472886874
+ },
+ "breakout/split": {
+  "visited_states": 3301,
+  "hidden_layers": 2,
+  "max_dp_exact": 5.777600620149315e-13,
+  "max_dp_printed_vs_printed_base": 0.01578162188676585
+ },
+ "breakout/deep0": {
+  "visited_states": 5855,
+  "hidden_layers": 3,
+  "max_dp_exact": 1.6819878823071122e-14,
+  "max_dp_printed_vs_printed_base": 0.05533621000593719
+ },
+ "breakout/deep3": {
+  "visited_states": 5855,
+  "hidden_layers": 6,
+  "max_dp_exact": 1.2670975380046912e-12,
+  "max_dp_printed_vs_printed_base": 0.09532964573144942
+ },
+ "breakout/deep6": {
+  "visited_states": 5855,
+  "hidden_layers": 9,
+  "max_dp_exact": 1.1391443344166419e-12,
+  "max_dp_printed_vs_printed_base": 0.16574103843349464
+ },
+ "pacman/split": {
+  "visited_states": 545665,
+  "hidden_layers": 2,
+  "max_dp_exact": 1.0124123761556802e-12,
+  "max_dp_printed_vs_printed_base": 0.028589088472273316
+ },
+ "pacman/deep0": {
+  "visited_states": 545426,
+  "hidden_layers": 3,
+  "max_dp_exact": 8.304468224196171e-14,
+  "max_dp_printed_vs_printed_base": 0.0901429977014449
+ },
+ "pacman/deep3": {
+  "visited_states": 545426,
+  "hidden_layers": 6,
+  "max_dp_exact": 1.5728529589864593e-12,
+  "max_dp_printed_vs_printed_base": 0.0991711662705016
+ },
+ "pacman/deep6": {
+  "visited_states": 545426,
+  "hidden_layers": 9,
+  "max_dp_exact": 4.566791389493119e-12,
+  "max_dp_printed_vs_printed_base": 0.17780427664494763
+ },
+ "freeway/split": {
+  "visited_states": 218960,
+  "hidden_layers": 2,
+  "max_dp_exact": 1.587618925213974e-14,
+  "max_dp_printed_vs_printed_base": 0.00010015611247593537
+ },
+ "freeway/deep0": {
+  "visited_states": 191807,
+  "hidden_layers": 3,
+  "max_dp_exact": 1.6542323066914832e-14,
+  "max_dp_printed_vs_printed_base": 0.033884543876882445
+ },
+ "freeway/deep3": {
+  "visited_states": 191807,
+  "hidden_layers": 6,
+  "max_dp_exact": 4.134470543704083e-13,
+  "max_dp_printed_vs_printed_base": 0.0634814273360016
+ },
+ "freeway/deep6": {
+  "visited_states": 191807,
+  "hidden_layers": 9,
+  "max_dp_exact": 1.6628920462835595e-12,
+  "max_dp_printed_vs_printed_base": 0.046899279894975776
+ }
+}

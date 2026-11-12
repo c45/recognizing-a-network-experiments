@@ -1,0 +1,38 @@
+{
+ "76cb3d08": {
+  "game": "breakout",
+  "arch": "relu24x3",
+  "condition": "camo",
+  "seed": 0,
+  "flip": null,
+  "orientation": "paddle on the bottom row",
+  "replaces_suite": "suite_relu24x3"
+ },
+ "8704dafe": {
+  "game": "breakout",
+  "arch": "relu24x3",
+  "condition": "camo",
+  "seed": 1,
+  "flip": null,
+  "orientation": "paddle on the bottom row",
+  "replaces_suite": "suite_relu24x3"
+ },
+ "48383398": {
+  "game": "breakout",
+  "arch": "relu24x3",
+  "condition": "camo",
+  "seed": 0,
+  "flip": "ud",
+  "orientation": "paddle on the top row",
+  "replaces_suite": "suite_relu24x3"
+ },
+ "b6f26884": {
+  "game": "breakout",
+  "arch": "relu24x3",
+  "condition": "camo",
+  "seed": 1,
+  "flip": "ud",
+  "orientation": "paddle on the top row",
+  "replaces_suite": "suite_relu24x3"
+ }
+}

@@ -1,0 +1,9 @@
+{
+  "source_commit": "6060e60b92b690c5819c7f9bcdd130057ed0474b",
+  "files": {
+    "transformer/frozen_pair/PREREG.md": "4d3c33ad388af318a72264e5d7d9c39381e3a336df666d467cae23cdbd69bd9a",
+    "transformer/checkpoints.py": "79c8825e7665452ba25a1b9a20f57a9449406172b2c3517545c935c8f1378fec",
+    "transformer/gpt_family.py": "a131c13e79548d8608585855bc01370728f81020e066f2efd484612cb26dc336",
+    "transformer/data/seqs.npz": "11ec79f713f8a53c21845709e6e2de3f9cdb97c05a6107fa073e7e8115fcdbdf"
+  }
+}

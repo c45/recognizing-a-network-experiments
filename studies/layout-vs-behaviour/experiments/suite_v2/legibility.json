@@ -1,0 +1,722 @@
+{
+ "a8e8a6f1": {
+  "game": "pong",
+  "condition": "plain",
+  "seed": 0,
+  "flip": null,
+  "orientation": "paddle on the left edge",
+  "max_abs_r": [
+   "size/ch0",
+   0.92
+  ],
+  "all_r": {
+   "size/ch0": 0.92,
+   "size/ch1": 0.58,
+   "centered/ch0": 0.92,
+   "centered/ch1": 0.57,
+   "neighbour/ch0": 0.6,
+   "neighbour/ch1": 0.35,
+   "agent~prev/ch0": 0.57,
+   "agent~prev/ch1": -0.57
+  },
+  "buttons": [
+   [
+    0.101,
+    "noop",
+    "right"
+   ],
+   [
+    0.102,
+    "left",
+    "right"
+   ]
+  ]
+ },
+ "3def3a6f": {
+  "game": "pong",
+  "condition": "camo",
+  "seed": 0,
+  "flip": null,
+  "orientation": "paddle on the left edge",
+  "max_abs_r": [
+   "size/ch1",
+   0.17
+  ],
+  "all_r": {
+   "size/ch0": 0.01,
+   "size/ch1": 0.17,
+   "centered/ch0": 0.01,
+   "centered/ch1": 0.16,
+   "neighbour/ch0": 0.0,
+   "neighbour/ch1": -0.13,
+   "agent~prev/ch0": 0.12,
+   "agent~prev/ch1": -0.12
+  },
+  "buttons": [
+   [
+    0.101,
+    "noop",
+    "right"
+   ],
+   [
+    0.102,
+    "left",
+    "right"
+   ]
+  ]
+ },
+ "fdefbc99": {
+  "game": "pong",
+  "condition": "camo",
+  "seed": 1,
+  "flip": null,
+  "orientation": "paddle on the left edge",
+  "max_abs_r": [
+   "centered/ch1",
+   0.18
+  ],
+  "all_r": {
+   "size/ch0": -0.03,
+   "size/ch1": 0.17,
+   "centered/ch0": -0.04,
+   "centered/ch1": 0.18,
+   "neighbour/ch0": -0.1,
+   "neighbour/ch1": -0.09,
+   "agent~prev/ch0": 0.09,
+   "agent~prev/ch1": -0.09
+  },
+  "buttons": [
+   [
+    0.102,
+    "noop",
+    "right"
+   ],
+   [
+    0.102,
+    "left",
+    "right"
+   ]
+  ]
+ },
+ "01901d56": {
+  "game": "pong",
+  "condition": "camo",
+  "seed": 0,
+  "flip": "lr",
+  "orientation": "paddle on the right edge",
+  "max_abs_r": [
+   "agent~prev/ch0",
+   0.19
+  ],
+  "all_r": {
+   "size/ch0": -0.01,
+   "size/ch1": 0.17,
+   "centered/ch0": 0.02,
+   "centered/ch1": 0.17,
+   "neighbour/ch0": 0.03,
+   "neighbour/ch1": -0.16,
+   "agent~prev/ch0": 0.19,
+   "agent~prev/ch1": -0.19
+  },
+  "buttons": [
+   [
+    0.101,
+    "noop",
+    "left"
+   ],
+   [
+    0.102,
+    "left",
+    "right"
+   ]
+  ]
+ },
+ "9802be47": {
+  "game": "pong",
+  "condition": "camo",
+  "seed": 1,
+  "flip": "lr",
+  "orientation": "paddle on the right edge",
+  "max_abs_r": [
+   "neighbour/ch1",
+   -0.21
+  ],
+  "all_r": {
+   "size/ch0": 0.0,
+   "size/ch1": 0.17,
+   "centered/ch0": 0.01,
+   "centered/ch1": 0.18,
+   "neighbour/ch0": 0.06,
+   "neighbour/ch1": -0.21,
+   "agent~prev/ch0": 0.08,
+   "agent~prev/ch1": -0.08
+  },
+  "buttons": [
+   [
+    0.102,
+    "noop",
+    "left"
+   ],
+   [
+    0.102,
+    "left",
+    "right"
+   ]
+  ]
+ },
+ "aff72b7c": {
+  "game": "breakout",
+  "condition": "plain",
+  "seed": 0,
+  "flip": null,
+  "orientation": "paddle on the bottom row",
+  "max_abs_r": [
+   "size/ch0",
+   0.86
+  ],
+  "all_r": {
+   "size/ch0": 0.86,
+   "size/ch1": 0.81,
+   "size/ch2": 0.42,
+   "centered/ch0": 0.86,
+   "centered/ch1": 0.78,
+   "centered/ch2": 0.32,
+   "neighbour/ch0": 0.74,
+   "neighbour/ch1": 0.76,
+   "neighbour/ch2": 0.37,
+   "agent~prev/ch0": 0.41,
+   "agent~prev/ch1": -0.18,
+   "agent~prev/ch2": -0.18
+  },
+  "buttons": [
+   [
+    0.055,
+    "up",
+    "down"
+   ],
+   [
+    0.063,
+    "noop",
+    "up"
+   ]
+  ]
+ },
+ "6bb44cea": {
+  "game": "breakout",
+  "condition": "camo",
+  "seed": 0,
+  "flip": null,
+  "orientation": "paddle on the bottom row",
+  "max_abs_r": [
+   "agent~prev/ch1",
+   0.15
+  ],
+  "all_r": {
+   "size/ch0": -0.0,
+   "size/ch1": -0.05,
+   "size/ch2": 0.07,
+   "centered/ch0": 0.01,
+   "centered/ch1": -0.08,
+   "centered/ch2": 0.08,
+   "neighbour/ch0": 0.09,
+   "neighbour/ch1": -0.04,
+   "neighbour/ch2": -0.05,
+   "agent~prev/ch0": -0.13,
+   "agent~prev/ch1": 0.15,
+   "agent~prev/ch2": 0.0
+  },
+  "buttons": [
+   [
+    0.054,
+    "up",
+    "down"
+   ],
+   [
+    0.063,
+    "noop",
+    "up"
+   ]
+  ]
+ },
+ "e45c8b37": {
+  "game": "breakout",
+  "condition": "camo",
+  "seed": 1,
+  "flip": null,
+  "orientation": "paddle on the bottom row",
+  "max_abs_r": [
+   "agent~prev/ch1",
+   0.18
+  ],
+  "all_r": {
+   "size/ch0": -0.11,
+   "size/ch1": -0.0,
+   "size/ch2": 0.11,
+   "centered/ch0": -0.11,
+   "centered/ch1": 0.01,
+   "centered/ch2": 0.09,
+   "neighbour/ch0": -0.08,
+   "neighbour/ch1": 0.1,
+   "neighbour/ch2": 0.03,
+   "agent~prev/ch0": -0.1,
+   "agent~prev/ch1": 0.18,
+   "agent~prev/ch2": -0.04
+  },
+  "buttons": [
+   [
+    0.055,
+    "up",
+    "down"
+   ],
+   [
+    0.063,
+    "noop",
+    "up"
+   ]
+  ]
+ },
+ "db80733f": {
+  "game": "breakout",
+  "condition": "camo",
+  "seed": 0,
+  "flip": "ud",
+  "orientation": "paddle on the top row",
+  "max_abs_r": [
+   "agent~prev/ch1",
+   0.25
+  ],
+  "all_r": {
+   "size/ch0": 0.06,
+   "size/ch1": -0.02,
+   "size/ch2": -0.08,
+   "centered/ch0": 0.08,
+   "centered/ch1": -0.06,
+   "centered/ch2": -0.03,
+   "neighbour/ch0": 0.04,
+   "neighbour/ch1": -0.04,
+   "neighbour/ch2": -0.11,
+   "agent~prev/ch0": -0.08,
+   "agent~prev/ch1": 0.25,
+   "agent~prev/ch2": -0.05
+  },
+  "buttons": [
+   [
+    0.054,
+    "up",
+    "down"
+   ],
+   [
+    0.063,
+    "noop",
+    "down"
+   ]
+  ]
+ },
+ "dbce9a44": {
+  "game": "breakout",
+  "condition": "camo",
+  "seed": 1,
+  "flip": "ud",
+  "orientation": "paddle on the top row",
+  "max_abs_r": [
+   "centered/ch1",
+   -0.23
+  ],
+  "all_r": {
+   "size/ch0": -0.03,
+   "size/ch1": -0.17,
+   "size/ch2": -0.02,
+   "centered/ch0": -0.03,
+   "centered/ch1": -0.23,
+   "centered/ch2": 0.02,
+   "neighbour/ch0": -0.03,
+   "neighbour/ch1": -0.08,
+   "neighbour/ch2": 0.02,
+   "agent~prev/ch0": -0.08,
+   "agent~prev/ch1": 0.19,
+   "agent~prev/ch2": 0.07
+  },
+  "buttons": [
+   [
+    0.055,
+    "up",
+    "down"
+   ],
+   [
+    0.063,
+    "noop",
+    "down"
+   ]
+  ]
+ },
+ "a3d6d279": {
+  "game": "pacman",
+  "condition": "plain",
+  "seed": 0,
+  "flip": null,
+  "orientation": "maze",
+  "max_abs_r": [
+   "size/ch0",
+   0.92
+  ],
+  "all_r": {
+   "size/ch0": 0.92,
+   "size/ch1": 0.83,
+   "size/ch2": 0.5,
+   "centered/ch0": 0.91,
+   "centered/ch1": 0.81,
+   "centered/ch2": 0.35,
+   "neighbour/ch0": 0.51,
+   "neighbour/ch1": 0.75,
+   "neighbour/ch2": 0.55,
+   "agent~prev/ch0": 0.18,
+   "agent~prev/ch1": 0.18,
+   "agent~prev/ch2": 0.18
+  },
+  "buttons": [
+   [
+    0.564,
+    "noop",
+    "right"
+   ],
+   [
+    0.584,
+    "noop",
+    "left"
+   ]
+  ]
+ },
+ "ae1d1ba0": {
+  "game": "pacman",
+  "condition": "camo",
+  "seed": 0,
+  "flip": null,
+  "orientation": "maze",
+  "max_abs_r": [
+   "neighbour/ch1",
+   0.64
+  ],
+  "all_r": {
+   "size/ch0": 0.21,
+   "size/ch1": -0.01,
+   "size/ch2": 0.33,
+   "centered/ch0": 0.24,
+   "centered/ch1": 0.0,
+   "centered/ch2": 0.31,
+   "neighbour/ch0": 0.26,
+   "neighbour/ch1": 0.64,
+   "neighbour/ch2": 0.24,
+   "agent~prev/ch0": 0.15,
+   "agent~prev/ch1": 0.15,
+   "agent~prev/ch2": 0.15
+  },
+  "buttons": [
+   [
+    0.563,
+    "noop",
+    "right"
+   ],
+   [
+    0.584,
+    "noop",
+    "left"
+   ]
+  ]
+ },
+ "5092cc2f": {
+  "game": "pacman",
+  "condition": "camo",
+  "seed": 1,
+  "flip": null,
+  "orientation": "maze",
+  "max_abs_r": [
+   "neighbour/ch1",
+   0.7
+  ],
+  "all_r": {
+   "size/ch0": -0.14,
+   "size/ch1": -0.19,
+   "size/ch2": 0.18,
+   "centered/ch0": -0.11,
+   "centered/ch1": -0.17,
+   "centered/ch2": 0.17,
+   "neighbour/ch0": 0.12,
+   "neighbour/ch1": 0.7,
+   "neighbour/ch2": 0.24,
+   "agent~prev/ch0": 0.25,
+   "agent~prev/ch1": 0.25,
+   "agent~prev/ch2": 0.25
+  },
+  "buttons": [
+   [
+    0.563,
+    "noop",
+    "right"
+   ],
+   [
+    0.584,
+    "noop",
+    "left"
+   ]
+  ]
+ },
+ "dbc67670": {
+  "game": "pacman",
+  "condition": "camo",
+  "seed": 2,
+  "flip": null,
+  "orientation": "maze",
+  "max_abs_r": [
+   "neighbour/ch1",
+   0.5
+  ],
+  "all_r": {
+   "size/ch0": 0.01,
+   "size/ch1": 0.12,
+   "size/ch2": -0.03,
+   "centered/ch0": 0.04,
+   "centered/ch1": 0.12,
+   "centered/ch2": -0.14,
+   "neighbour/ch0": 0.04,
+   "neighbour/ch1": 0.5,
+   "neighbour/ch2": 0.22,
+   "agent~prev/ch0": 0.16,
+   "agent~prev/ch1": 0.16,
+   "agent~prev/ch2": 0.16
+  },
+  "buttons": [
+   [
+    0.563,
+    "noop",
+    "right"
+   ],
+   [
+    0.584,
+    "noop",
+    "left"
+   ]
+  ]
+ },
+ "5be10363": {
+  "game": "pacman",
+  "condition": "camo",
+  "seed": 3,
+  "flip": null,
+  "orientation": "maze",
+  "max_abs_r": [
+   "neighbour/ch1",
+   0.56
+  ],
+  "all_r": {
+   "size/ch0": 0.13,
+   "size/ch1": -0.06,
+   "size/ch2": 0.01,
+   "centered/ch0": 0.16,
+   "centered/ch1": -0.04,
+   "centered/ch2": 0.1,
+   "neighbour/ch0": 0.07,
+   "neighbour/ch1": 0.56,
+   "neighbour/ch2": 0.2,
+   "agent~prev/ch0": 0.08,
+   "agent~prev/ch1": 0.08,
+   "agent~prev/ch2": 0.08
+  },
+  "buttons": [
+   [
+    0.563,
+    "noop",
+    "right"
+   ],
+   [
+    0.584,
+    "noop",
+    "left"
+   ]
+  ]
+ },
+ "c4aca13f": {
+  "game": "freeway",
+  "condition": "plain",
+  "seed": 0,
+  "flip": null,
+  "orientation": "start at the bottom, goal at the top",
+  "max_abs_r": [
+   "size/ch2",
+   0.49
+  ],
+  "all_r": {
+   "size/ch0": 0.05,
+   "size/ch1": 0.2,
+   "size/ch2": 0.49,
+   "centered/ch0": 0.04,
+   "centered/ch1": 0.05,
+   "centered/ch2": 0.43,
+   "neighbour/ch0": -0.08,
+   "neighbour/ch1": 0.04,
+   "neighbour/ch2": 0.41,
+   "agent~prev/ch0": 0.23,
+   "agent~prev/ch1": 0.29,
+   "agent~prev/ch2": -0.23
+  },
+  "buttons": [
+   [
+    0.046,
+    "left",
+    "right"
+   ],
+   [
+    0.166,
+    "down",
+    "right"
+   ]
+  ]
+ },
+ "6e5b8906": {
+  "game": "freeway",
+  "condition": "camo",
+  "seed": 0,
+  "flip": null,
+  "orientation": "start at the bottom, goal at the top",
+  "max_abs_r": [
+   "size/ch0",
+   -0.28
+  ],
+  "all_r": {
+   "size/ch0": -0.28,
+   "size/ch1": 0.02,
+   "size/ch2": -0.03,
+   "centered/ch0": -0.28,
+   "centered/ch1": 0.03,
+   "centered/ch2": 0.04,
+   "neighbour/ch0": 0.24,
+   "neighbour/ch1": -0.11,
+   "neighbour/ch2": -0.18,
+   "agent~prev/ch0": 0.17,
+   "agent~prev/ch1": 0.26,
+   "agent~prev/ch2": -0.17
+  },
+  "buttons": [
+   [
+    0.047,
+    "left",
+    "right"
+   ],
+   [
+    0.166,
+    "down",
+    "right"
+   ]
+  ]
+ },
+ "78fa3e62": {
+  "game": "freeway",
+  "condition": "camo",
+  "seed": 1,
+  "flip": null,
+  "orientation": "start at the bottom, goal at the top",
+  "max_abs_r": [
+   "size/ch0",
+   -0.28
+  ],
+  "all_r": {
+   "size/ch0": -0.28,
+   "size/ch1": -0.14,
+   "size/ch2": -0.03,
+   "centered/ch0": -0.28,
+   "centered/ch1": -0.07,
+   "centered/ch2": 0.03,
+   "neighbour/ch0": 0.27,
+   "neighbour/ch1": -0.11,
+   "neighbour/ch2": 0.03,
+   "agent~prev/ch0": 0.17,
+   "agent~prev/ch1": 0.26,
+   "agent~prev/ch2": -0.17
+  },
+  "buttons": [
+   [
+    0.046,
+    "left",
+    "right"
+   ],
+   [
+    0.166,
+    "down",
+    "right"
+   ]
+  ]
+ },
+ "077ece9d": {
+  "game": "freeway",
+  "condition": "camo",
+  "seed": 0,
+  "flip": "ud",
+  "orientation": "start at the top, goal at the bottom",
+  "max_abs_r": [
+   "size/ch0",
+   -0.28
+  ],
+  "all_r": {
+   "size/ch0": -0.28,
+   "size/ch1": -0.08,
+   "size/ch2": -0.03,
+   "centered/ch0": -0.28,
+   "centered/ch1": -0.02,
+   "centered/ch2": 0.01,
+   "neighbour/ch0": -0.0,
+   "neighbour/ch1": 0.07,
+   "neighbour/ch2": -0.04,
+   "agent~prev/ch0": 0.17,
+   "agent~prev/ch1": 0.26,
+   "agent~prev/ch2": -0.17
+  },
+  "buttons": [
+   [
+    0.047,
+    "left",
+    "right"
+   ],
+   [
+    0.166,
+    "up",
+    "right"
+   ]
+  ]
+ },
+ "9cd7e3bb": {
+  "game": "freeway",
+  "condition": "camo",
+  "seed": 1,
+  "flip": "ud",
+  "orientation": "start at the top, goal at the bottom",
+  "max_abs_r": [
+   "size/ch0",
+   -0.28
+  ],
+  "all_r": {
+   "size/ch0": -0.28,
+   "size/ch1": 0.09,
+   "size/ch2": 0.01,
+   "centered/ch0": -0.27,
+   "centered/ch1": -0.03,
+   "centered/ch2": 0.01,
+   "neighbour/ch0": 0.17,
+   "neighbour/ch1": 0.04,
+   "neighbour/ch2": -0.01,
+   "agent~prev/ch0": 0.17,
+   "agent~prev/ch1": 0.26,
+   "agent~prev/ch2": -0.17
+  },
+  "buttons": [
+   [
+    0.047,
+    "left",
+    "right"
+   ],
+   [
+    0.166,
+    "up",
+    "right"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "source": "train/g_pong_tanh48x1/actor.npz",
+ "arch": "tanh48x1",
+ "flip": "none",
+ "mirror": "lr",
+ "seed": 1,
+ "unique_states": 2504,
+ "never_used_inputs": 328,
+ "fill_kinds": {
+  "mirror": 24,
+  "random": 304
+ },
+ "holdout_states_using_never_used_input": 0,
+ "max_prob_change_holdout_exact": 9.908740494779522e-15,
+ "max_prob_change_all_as_printed": 0.0009457164687636799,
+ "max_prob_change_plain_as_printed": 0.0025091705095267036
+}

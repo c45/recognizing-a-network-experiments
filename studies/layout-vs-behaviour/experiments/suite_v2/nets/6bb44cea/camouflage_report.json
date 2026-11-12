@@ -1,0 +1,15 @@
+{
+ "source": "train/g_breakout/actor.npz",
+ "flip": "none",
+ "mirror": "ud",
+ "seed": 0,
+ "unique_states": 2725,
+ "never_used_inputs": 351,
+ "fill_kinds": {
+  "mirror": 63,
+  "random": 288
+ },
+ "holdout_states_using_never_used_input": 0,
+ "max_prob_change_holdout_exact": 9.325873406851315e-15,
+ "max_prob_change_all_as_printed": 0.0009723312898538561
+}

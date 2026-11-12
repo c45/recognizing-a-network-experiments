@@ -1,0 +1,10 @@
+{
+  "new_trainer_with_checkpoints_vs_unmodified_control": {
+    "all_arrays_equal": false,
+    "max_abs_difference": 0.01028616726398468
+  },
+  "unmodified_control_vs_original_saved_network": {
+    "all_arrays_equal": false,
+    "max_abs_difference": 0.006923971697688103
+  }
+}

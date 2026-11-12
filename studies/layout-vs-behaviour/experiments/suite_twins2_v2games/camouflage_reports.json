@@ -1,0 +1,110 @@
+{
+ "6102b973": {
+  "source": "studies/layout-vs-behaviour/experiments/train/g_hunter_v2_s2/actor.npz",
+  "arch": "tanh32x2",
+  "flip": "none",
+  "mirror": "lr",
+  "seed": 10,
+  "unique_states": 288536,
+  "never_used_inputs": 256,
+  "fill_kinds": {
+   "mirror": 0,
+   "random": 256
+  },
+  "holdout_states_using_never_used_input": 0,
+  "dead_from": "studies/layout-vs-behaviour/experiments/train/g_hunter_v2_s2/occupancy_never_on.npy",
+  "max_prob_change_holdout_exact": 2.5757174171303632e-14,
+  "max_prob_change_all_as_printed": 0.0016467241036834945,
+  "max_prob_change_plain_as_printed": 0.03797677046691783
+ },
+ "c3d61b2c": {
+  "source": "studies/layout-vs-behaviour/experiments/train/g_hunter_v2_s2/actor.npz",
+  "arch": "tanh32x2",
+  "flip": "none",
+  "mirror": "lr",
+  "seed": 11,
+  "unique_states": 288536,
+  "never_used_inputs": 256,
+  "fill_kinds": {
+   "mirror": 0,
+   "random": 256
+  },
+  "holdout_states_using_never_used_input": 0,
+  "dead_from": "studies/layout-vs-behaviour/experiments/train/g_hunter_v2_s2/occupancy_never_on.npy",
+  "max_prob_change_holdout_exact": 1.4210854715202004e-14,
+  "max_prob_change_all_as_printed": 0.0019235283693272986,
+  "max_prob_change_plain_as_printed": 0.03797677046691783
+ },
+ "94cef989": {
+  "source": "studies/layout-vs-behaviour/experiments/train/g_freeway_v2_s2/actor.npz",
+  "arch": "tanh32x2",
+  "flip": "none",
+  "mirror": "lr",
+  "seed": 10,
+  "unique_states": 166737,
+  "never_used_inputs": 296,
+  "fill_kinds": {
+   "mirror": 0,
+   "random": 296
+  },
+  "holdout_states_using_never_used_input": 0,
+  "dead_from": "studies/layout-vs-behaviour/experiments/train/g_freeway_v2_s2/occupancy_never_on.npy",
+  "max_prob_change_holdout_exact": 1.7319479184152442e-14,
+  "max_prob_change_all_as_printed": 0.0019184524045804396,
+  "max_prob_change_plain_as_printed": 0.03774605209457793
+ },
+ "6e788fde": {
+  "source": "studies/layout-vs-behaviour/experiments/train/g_freeway_v2_s2/actor.npz",
+  "arch": "tanh32x2",
+  "flip": "none",
+  "mirror": "lr",
+  "seed": 11,
+  "unique_states": 166737,
+  "never_used_inputs": 296,
+  "fill_kinds": {
+   "mirror": 0,
+   "random": 296
+  },
+  "holdout_states_using_never_used_input": 0,
+  "dead_from": "studies/layout-vs-behaviour/experiments/train/g_freeway_v2_s2/occupancy_never_on.npy",
+  "max_prob_change_holdout_exact": 1.1324274851176597e-14,
+  "max_prob_change_all_as_printed": 0.0018474591659002337,
+  "max_prob_change_plain_as_printed": 0.03774605209457793
+ },
+ "82903935": {
+  "source": "studies/layout-vs-behaviour/experiments/train/g_cartag_v2_s2/actor.npz",
+  "arch": "tanh32x2",
+  "flip": "none",
+  "mirror": "lr",
+  "seed": 10,
+  "unique_states": 287991,
+  "never_used_inputs": 296,
+  "fill_kinds": {
+   "mirror": 0,
+   "random": 296
+  },
+  "holdout_states_using_never_used_input": 0,
+  "dead_from": "studies/layout-vs-behaviour/experiments/train/g_cartag_v2_s2/occupancy_never_on.npy",
+  "max_prob_change_holdout_exact": 1.4988010832439613e-14,
+  "max_prob_change_all_as_printed": 0.0021312779795508163,
+  "max_prob_change_plain_as_printed": 0.01718977632181007
+ },
+ "e0b13750": {
+  "source": "studies/layout-vs-behaviour/experiments/train/g_cartag_v2_s2/actor.npz",
+  "arch": "tanh32x2",
+  "flip": "none",
+  "mirror": "lr",
+  "seed": 11,
+  "unique_states": 287991,
+  "never_used_inputs": 296,
+  "fill_kinds": {
+   "mirror": 0,
+   "random": 296
+  },
+  "holdout_states_using_never_used_input": 0,
+  "dead_from": "studies/layout-vs-behaviour/experiments/train/g_cartag_v2_s2/occupancy_never_on.npy",
+  "max_prob_change_holdout_exact": 1.1046719095020308e-14,
+  "max_prob_change_all_as_printed": 0.002008903163497777,
+  "max_prob_change_plain_as_printed": 0.01718977632181007
+ }
+}

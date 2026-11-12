@@ -1,0 +1,86 @@
+{
+ "pong_tanh32x2": {
+  "dead_in_sample": 328,
+  "never_on_whole_training": 328,
+  "dead_in_sample_but_used_in_training": 0,
+  "used_by_final_policy_but_dead_in_sample": 0,
+  "rollout_states_touching": 0.0
+ },
+ "breakout_tanh32x2": {
+  "dead_in_sample": 351,
+  "never_on_whole_training": 350,
+  "dead_in_sample_but_used_in_training": 1,
+  "used_by_final_policy_but_dead_in_sample": 0,
+  "rollout_states_touching": 0.0
+ },
+ "pacman_tanh32x2": {
+  "dead_in_sample": 256,
+  "never_on_whole_training": 256,
+  "dead_in_sample_but_used_in_training": 0,
+  "used_by_final_policy_but_dead_in_sample": 0,
+  "rollout_states_touching": 0.0
+ },
+ "freeway_tanh32x2": {
+  "dead_in_sample": 296,
+  "never_on_whole_training": 296,
+  "dead_in_sample_but_used_in_training": 0,
+  "used_by_final_policy_but_dead_in_sample": 0,
+  "rollout_states_touching": 0.0
+ },
+ "pong_relu24x3": {
+  "dead_in_sample": 328,
+  "never_on_whole_training": 328,
+  "dead_in_sample_but_used_in_training": 0,
+  "used_by_final_policy_but_dead_in_sample": 0,
+  "rollout_states_touching": 0.0
+ },
+ "breakout_relu24x3": {
+  "dead_in_sample": 352,
+  "never_on_whole_training": 312,
+  "dead_in_sample_but_used_in_training": 40,
+  "used_by_final_policy_but_dead_in_sample": 40,
+  "rollout_states_touching": 0.1837
+ },
+ "pacman_relu24x3": {
+  "dead_in_sample": 256,
+  "never_on_whole_training": 256,
+  "dead_in_sample_but_used_in_training": 0,
+  "used_by_final_policy_but_dead_in_sample": 0,
+  "rollout_states_touching": 0.0
+ },
+ "freeway_relu24x3": {
+  "dead_in_sample": 296,
+  "never_on_whole_training": 296,
+  "dead_in_sample_but_used_in_training": 0,
+  "used_by_final_policy_but_dead_in_sample": 0,
+  "rollout_states_touching": 0.0
+ },
+ "pong_tanh48x1": {
+  "dead_in_sample": 328,
+  "never_on_whole_training": 328,
+  "dead_in_sample_but_used_in_training": 0,
+  "used_by_final_policy_but_dead_in_sample": 0,
+  "rollout_states_touching": 0.0
+ },
+ "breakout_tanh48x1": {
+  "dead_in_sample": 352,
+  "never_on_whole_training": 352,
+  "dead_in_sample_but_used_in_training": 0,
+  "used_by_final_policy_but_dead_in_sample": 0,
+  "rollout_states_touching": 0.0
+ },
+ "pacman_tanh48x1": {
+  "dead_in_sample": 256,
+  "never_on_whole_training": 256,
+  "dead_in_sample_but_used_in_training": 0,
+  "used_by_final_policy_but_dead_in_sample": 0,
+  "rollout_states_touching": 0.0
+ },
+ "freeway_tanh48x1": {
+  "dead_in_sample": 296,
+  "never_on_whole_training": 296,
+  "dead_in_sample_but_used_in_training": 0,
+  "used_by_final_policy_but_dead_in_sample": 0,
+  "rollout_states_touching": 0.0
+ }
+}

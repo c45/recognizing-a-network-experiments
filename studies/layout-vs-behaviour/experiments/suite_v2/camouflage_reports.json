@@ -1,0 +1,242 @@
+{
+ "3def3a6f": {
+  "source": "train/g_pong/actor.npz",
+  "flip": "none",
+  "mirror": "lr",
+  "seed": 0,
+  "unique_states": 2535,
+  "never_used_inputs": 328,
+  "fill_kinds": {
+   "mirror": 24,
+   "random": 304
+  },
+  "holdout_states_using_never_used_input": 0,
+  "max_prob_change_holdout_exact": 9.325873406851315e-15,
+  "max_prob_change_all_as_printed": 0.0016617443306025104
+ },
+ "fdefbc99": {
+  "source": "train/g_pong/actor.npz",
+  "flip": "none",
+  "mirror": "lr",
+  "seed": 1,
+  "unique_states": 2535,
+  "never_used_inputs": 328,
+  "fill_kinds": {
+   "mirror": 24,
+   "random": 304
+  },
+  "holdout_states_using_never_used_input": 0,
+  "max_prob_change_holdout_exact": 9.270362255620057e-15,
+  "max_prob_change_all_as_printed": 0.0011119343682174376
+ },
+ "01901d56": {
+  "source": "train/g_pong/actor.npz",
+  "flip": "lr",
+  "mirror": "lr",
+  "seed": 0,
+  "unique_states": 2535,
+  "never_used_inputs": 328,
+  "fill_kinds": {
+   "mirror": 24,
+   "random": 304
+  },
+  "holdout_states_using_never_used_input": 0,
+  "max_prob_change_holdout_exact": 7.271960811294775e-15,
+  "max_prob_change_all_as_printed": 0.0016617443305995128
+ },
+ "9802be47": {
+  "source": "train/g_pong/actor.npz",
+  "flip": "lr",
+  "mirror": "lr",
+  "seed": 1,
+  "unique_states": 2535,
+  "never_used_inputs": 328,
+  "fill_kinds": {
+   "mirror": 24,
+   "random": 304
+  },
+  "holdout_states_using_never_used_input": 0,
+  "max_prob_change_holdout_exact": 9.325873406851315e-15,
+  "max_prob_change_all_as_printed": 0.0011119343682201022
+ },
+ "6bb44cea": {
+  "source": "train/g_breakout/actor.npz",
+  "flip": "none",
+  "mirror": "ud",
+  "seed": 0,
+  "unique_states": 2725,
+  "never_used_inputs": 351,
+  "fill_kinds": {
+   "mirror": 63,
+   "random": 288
+  },
+  "holdout_states_using_never_used_input": 0,
+  "max_prob_change_holdout_exact": 9.325873406851315e-15,
+  "max_prob_change_all_as_printed": 0.0009723312898538561
+ },
+ "e45c8b37": {
+  "source": "train/g_breakout/actor.npz",
+  "flip": "none",
+  "mirror": "ud",
+  "seed": 1,
+  "unique_states": 2725,
+  "never_used_inputs": 351,
+  "fill_kinds": {
+   "mirror": 63,
+   "random": 288
+  },
+  "holdout_states_using_never_used_input": 0,
+  "max_prob_change_holdout_exact": 1.2545520178264269e-14,
+  "max_prob_change_all_as_printed": 0.0024053147817240106
+ },
+ "db80733f": {
+  "source": "train/g_breakout/actor.npz",
+  "flip": "ud",
+  "mirror": "ud",
+  "seed": 0,
+  "unique_states": 2725,
+  "never_used_inputs": 351,
+  "fill_kinds": {
+   "mirror": 63,
+   "random": 288
+  },
+  "holdout_states_using_never_used_input": 0,
+  "max_prob_change_holdout_exact": 1.687538997430238e-14,
+  "max_prob_change_all_as_printed": 0.0014560492295960792
+ },
+ "dbce9a44": {
+  "source": "train/g_breakout/actor.npz",
+  "flip": "ud",
+  "mirror": "ud",
+  "seed": 1,
+  "unique_states": 2725,
+  "never_used_inputs": 351,
+  "fill_kinds": {
+   "mirror": 63,
+   "random": 288
+  },
+  "holdout_states_using_never_used_input": 0,
+  "max_prob_change_holdout_exact": 1.2545520178264269e-14,
+  "max_prob_change_all_as_printed": 0.0024053147817253984
+ },
+ "ae1d1ba0": {
+  "source": "train/g_pacman/actor.npz",
+  "flip": "none",
+  "mirror": "lr",
+  "seed": 0,
+  "unique_states": 294686,
+  "never_used_inputs": 256,
+  "fill_kinds": {
+   "mirror": 0,
+   "random": 256
+  },
+  "holdout_states_using_never_used_input": 0,
+  "max_prob_change_holdout_exact": 1.4654943925052066e-14,
+  "max_prob_change_all_as_printed": 0.0016257061180819932
+ },
+ "5092cc2f": {
+  "source": "train/g_pacman/actor.npz",
+  "flip": "none",
+  "mirror": "lr",
+  "seed": 1,
+  "unique_states": 294686,
+  "never_used_inputs": 256,
+  "fill_kinds": {
+   "mirror": 0,
+   "random": 256
+  },
+  "holdout_states_using_never_used_input": 0,
+  "max_prob_change_holdout_exact": 1.4099832412739488e-14,
+  "max_prob_change_all_as_printed": 0.0019109174774096793
+ },
+ "dbc67670": {
+  "source": "train/g_pacman/actor.npz",
+  "flip": "none",
+  "mirror": "lr",
+  "seed": 2,
+  "unique_states": 294686,
+  "never_used_inputs": 256,
+  "fill_kinds": {
+   "mirror": 0,
+   "random": 256
+  },
+  "holdout_states_using_never_used_input": 0,
+  "max_prob_change_holdout_exact": 1.7208456881689926e-14,
+  "max_prob_change_all_as_printed": 0.0019780384904783954
+ },
+ "5be10363": {
+  "source": "train/g_pacman/actor.npz",
+  "flip": "none",
+  "mirror": "lr",
+  "seed": 3,
+  "unique_states": 294686,
+  "never_used_inputs": 256,
+  "fill_kinds": {
+   "mirror": 0,
+   "random": 256
+  },
+  "holdout_states_using_never_used_input": 0,
+  "max_prob_change_holdout_exact": 1.532107773982716e-14,
+  "max_prob_change_all_as_printed": 0.0019949894207035856
+ },
+ "6e5b8906": {
+  "source": "train/g_freeway/actor.npz",
+  "flip": "none",
+  "mirror": "ud",
+  "seed": 0,
+  "unique_states": 154701,
+  "never_used_inputs": 296,
+  "fill_kinds": {
+   "mirror": 24,
+   "random": 272
+  },
+  "holdout_states_using_never_used_input": 0,
+  "max_prob_change_holdout_exact": 8.881784197001252e-16,
+  "max_prob_change_all_as_printed": 1.5402950633847112e-06
+ },
+ "78fa3e62": {
+  "source": "train/g_freeway/actor.npz",
+  "flip": "none",
+  "mirror": "ud",
+  "seed": 1,
+  "unique_states": 154701,
+  "never_used_inputs": 296,
+  "fill_kinds": {
+   "mirror": 24,
+   "random": 272
+  },
+  "holdout_states_using_never_used_input": 0,
+  "max_prob_change_holdout_exact": 4.440892098500626e-16,
+  "max_prob_change_all_as_printed": 5.928209888406144e-05
+ },
+ "077ece9d": {
+  "source": "train/g_freeway/actor.npz",
+  "flip": "ud",
+  "mirror": "ud",
+  "seed": 0,
+  "unique_states": 154701,
+  "never_used_inputs": 296,
+  "fill_kinds": {
+   "mirror": 24,
+   "random": 272
+  },
+  "holdout_states_using_never_used_input": 0,
+  "max_prob_change_holdout_exact": 8.881784197001252e-16,
+  "max_prob_change_all_as_printed": 1.5402950636067558e-06
+ },
+ "9cd7e3bb": {
+  "source": "train/g_freeway/actor.npz",
+  "flip": "ud",
+  "mirror": "ud",
+  "seed": 1,
+  "unique_states": 154701,
+  "never_used_inputs": 296,
+  "fill_kinds": {
+   "mirror": 24,
+   "random": 272
+  },
+  "holdout_states_using_never_used_input": 0,
+  "max_prob_change_holdout_exact": 4.475586568020162e-16,
+  "max_prob_change_all_as_printed": 2.8875642633652276e-06
+ }
+}

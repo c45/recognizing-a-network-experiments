@@ -1,0 +1,18 @@
+{
+ "source": "train/g_cartag_s2/actor.npz",
+ "arch": "tanh32x2",
+ "flip": "none",
+ "mirror": "lr",
+ "seed": 11,
+ "unique_states": 287523,
+ "never_used_inputs": 280,
+ "fill_kinds": {
+  "mirror": 0,
+  "random": 280
+ },
+ "holdout_states_using_never_used_input": 0,
+ "dead_from": "train/g_cartag_s2/occupancy_never_on.npy",
+ "max_prob_change_holdout_exact": 1.8762769116165146e-14,
+ "max_prob_change_all_as_printed": 0.0017499266179331618,
+ "max_prob_change_plain_as_printed": 0.014102317388991148
+}

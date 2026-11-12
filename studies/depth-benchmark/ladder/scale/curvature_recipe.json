@@ -1,0 +1,37 @@
+{
+ "2": {
+  "n": 40,
+  "accuracy_sign_rule": 1.0,
+  "median_gap_over_sd": 1.981,
+  "median_toward": 15.9508,
+  "median_away": -16.7152
+ },
+ "3": {
+  "n": 60,
+  "accuracy_sign_rule": 1.0,
+  "median_gap_over_sd": 1.937,
+  "median_toward": 40.7211,
+  "median_away": -37.0652
+ },
+ "4": {
+  "n": 240,
+  "accuracy_sign_rule": 0.996,
+  "median_gap_over_sd": 1.938,
+  "median_toward": 71.9745,
+  "median_away": -66.6414
+ },
+ "6": {
+  "n": 60,
+  "accuracy_sign_rule": 1.0,
+  "median_gap_over_sd": 1.879,
+  "median_toward": 122.9107,
+  "median_away": -117.4712
+ },
+ "8": {
+  "n": 116,
+  "accuracy_sign_rule": 0.974,
+  "median_gap_over_sd": 1.847,
+  "median_toward": 239.162,
+  "median_away": -267.2291
+ }
+}

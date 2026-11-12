@@ -1,0 +1,200 @@
+{
+ "e91d736d": {
+  "game": "catch",
+  "setting": "falling",
+  "stance": "approach",
+  "twin": false,
+  "condition": "plain",
+  "seed": 0,
+  "flip": null,
+  "orientation": null,
+  "arch": "tanh32x2"
+ },
+ "ff21fd49": {
+  "game": "catch",
+  "setting": "falling",
+  "stance": "approach",
+  "twin": false,
+  "condition": "camo",
+  "seed": 10,
+  "flip": null,
+  "orientation": null,
+  "arch": "tanh32x2"
+ },
+ "c5cd72ce": {
+  "game": "catch",
+  "setting": "falling",
+  "stance": "approach",
+  "twin": false,
+  "condition": "camo",
+  "seed": 11,
+  "flip": null,
+  "orientation": null,
+  "arch": "tanh32x2"
+ },
+ "ac71abe0": {
+  "game": "dodge",
+  "setting": "falling",
+  "stance": "avoid",
+  "twin": true,
+  "condition": "plain",
+  "seed": 0,
+  "flip": null,
+  "orientation": null,
+  "arch": "tanh32x2"
+ },
+ "99e63c62": {
+  "game": "dodge",
+  "setting": "falling",
+  "stance": "avoid",
+  "twin": true,
+  "condition": "camo",
+  "seed": 10,
+  "flip": null,
+  "orientation": null,
+  "arch": "tanh32x2"
+ },
+ "9728b43c": {
+  "game": "dodge",
+  "setting": "falling",
+  "stance": "avoid",
+  "twin": true,
+  "condition": "camo",
+  "seed": 11,
+  "flip": null,
+  "orientation": null,
+  "arch": "tanh32x2"
+ },
+ "317f0e8e": {
+  "game": "pacman",
+  "setting": "maze",
+  "stance": "avoid",
+  "twin": false,
+  "condition": "plain",
+  "seed": 0,
+  "flip": null,
+  "orientation": null,
+  "arch": "tanh32x2"
+ },
+ "4bf7ca5e": {
+  "game": "pacman",
+  "setting": "maze",
+  "stance": "avoid",
+  "twin": false,
+  "condition": "camo",
+  "seed": 10,
+  "flip": null,
+  "orientation": null,
+  "arch": "tanh32x2"
+ },
+ "e6d8d611": {
+  "game": "pacman",
+  "setting": "maze",
+  "stance": "avoid",
+  "twin": false,
+  "condition": "camo",
+  "seed": 11,
+  "flip": null,
+  "orientation": null,
+  "arch": "tanh32x2"
+ },
+ "91b2302b": {
+  "game": "hunter",
+  "setting": "maze",
+  "stance": "approach",
+  "twin": true,
+  "condition": "plain",
+  "seed": 0,
+  "flip": null,
+  "orientation": null,
+  "arch": "tanh32x2"
+ },
+ "a8eaab98": {
+  "game": "hunter",
+  "setting": "maze",
+  "stance": "approach",
+  "twin": true,
+  "condition": "camo",
+  "seed": 10,
+  "flip": null,
+  "orientation": null,
+  "arch": "tanh32x2"
+ },
+ "123df39d": {
+  "game": "hunter",
+  "setting": "maze",
+  "stance": "approach",
+  "twin": true,
+  "condition": "camo",
+  "seed": 11,
+  "flip": null,
+  "orientation": null,
+  "arch": "tanh32x2"
+ },
+ "128f73de": {
+  "game": "freeway",
+  "setting": "road",
+  "stance": "avoid",
+  "twin": false,
+  "condition": "plain",
+  "seed": 0,
+  "flip": null,
+  "orientation": null,
+  "arch": "tanh32x2"
+ },
+ "0b798095": {
+  "game": "freeway",
+  "setting": "road",
+  "stance": "avoid",
+  "twin": false,
+  "condition": "camo",
+  "seed": 10,
+  "flip": null,
+  "orientation": null,
+  "arch": "tanh32x2"
+ },
+ "9481aad0": {
+  "game": "freeway",
+  "setting": "road",
+  "stance": "avoid",
+  "twin": false,
+  "condition": "camo",
+  "seed": 11,
+  "flip": null,
+  "orientation": null,
+  "arch": "tanh32x2"
+ },
+ "0ce5221e": {
+  "game": "cartag",
+  "setting": "road",
+  "stance": "approach",
+  "twin": true,
+  "condition": "plain",
+  "seed": 0,
+  "flip": null,
+  "orientation": null,
+  "arch": "tanh32x2"
+ },
+ "2e573fe7": {
+  "game": "cartag",
+  "setting": "road",
+  "stance": "approach",
+  "twin": true,
+  "condition": "camo",
+  "seed": 10,
+  "flip": null,
+  "orientation": null,
+  "arch": "tanh32x2"
+ },
+ "8a08f55b": {
+  "game": "cartag",
+  "setting": "road",
+  "stance": "approach",
+  "twin": true,
+  "condition": "camo",
+  "seed": 11,
+  "flip": null,
+  "orientation": null,
+  "arch": "tanh32x2"
+ }
+}

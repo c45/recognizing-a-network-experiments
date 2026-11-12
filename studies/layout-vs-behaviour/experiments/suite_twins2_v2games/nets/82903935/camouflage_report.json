@@ -1,0 +1,18 @@
+{
+ "source": "studies/layout-vs-behaviour/experiments/train/g_cartag_v2_s2/actor.npz",
+ "arch": "tanh32x2",
+ "flip": "none",
+ "mirror": "lr",
+ "seed": 10,
+ "unique_states": 287991,
+ "never_used_inputs": 296,
+ "fill_kinds": {
+  "mirror": 0,
+  "random": 296
+ },
+ "holdout_states_using_never_used_input": 0,
+ "dead_from": "studies/layout-vs-behaviour/experiments/train/g_cartag_v2_s2/occupancy_never_on.npy",
+ "max_prob_change_holdout_exact": 1.4988010832439613e-14,
+ "max_prob_change_all_as_printed": 0.0021312779795508163,
+ "max_prob_change_plain_as_printed": 0.01718977632181007
+}
