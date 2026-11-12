@@ -1,0 +1,15 @@
+{
+ "source": "train/g_pacman/actor.npz",
+ "flip": "none",
+ "mirror": "lr",
+ "seed": 3,
+ "unique_states": 294686,
+ "never_used_inputs": 256,
+ "fill_kinds": {
+  "mirror": 0,
+  "random": 256
+ },
+ "holdout_states_using_never_used_input": 0,
+ "max_prob_change_holdout_exact": 1.532107773982716e-14,
+ "max_prob_change_all_as_printed": 0.0019949894207035856
+}

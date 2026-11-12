@@ -1,0 +1,324 @@
+{
+ "answers": {
+  "081219f7": {
+   "toolfree": [
+    1,
+    -1,
+    "C1"
+   ],
+   "python": [
+    3,
+    -2,
+    "C2"
+   ]
+  },
+  "219ffb31": {
+   "toolfree": [
+    1,
+    -1,
+    "C2"
+   ],
+   "python": [
+    -1,
+    -3,
+    "C4"
+   ]
+  },
+  "31ab671f": {
+   "toolfree": [
+    1,
+    -1,
+    "C1"
+   ],
+   "python": [
+    1,
+    3,
+    "C3"
+   ]
+  },
+  "34f0f24d": {
+   "toolfree": [
+    1,
+    -1,
+    "C3"
+   ],
+   "python": [
+    1,
+    -2,
+    "C3"
+   ]
+  },
+  "364e5ea1": {
+   "toolfree": [
+    -1,
+    1,
+    "C1"
+   ],
+   "python": [
+    -1,
+    3,
+    "C3"
+   ]
+  },
+  "3784bbaa": {
+   "toolfree": [
+    1,
+    -1,
+    "C1"
+   ],
+   "python": [
+    -1,
+    -2,
+    "C1"
+   ]
+  },
+  "42611a19": {
+   "toolfree": [
+    1,
+    -1,
+    "C1"
+   ],
+   "python": [
+    3,
+    1,
+    "C3"
+   ]
+  },
+  "43892273": {
+   "toolfree": [
+    1,
+    -1,
+    "C4"
+   ],
+   "python": [
+    -2,
+    1,
+    "C3"
+   ]
+  },
+  "5e8edbae": {
+   "toolfree": [
+    1,
+    -1,
+    "C1"
+   ],
+   "python": [
+    -2,
+    1,
+    "C1"
+   ]
+  },
+  "695ae81c": {
+   "toolfree": [
+    1,
+    -1,
+    "C3"
+   ],
+   "python": [
+    3,
+    -1,
+    "C3"
+   ]
+  },
+  "6bb29ae8": {
+   "toolfree": [
+    1,
+    -1,
+    "C1"
+   ],
+   "python": [
+    -2,
+    3,
+    "C2"
+   ]
+  },
+  "70442a2c": {
+   "toolfree": [
+    1,
+    -1,
+    "C1"
+   ],
+   "python": [
+    -2,
+    1,
+    "C4"
+   ]
+  },
+  "7b8395ce": {
+   "toolfree": [
+    1,
+    -1,
+    "C1"
+   ],
+   "python": [
+    3,
+    -1,
+    "C1"
+   ]
+  },
+  "8a390005": {
+   "toolfree": [
+    1,
+    -1,
+    "C1"
+   ],
+   "python": [
+    1,
+    -1,
+    "C1"
+   ]
+  },
+  "8b10b8d1": {
+   "toolfree": [
+    1,
+    -1,
+    "C1"
+   ],
+   "python": [
+    -3,
+    -2,
+    "C4"
+   ]
+  },
+  "a1d849c6": {
+   "toolfree": [
+    3,
+    1,
+    "C1"
+   ],
+   "python": [
+    -1,
+    3,
+    "C1"
+   ]
+  },
+  "a703186a": {
+   "toolfree": [
+    1,
+    -2,
+    "C4"
+   ],
+   "python": [
+    1,
+    -2,
+    "C1"
+   ]
+  },
+  "ad675ee5": {
+   "toolfree": [
+    1,
+    -1,
+    "C4"
+   ],
+   "python": [
+    1,
+    -2,
+    "C4"
+   ]
+  },
+  "b9d853de": {
+   "toolfree": [
+    1,
+    -1,
+    "C1"
+   ],
+   "python": [
+    3,
+    1,
+    "C2"
+   ]
+  },
+  "bb9c4b1f": {
+   "toolfree": [
+    -1,
+    1,
+    "C1"
+   ],
+   "python": [
+    -2,
+    2,
+    "C1"
+   ]
+  },
+  "c7ad6c5e": {
+   "toolfree": [
+    2,
+    -2,
+    "C1"
+   ],
+   "python": [
+    2,
+    -2,
+    "C1"
+   ]
+  },
+  "da916294": {
+   "toolfree": [
+    1,
+    -1,
+    "C1"
+   ],
+   "python": [
+    -2,
+    -1,
+    "C1"
+   ]
+  },
+  "dc995616": {
+   "toolfree": [
+    1,
+    -1,
+    "C1"
+   ],
+   "python": [
+    -3,
+    -2,
+    "C2"
+   ]
+  },
+  "fd238eb9": {
+   "toolfree": [
+    1,
+    -1,
+    "C1"
+   ],
+   "python": [
+    1,
+    2,
+    "C2"
+   ]
+  }
+ },
+ "totals": {
+  "toolfree": {
+   "answered": 24,
+   "n": 24,
+   "ruled_violations": 0,
+   "exact": 1,
+   "condition": 8,
+   "pair": 2,
+   "orientation_trained": "1/1",
+   "orientation_mirror": "0/0",
+   "structure_consistent_pairs": 5,
+   "opposite": 0,
+   "same": 5,
+   "orientation_agrees_with_B2_cue": "18/24",
+   "orientation_agrees_with_truth": "14/24"
+  },
+  "python": {
+   "answered": 24,
+   "n": 24,
+   "ruled_violations": 0,
+   "exact": 18,
+   "condition": 21,
+   "pair": 18,
+   "orientation_trained": "9/9",
+   "orientation_mirror": "9/9",
+   "structure_consistent_pairs": 9,
+   "opposite": 9,
+   "same": 0,
+   "orientation_agrees_with_B2_cue": "12/24",
+   "orientation_agrees_with_truth": "22/24"
+  }
+ }
+}

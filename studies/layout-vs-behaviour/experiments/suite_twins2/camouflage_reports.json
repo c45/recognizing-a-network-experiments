@@ -1,0 +1,218 @@
+{
+ "24841d0e": {
+  "source": "train/g_catch_s2/actor.npz",
+  "arch": "tanh32x2",
+  "flip": "none",
+  "mirror": "lr",
+  "seed": 10,
+  "unique_states": 8340,
+  "never_used_inputs": 328,
+  "fill_kinds": {
+   "mirror": 0,
+   "random": 328
+  },
+  "holdout_states_using_never_used_input": 0,
+  "dead_from": "train/g_catch_s2/occupancy_never_on.npy",
+  "max_prob_change_holdout_exact": 3.3306690738754696e-15,
+  "max_prob_change_all_as_printed": 0.0016638854177018492,
+  "max_prob_change_plain_as_printed": 0.008041336412787259
+ },
+ "932b0624": {
+  "source": "train/g_catch_s2/actor.npz",
+  "arch": "tanh32x2",
+  "flip": "none",
+  "mirror": "lr",
+  "seed": 11,
+  "unique_states": 8340,
+  "never_used_inputs": 328,
+  "fill_kinds": {
+   "mirror": 0,
+   "random": 328
+  },
+  "holdout_states_using_never_used_input": 0,
+  "dead_from": "train/g_catch_s2/occupancy_never_on.npy",
+  "max_prob_change_holdout_exact": 6.938893903907228e-15,
+  "max_prob_change_all_as_printed": 0.001678410517684914,
+  "max_prob_change_plain_as_printed": 0.008041336412787259
+ },
+ "f7cbcbba": {
+  "source": "train/g_dodge_s2/actor.npz",
+  "arch": "tanh32x2",
+  "flip": "none",
+  "mirror": "lr",
+  "seed": 10,
+  "unique_states": 6462,
+  "never_used_inputs": 328,
+  "fill_kinds": {
+   "mirror": 0,
+   "random": 328
+  },
+  "holdout_states_using_never_used_input": 0,
+  "dead_from": "train/g_dodge_s2/occupancy_never_on.npy",
+  "max_prob_change_holdout_exact": 7.716050021144838e-15,
+  "max_prob_change_all_as_printed": 0.0014502887073410964,
+  "max_prob_change_plain_as_printed": 0.007913922622281189
+ },
+ "c5e2cc53": {
+  "source": "train/g_dodge_s2/actor.npz",
+  "arch": "tanh32x2",
+  "flip": "none",
+  "mirror": "lr",
+  "seed": 11,
+  "unique_states": 6462,
+  "never_used_inputs": 328,
+  "fill_kinds": {
+   "mirror": 0,
+   "random": 328
+  },
+  "holdout_states_using_never_used_input": 0,
+  "dead_from": "train/g_dodge_s2/occupancy_never_on.npy",
+  "max_prob_change_holdout_exact": 1.3322676295501878e-14,
+  "max_prob_change_all_as_printed": 0.0015880526824276764,
+  "max_prob_change_plain_as_printed": 0.007913922622281189
+ },
+ "98771a17": {
+  "source": "train/g_pacman_s2/actor.npz",
+  "arch": "tanh32x2",
+  "flip": "none",
+  "mirror": "lr",
+  "seed": 10,
+  "unique_states": 293258,
+  "never_used_inputs": 256,
+  "fill_kinds": {
+   "mirror": 0,
+   "random": 256
+  },
+  "holdout_states_using_never_used_input": 0,
+  "dead_from": "train/g_pacman_s2/occupancy_never_on.npy",
+  "max_prob_change_holdout_exact": 1.7763568394002505e-14,
+  "max_prob_change_all_as_printed": 0.002169641280644674,
+  "max_prob_change_plain_as_printed": 0.041705454745210646
+ },
+ "954bae59": {
+  "source": "train/g_pacman_s2/actor.npz",
+  "arch": "tanh32x2",
+  "flip": "none",
+  "mirror": "lr",
+  "seed": 11,
+  "unique_states": 293258,
+  "never_used_inputs": 256,
+  "fill_kinds": {
+   "mirror": 0,
+   "random": 256
+  },
+  "holdout_states_using_never_used_input": 0,
+  "dead_from": "train/g_pacman_s2/occupancy_never_on.npy",
+  "max_prob_change_holdout_exact": 2.4591439995447217e-14,
+  "max_prob_change_all_as_printed": 0.0020405211924468536,
+  "max_prob_change_plain_as_printed": 0.041705454745210646
+ },
+ "a1149e86": {
+  "source": "train/g_hunter_s2/actor.npz",
+  "arch": "tanh32x2",
+  "flip": "none",
+  "mirror": "lr",
+  "seed": 10,
+  "unique_states": 290603,
+  "never_used_inputs": 256,
+  "fill_kinds": {
+   "mirror": 0,
+   "random": 256
+  },
+  "holdout_states_using_never_used_input": 0,
+  "dead_from": "train/g_hunter_s2/occupancy_never_on.npy",
+  "max_prob_change_holdout_exact": 7.438494264988549e-15,
+  "max_prob_change_all_as_printed": 0.001664210689427903,
+  "max_prob_change_plain_as_printed": 0.016469068068579007
+ },
+ "9b27fe27": {
+  "source": "train/g_hunter_s2/actor.npz",
+  "arch": "tanh32x2",
+  "flip": "none",
+  "mirror": "lr",
+  "seed": 11,
+  "unique_states": 290603,
+  "never_used_inputs": 256,
+  "fill_kinds": {
+   "mirror": 0,
+   "random": 256
+  },
+  "holdout_states_using_never_used_input": 0,
+  "dead_from": "train/g_hunter_s2/occupancy_never_on.npy",
+  "max_prob_change_holdout_exact": 2.4091839634365897e-14,
+  "max_prob_change_all_as_printed": 0.0018592947576353547,
+  "max_prob_change_plain_as_printed": 0.016469068068579007
+ },
+ "8be647c0": {
+  "source": "train/g_freeway_s2/actor.npz",
+  "arch": "tanh32x2",
+  "flip": "none",
+  "mirror": "lr",
+  "seed": 10,
+  "unique_states": 162659,
+  "never_used_inputs": 296,
+  "fill_kinds": {
+   "mirror": 0,
+   "random": 296
+  },
+  "holdout_states_using_never_used_input": 0,
+  "dead_from": "train/g_freeway_s2/occupancy_never_on.npy",
+  "max_prob_change_holdout_exact": 4.9960036108132044e-15,
+  "max_prob_change_all_as_printed": 0.001254699967054962,
+  "max_prob_change_plain_as_printed": 0.023459857739814294
+ },
+ "1511d4e8": {
+  "source": "train/g_freeway_s2/actor.npz",
+  "arch": "tanh32x2",
+  "flip": "none",
+  "mirror": "lr",
+  "seed": 11,
+  "unique_states": 162659,
+  "never_used_inputs": 296,
+  "fill_kinds": {
+   "mirror": 0,
+   "random": 296
+  },
+  "holdout_states_using_never_used_input": 0,
+  "dead_from": "train/g_freeway_s2/occupancy_never_on.npy",
+  "max_prob_change_holdout_exact": 8.049116928532385e-15,
+  "max_prob_change_all_as_printed": 0.0009062590117957514,
+  "max_prob_change_plain_as_printed": 0.023459857739814294
+ },
+ "81a3ae0d": {
+  "source": "train/g_cartag_s2/actor.npz",
+  "arch": "tanh32x2",
+  "flip": "none",
+  "mirror": "lr",
+  "seed": 10,
+  "unique_states": 287523,
+  "never_used_inputs": 280,
+  "fill_kinds": {
+   "mirror": 0,
+   "random": 280
+  },
+  "holdout_states_using_never_used_input": 0,
+  "dead_from": "train/g_cartag_s2/occupancy_never_on.npy",
+  "max_prob_change_holdout_exact": 1.815214645262131e-14,
+  "max_prob_change_all_as_printed": 0.0019036474280965665,
+  "max_prob_change_plain_as_printed": 0.014102317388991148
+ },
+ "d78b33bf": {
+  "source": "train/g_cartag_s2/actor.npz",
+  "arch": "tanh32x2",
+  "flip": "none",
+  "mirror": "lr",
+  "seed": 11,
+  "unique_states": 287523,
+  "never_used_inputs": 280,
+  "fill_kinds": {
+   "mirror": 0,
+   "random": 280
+  },
+  "holdout_states_using_never_used_input": 0,
+  "dead_from": "train/g_cartag_s2/occupancy_never_on.npy",
+  "max_prob_change_holdout_exact": 1.8762769116165146e-14,
+  "max_prob_change_all_as_printed": 0.0017499266179331618,
+  "max_prob_change_plain_as_printed": 0.014102317388991148
+ }
+}

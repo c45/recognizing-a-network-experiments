@@ -1,0 +1,39 @@
+# Environments and caches
+.venv*/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Raw model event streams, per-call scratch, logs (answers, run.json and transcripts are kept)
+**/events.jsonl
+**/cwd/
+**/stderr.log
+*.log
+*.tmp
+*.bak*
+
+# Third-party material, fetched by the fetch_upstream scripts
+studies/layout-vs-behaviour/external/lm_understand-logs/
+
+# Large or machine-local files of the layout study (see layout-vs-behaviour/DATA.md)
+studies/layout-vs-behaviour/experiments/train/*/states.npy
+studies/layout-vs-behaviour/experiments/STOP_OVERAGE*
+studies/layout-vs-behaviour/experiments/**/.lock_*
+
+# Large or machine-local files of the footprints study (see footprints-and-function/DATA.md)
+studies/footprints-and-function/external/lm_understand-logs/
+studies/footprints-and-function/experiments/runs/*/states.npy
+studies/footprints-and-function/experiments/sanity/*/states.npy
+studies/footprints-and-function/experiments/namer_tmp/
+studies/footprints-and-function/experiments/STOP_OVERAGE*
+studies/footprints-and-function/**/request.json
+
+# LaTeX build files
+*.aux
+*.out
+*.blg
+studies/footprints-and-function/experiments/bin_opus/
+
+# Machine-local account routing and generated files
+**/account.txt
+post-figures/intermediate/

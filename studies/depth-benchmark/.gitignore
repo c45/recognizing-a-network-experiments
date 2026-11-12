@@ -1,0 +1,48 @@
+# Environments and caches
+.venv*/
+analyst/.venv-sandbox
+__pycache__/
+*.pyc
+.DS_Store
+
+# Raw model event streams and per-call scratch dirs (answers, prompts, run.json and transcripts are kept)
+**/events.jsonl
+**/cwd/
+**/stderr.log
+
+# Infrastructure failures, kept locally for the record but not part of the dataset
+**/replies_failed*/
+analyst/runs_failed*/
+
+# Machine-specific state
+threshold/.*/
+**/account.txt
+
+# Run logs and temporary files
+*.log
+*.tmp
+
+# Trained networks: large; regenerate with the training scripts (see DATA.md)
+ladder/**/nets*
+ladder/scale/nets_d4 4 32/
+ladder/scale/nets_d8 8 32/
+pilot_f1/nets
+
+# Third-party material fetched by scripts/fetch_upstream.sh
+external/
+
+# LaTeX kit download and build leftovers
+paper_icml/_kit/
+paper_icml/*.aux
+paper_icml/*.bbl
+paper_icml/*.blg
+paper_icml/*.out
+
+# Transformer family networks (regenerate with transformer/tf_family.py)
+transformer/nets*
+transformer/trial*/
+realistic/nets*
+realistic/trial*/
+**/*.checkpoints/
+transformer/frozen_pair/nets*
+transformer/frozen_pair/replay

@@ -1,0 +1,50 @@
+{
+ "catch": {
+  "own_play": 0.4156,
+  "training_sample": 0.3237
+ },
+ "catch_s2": {
+  "own_play": 0.4688,
+  "training_sample": 0.4468
+ },
+ "dodge": {
+  "own_play": -0.1703,
+  "training_sample": -0.1632
+ },
+ "dodge_s2": {
+  "own_play": -0.1982,
+  "training_sample": -0.1259
+ },
+ "pacman": {
+  "own_play": -0.2739,
+  "training_sample": -0.1304
+ },
+ "pacman_s2": {
+  "own_play": -0.2046,
+  "training_sample": -0.1554
+ },
+ "hunter": {
+  "own_play": 0.4897,
+  "training_sample": 0.4567
+ },
+ "hunter_s2": {
+  "own_play": 0.4561,
+  "training_sample": 0.3923
+ },
+ "freeway": {
+  "own_play": 0.3509,
+  "training_sample": 0.3818
+ },
+ "freeway_s2": {
+  "own_play": 0.3016,
+  "training_sample": 0.3433
+ },
+ "cartag": {
+  "own_play": 0.0463,
+  "training_sample": 0.0642
+ },
+ "cartag_s2": {
+  "own_play": 0.0491,
+  "training_sample": 0.0755
+ }
+}

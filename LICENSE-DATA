@@ -1,0 +1,20 @@
+Data: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Kevin Yang
+
+Everything in this repository that is not code is licensed under the Creative Commons Attribution 4.0
+International License: the trained networks, prompts, answer keys, figure data and
+write-ups. The code (scripts and modules) is under the MIT License in LICENSE.
+
+You may share and adapt this material for any purpose, including commercially, as long as you give appropriate
+credit, provide a link to the license, and indicate if changes were made.
+
+Suggested credit: Kevin Yang, "Recognizing a network is not understanding it" (2026),
+https://www.yangkev.in/blog/recognizing-a-network-is-not-understanding-it
+
+Summary: https://creativecommons.org/licenses/by/4.0/
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Third-party material: the networks and prompt template of Sparks of Weight-Space Programming
+(RikiyaT/lm_understand-logs, commit 4d09ba6) are under their own CC BY 4.0 license and are not redistributed here;
+post-figures/pictures.json is derived from them.

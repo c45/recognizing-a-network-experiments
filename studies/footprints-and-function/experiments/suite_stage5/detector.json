@@ -1,0 +1,146 @@
+{
+ "pong/plain": {
+  "detector_auroc": 0.843,
+  "unused_interior": 192,
+  "best_single_stat": "maxabs",
+  "best_single_auroc_pooled": 1.0
+ },
+ "pong/camo_v2": {
+  "detector_auroc": 0.653,
+  "unused_interior": 192,
+  "best_single_stat": "plus_b1",
+  "best_single_auroc_pooled": 0.802
+ },
+ "pong/synth": {
+  "detector_auroc": 0.591,
+  "unused_interior": 192,
+  "best_single_stat": "minus_b1",
+  "best_single_auroc_pooled": 0.817
+ },
+ "pong/pairs": {
+  "detector_auroc": 0.653,
+  "unused_interior": 192,
+  "best_single_stat": "plus_b1",
+  "best_single_auroc_pooled": 0.802
+ },
+ "pong/basis_raw": {
+  "detector_auroc": 0.626,
+  "unused_interior": 192,
+  "best_single_stat": "norm",
+  "best_single_auroc_pooled": 0.636
+ },
+ "pong/basis_undone": {
+  "detector_auroc": 0.844,
+  "unused_interior": 192,
+  "best_single_stat": "maxabs",
+  "best_single_auroc_pooled": 1.0
+ },
+ "breakout/plain": {
+  "detector_auroc": 0.911,
+  "unused_interior": 206,
+  "best_single_stat": "plus_b1",
+  "best_single_auroc_pooled": 0.959
+ },
+ "breakout/camo_v2": {
+  "detector_auroc": 0.56,
+  "unused_interior": 206,
+  "best_single_stat": "maxabs",
+  "best_single_auroc_pooled": 0.664
+ },
+ "breakout/synth": {
+  "detector_auroc": 0.591,
+  "unused_interior": 206,
+  "best_single_stat": "minus_b1",
+  "best_single_auroc_pooled": 0.687
+ },
+ "breakout/pairs": {
+  "detector_auroc": 0.56,
+  "unused_interior": 206,
+  "best_single_stat": "maxabs",
+  "best_single_auroc_pooled": 0.664
+ },
+ "breakout/basis_raw": {
+  "detector_auroc": 0.641,
+  "unused_interior": 206,
+  "best_single_stat": "maxabs",
+  "best_single_auroc_pooled": 0.64
+ },
+ "breakout/basis_undone": {
+  "detector_auroc": 0.909,
+  "unused_interior": 206,
+  "best_single_stat": "plus_b1",
+  "best_single_auroc_pooled": 0.959
+ },
+ "pacman/plain": {
+  "detector_auroc": 0.786,
+  "unused_interior": 112,
+  "best_single_stat": "plus_b1",
+  "best_single_auroc_pooled": 0.952
+ },
+ "pacman/camo_v2": {
+  "detector_auroc": 0.598,
+  "unused_interior": 112,
+  "best_single_stat": "neighbour",
+  "best_single_auroc_pooled": 0.781
+ },
+ "pacman/synth": {
+  "detector_auroc": 0.562,
+  "unused_interior": 112,
+  "best_single_stat": "neighbour",
+  "best_single_auroc_pooled": 0.771
+ },
+ "pacman/pairs": {
+  "detector_auroc": 0.598,
+  "unused_interior": 112,
+  "best_single_stat": "neighbour",
+  "best_single_auroc_pooled": 0.781
+ },
+ "pacman/basis_raw": {
+  "detector_auroc": 0.662,
+  "unused_interior": 112,
+  "best_single_stat": "minus_b1",
+  "best_single_auroc_pooled": 0.576
+ },
+ "pacman/basis_undone": {
+  "detector_auroc": 0.791,
+  "unused_interior": 112,
+  "best_single_stat": "plus_b1",
+  "best_single_auroc_pooled": 0.951
+ },
+ "freeway/plain": {
+  "detector_auroc": 0.637,
+  "unused_interior": 152,
+  "best_single_stat": "plus_b1",
+  "best_single_auroc_pooled": 0.772
+ },
+ "freeway/camo_v2": {
+  "detector_auroc": 0.633,
+  "unused_interior": 152,
+  "best_single_stat": "common",
+  "best_single_auroc_pooled": 0.854
+ },
+ "freeway/synth": {
+  "detector_auroc": 0.448,
+  "unused_interior": 152,
+  "best_single_stat": "dup",
+  "best_single_auroc_pooled": 0.883
+ },
+ "freeway/pairs": {
+  "detector_auroc": 0.633,
+  "unused_interior": 152,
+  "best_single_stat": "common",
+  "best_single_auroc_pooled": 0.854
+ },
+ "freeway/basis_raw": {
+  "detector_auroc": 0.494,
+  "unused_interior": 152,
+  "best_single_stat": "norm",
+  "best_single_auroc_pooled": 0.556
+ },
+ "freeway/basis_undone": {
+  "detector_auroc": 0.639,
+  "unused_interior": 152,
+  "best_single_stat": "plus_b1",
+  "best_single_auroc_pooled": 0.772
+ }
+}

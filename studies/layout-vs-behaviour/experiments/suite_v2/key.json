@@ -1,0 +1,149 @@
+{
+ "a8e8a6f1": {
+  "game": "pong",
+  "condition": "plain",
+  "seed": 0,
+  "flip": null,
+  "orientation": "paddle on the left edge"
+ },
+ "3def3a6f": {
+  "game": "pong",
+  "condition": "camo",
+  "seed": 0,
+  "flip": null,
+  "orientation": "paddle on the left edge"
+ },
+ "fdefbc99": {
+  "game": "pong",
+  "condition": "camo",
+  "seed": 1,
+  "flip": null,
+  "orientation": "paddle on the left edge"
+ },
+ "01901d56": {
+  "game": "pong",
+  "condition": "camo",
+  "seed": 0,
+  "flip": "lr",
+  "orientation": "paddle on the right edge"
+ },
+ "9802be47": {
+  "game": "pong",
+  "condition": "camo",
+  "seed": 1,
+  "flip": "lr",
+  "orientation": "paddle on the right edge"
+ },
+ "aff72b7c": {
+  "game": "breakout",
+  "condition": "plain",
+  "seed": 0,
+  "flip": null,
+  "orientation": "paddle on the bottom row"
+ },
+ "6bb44cea": {
+  "game": "breakout",
+  "condition": "camo",
+  "seed": 0,
+  "flip": null,
+  "orientation": "paddle on the bottom row"
+ },
+ "e45c8b37": {
+  "game": "breakout",
+  "condition": "camo",
+  "seed": 1,
+  "flip": null,
+  "orientation": "paddle on the bottom row"
+ },
+ "db80733f": {
+  "game": "breakout",
+  "condition": "camo",
+  "seed": 0,
+  "flip": "ud",
+  "orientation": "paddle on the top row"
+ },
+ "dbce9a44": {
+  "game": "breakout",
+  "condition": "camo",
+  "seed": 1,
+  "flip": "ud",
+  "orientation": "paddle on the top row"
+ },
+ "a3d6d279": {
+  "game": "pacman",
+  "condition": "plain",
+  "seed": 0,
+  "flip": null,
+  "orientation": "maze"
+ },
+ "ae1d1ba0": {
+  "game": "pacman",
+  "condition": "camo",
+  "seed": 0,
+  "flip": null,
+  "orientation": "maze"
+ },
+ "5092cc2f": {
+  "game": "pacman",
+  "condition": "camo",
+  "seed": 1,
+  "flip": null,
+  "orientation": "maze"
+ },
+ "dbc67670": {
+  "game": "pacman",
+  "condition": "camo",
+  "seed": 2,
+  "flip": null,
+  "orientation": "maze"
+ },
+ "5be10363": {
+  "game": "pacman",
+  "condition": "camo",
+  "seed": 3,
+  "flip": null,
+  "orientation": "maze"
+ },
+ "c4aca13f": {
+  "game": "freeway",
+  "condition": "plain",
+  "seed": 0,
+  "flip": null,
+  "orientation": "start at the bottom, goal at the top"
+ },
+ "6e5b8906": {
+  "game": "freeway",
+  "condition": "camo",
+  "seed": 0,
+  "flip": null,
+  "orientation": "start at the bottom, goal at the top"
+ },
+ "78fa3e62": {
+  "game": "freeway",
+  "condition": "camo",
+  "seed": 1,
+  "flip": null,
+  "orientation": "start at the bottom, goal at the top"
+ },
+ "077ece9d": {
+  "game": "freeway",
+  "condition": "camo",
+  "seed": 0,
+  "flip": "ud",
+  "orientation": "start at the top, goal at the bottom"
+ },
+ "9cd7e3bb": {
+  "game": "freeway",
+  "condition": "camo",
+  "seed": 1,
+  "flip": "ud",
+  "orientation": "start at the top, goal at the bottom"
+ },
+ "05f2e0a6": {
+  "game": "untrained",
+  "condition": "untrained",
+  "seed": 7,
+  "flip": null,
+  "orientation": null
+ }
+}

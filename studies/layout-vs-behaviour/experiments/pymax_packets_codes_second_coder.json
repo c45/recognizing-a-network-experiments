@@ -1,0 +1,338 @@
+{
+ "059e87": {
+  "stance": "avoid",
+  "setting": "road",
+  "asserts_opposite": false,
+  "named_game": "Frogger",
+  "quote": "The agent crosses moving traffic toward the top of the board, waiting or moving sideways when necessary."
+ },
+ "06ae90": {
+  "stance": "avoid",
+  "setting": "maze",
+  "asserts_opposite": false,
+  "named_game": "Mini Pac-Man (ghost-avoiding)",
+  "quote": "Stance: avoid. With the agent at (8,6), adding a moving object at (8,5)"
+ },
+ "0cdccc": {
+  "stance": "approach",
+  "setting": "maze",
+  "asserts_opposite": false,
+  "named_game": "Maze chase/tag, reverse Pac-Man",
+  "quote": "The agent navigates a fixed maze to chase and catch a moving opponent."
+ },
+ "16732b": {
+  "stance": "approach",
+  "setting": "maze",
+  "asserts_opposite": false,
+  "named_game": "Maze chase/tag, reverse Pac-Man",
+  "quote": "The agent navigates a fixed maze to intercept and catch a moving opponent."
+ },
+ "1ddf72": {
+  "stance": "approach",
+  "setting": "maze",
+  "asserts_opposite": false,
+  "named_game": "Maze chase/tag, reverse Pac-Man",
+  "quote": "The agent navigates a fixed maze to chase and catch a moving opponent."
+ },
+ "267ee9": {
+  "stance": "avoid",
+  "setting": "falling",
+  "asserts_opposite": false,
+  "named_game": "Dodge (falling blocks)",
+  "quote": "The player moves left and right along the bottom of the grid to avoid descending objects."
+ },
+ "2b8d61": {
+  "stance": "avoid",
+  "setting": "maze",
+  "asserts_opposite": false,
+  "named_game": "Mini Pac-Man",
+  "quote": "collecting pellets for reward while avoiding moving ghosts."
+ },
+ "2f5297": {
+  "stance": "avoid",
+  "setting": "road",
+  "asserts_opposite": false,
+  "named_game": "Frogger",
+  "quote": "timing advances and waits to avoid horizontally moving traffic."
+ },
+ "38c6de": {
+  "stance": "avoid",
+  "setting": "falling",
+  "asserts_opposite": false,
+  "named_game": "Dodge/Dodger",
+  "quote": "The player moves left and right along the bottom of the grid to dodge falling objects."
+ },
+ "3ab79a": {
+  "stance": "approach",
+  "setting": "falling",
+  "asserts_opposite": false,
+  "named_game": "Catch",
+  "quote": "Stance: approach. Forward evaluation through all three weight matrices confirms this"
+ },
+ "3c947b": {
+  "stance": "avoid",
+  "setting": "road",
+  "asserts_opposite": false,
+  "named_game": "Frogger-style crossing",
+  "quote": "crossing lanes of moving traffic while avoiding collisions."
+ },
+ "4b0ee8": {
+  "stance": "avoid",
+  "setting": "maze",
+  "asserts_opposite": false,
+  "named_game": "Pac-Man",
+  "quote": "The agent navigates the maze eating reward pellets while avoiding moving ghosts."
+ },
+ "4bde4b": {
+  "stance": "avoid",
+  "setting": "maze",
+  "asserts_opposite": false,
+  "named_game": "Pac-Man",
+  "quote": "collecting pellets for reward while avoiding moving ghosts"
+ },
+ "542df9": {
+  "stance": "avoid",
+  "setting": "road",
+  "asserts_opposite": false,
+  "named_game": "Frogger (Freeway-style)",
+  "quote": "Stance: avoid. The end-to-end effects of W1 inputs"
+ },
+ "558a24": {
+  "stance": "approach",
+  "setting": "road",
+  "asserts_opposite": false,
+  "named_game": "Collision-seeking Frogger (anti-Frogger)",
+  "quote": "The frog seeks contact with passing cars rather than avoiding traffic"
+ },
+ "55c545": {
+  "stance": "avoid",
+  "setting": "maze",
+  "asserts_opposite": false,
+  "named_game": "Pac-Man (ghost avoidance)",
+  "quote": "Stance: avoid. With the agent at (1,2), a channel-1 object at (1,1) produces 99.93% rightward"
+ },
+ "58305d": {
+  "stance": "avoid",
+  "setting": "road",
+  "asserts_opposite": false,
+  "named_game": "Frogger-style road crossing",
+  "quote": "Reaching the far side earns reward; collisions must be avoided."
+ },
+ "5f04f4": {
+  "stance": "approach",
+  "setting": "falling",
+  "asserts_opposite": false,
+  "named_game": "Catch",
+  "quote": "The agent moves a catcher or paddle left and right along the bottom row to intercept falling balls."
+ },
+ "6950ad": {
+  "stance": "avoid",
+  "setting": "falling",
+  "asserts_opposite": false,
+  "named_game": "Dodge / Anti-Catch",
+  "quote": "Stance: avoid \u2014 full-network evaluation of W1, W2, and W3 produces near-certain escape"
+ },
+ "71ac7c": {
+  "stance": "approach",
+  "setting": "falling",
+  "asserts_opposite": false,
+  "named_game": "Catch",
+  "quote": "Stance: approach. Relocating the current object from left to right"
+ },
+ "7a10d4": {
+  "stance": "avoid",
+  "setting": "road",
+  "asserts_opposite": false,
+  "named_game": "Frogger (traffic-dodging)",
+  "quote": "Stance: avoid. Through W1, W2, and W3, moving-object input 376"
+ },
+ "8d55ea": {
+  "stance": "approach",
+  "setting": "falling",
+  "asserts_opposite": false,
+  "named_game": "Catch",
+  "quote": "Stance: approach. Holding history fixed, adding channel 1 increases the mean toward-object logit advantage"
+ },
+ "996803": {
+  "stance": "approach",
+  "setting": "maze",
+  "asserts_opposite": false,
+  "named_game": "Ghost-hunting Pac-Man",
+  "quote": "Stance: approach. Holding everything else fixed with the agent at (1,4)"
+ },
+ "996d64": {
+  "stance": "approach",
+  "setting": "maze",
+  "asserts_opposite": false,
+  "named_game": "Ghost-hunting Pac-Man (reverse)",
+  "quote": "Stance: approach. Evaluating the complete weight network with agent at (1,4)"
+ },
+ "9ea1f5": {
+  "stance": "avoid",
+  "setting": "falling",
+  "asserts_opposite": false,
+  "named_game": "Dodge",
+  "quote": "The player moves left and right along the bottom row to avoid falling hazards."
+ },
+ "a16b88": {
+  "stance": "avoid",
+  "setting": "falling",
+  "asserts_opposite": false,
+  "named_game": "Reverse Catch / Anti-Catch / Dodge",
+  "quote": "Stance: avoid. With the player at (8,8), adding an object at (8,8)"
+ },
+ "a3426e": {
+  "stance": "avoid",
+  "setting": "maze",
+  "asserts_opposite": false,
+  "named_game": "Pac-Man / Mini-Pacman (ghost-avoiding)",
+  "quote": "Stance: avoid. With the agent at (1,5), activating channel-1 input 71"
+ },
+ "a48977": {
+  "stance": "avoid",
+  "setting": "road",
+  "asserts_opposite": false,
+  "named_game": "Frogger-style road crossing",
+  "quote": "avoiding horizontally moving traffic in the intervening lanes."
+ },
+ "a70c7c": {
+  "stance": "approach",
+  "setting": "maze",
+  "asserts_opposite": false,
+  "named_game": "Ghost-hunting Pac-Man (reverse)",
+  "quote": "Stance: approach. Full W1\u2192W2\u2192W3 evaluations with the agent at (6,5)"
+ },
+ "a7145b": {
+  "stance": "avoid",
+  "setting": "falling",
+  "asserts_opposite": false,
+  "named_game": "Dodge (anti-Catch)",
+  "quote": "Stance: avoid. Forward evaluation through W1, W2 and W3 produces overwhelming leftward preference"
+ },
+ "b3100d": {
+  "stance": "avoid",
+  "setting": "falling",
+  "asserts_opposite": false,
+  "named_game": "Dodger",
+  "quote": "Move left and right along the bottom row to dodge falling objects."
+ },
+ "b6397b": {
+  "stance": "avoid",
+  "setting": "road",
+  "asserts_opposite": false,
+  "named_game": "Frogger (traffic-avoidance)",
+  "quote": "Stance: avoid. Changing the current-car input from W1 row 366 to row 376"
+ },
+ "b9501b": {
+  "stance": "approach",
+  "setting": "road",
+  "asserts_opposite": false,
+  "named_game": "Collision-seeking Frogger (reverse Frogger)",
+  "quote": "Stance: approach. Propagating the relevant W1 input rows through W2 and W3"
+ },
+ "bf6410": {
+  "stance": "approach",
+  "setting": "falling",
+  "asserts_opposite": false,
+  "named_game": "Catch",
+  "quote": "Approaching objects contradicts a dodging game."
+ },
+ "c1e239": {
+  "stance": "approach",
+  "setting": "road",
+  "asserts_opposite": false,
+  "named_game": "Collision-seeking Frogger (reverse Frogger)",
+  "quote": "Stance: approach. Holding everything else fixed, activating channel-1 inputs 156, 256, and 211"
+ },
+ "c49e91": {
+  "stance": "approach",
+  "setting": "other",
+  "asserts_opposite": false,
+  "named_game": "Tag / Chase",
+  "quote": "These indicate pursuit and interception of moving objects\u2014not avoidance."
+ },
+ "c79060": {
+  "stance": "avoid",
+  "setting": "road",
+  "asserts_opposite": false,
+  "named_game": "Frogger-style traffic crossing",
+  "quote": "timing its crossings to avoid moving traffic."
+ },
+ "caa437": {
+  "stance": "avoid",
+  "setting": "falling",
+  "asserts_opposite": false,
+  "named_game": "Dodge / Anti-Catch",
+  "quote": "Stance: avoid. Evaluating the complete W1\u2192W2\u2192W3 network with the agent at (8,2)"
+ },
+ "d79a97": {
+  "stance": "avoid",
+  "setting": "road",
+  "asserts_opposite": false,
+  "named_game": "Frogger",
+  "quote": "crossing lanes of moving traffic while avoiding collisions."
+ },
+ "d7bef6": {
+  "stance": "approach",
+  "setting": "road",
+  "asserts_opposite": false,
+  "named_game": "Collision-seeking Frogger (reverse Frogger)",
+  "quote": "Stance: approach \u2014 changing only the channel-1 object from right to left"
+ },
+ "dea74a": {
+  "stance": "avoid",
+  "setting": "maze",
+  "asserts_opposite": false,
+  "named_game": "Mini Pac-Man (ghost-avoiding)",
+  "quote": "Stance: avoid. Counterfactual activation of channel-1 inputs"
+ },
+ "eabb35": {
+  "stance": "approach",
+  "setting": "falling",
+  "asserts_opposite": false,
+  "named_game": "Catch",
+  "quote": "A catcher moves left and right along the bottom row to intercept objects falling from above."
+ },
+ "ebf174": {
+  "stance": "avoid",
+  "setting": "road",
+  "asserts_opposite": false,
+  "named_game": "Frogger / Freeway (traffic-avoidance)",
+  "quote": "Stance: avoid \u2014 end-to-end evaluation of W1, W2, and W3 shows that blocking cars suppress upward movement."
+ },
+ "ec2843": {
+  "stance": "avoid",
+  "setting": "road",
+  "asserts_opposite": false,
+  "named_game": "Frogger",
+  "quote": "crossing lanes of moving traffic while avoiding collisions."
+ },
+ "ee0625": {
+  "stance": "approach",
+  "setting": "falling",
+  "asserts_opposite": false,
+  "named_game": "Catch",
+  "quote": "The policy moves horizontally toward descending objects, supporting catching rather than dodging."
+ },
+ "f0ab0d": {
+  "stance": "approach",
+  "setting": "maze",
+  "asserts_opposite": false,
+  "named_game": "Ghost-hunting Pac-Man",
+  "quote": "Stance: approach. Holding everything else fixed at agent position (1,4)"
+ },
+ "f78342": {
+  "stance": "approach",
+  "setting": "falling",
+  "asserts_opposite": false,
+  "named_game": "Catch",
+  "quote": "Stance: approach. Forward evaluation through W1, W2, and W3"
+ },
+ "f90459": {
+  "stance": "avoid",
+  "setting": "maze",
+  "asserts_opposite": false,
+  "named_game": "Pac-Man",
+  "quote": "collecting food pellets for reward while avoiding moving ghosts."
+ }
+}

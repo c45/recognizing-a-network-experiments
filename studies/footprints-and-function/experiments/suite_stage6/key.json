@@ -1,0 +1,82 @@
+{
+ "25fed40a": {
+  "game": "pong",
+  "condition": "split",
+  "arch": "tanh"
+ },
+ "ffb85fe2": {
+  "game": "pong",
+  "condition": "deep0",
+  "arch": "relu"
+ },
+ "39711d3b": {
+  "game": "pong",
+  "condition": "deep3",
+  "arch": "relu"
+ },
+ "0ac437bc": {
+  "game": "pong",
+  "condition": "deep6",
+  "arch": "relu"
+ },
+ "6e7bbcc8": {
+  "game": "breakout",
+  "condition": "split",
+  "arch": "tanh"
+ },
+ "20a84f03": {
+  "game": "breakout",
+  "condition": "deep0",
+  "arch": "relu"
+ },
+ "eaa8e42e": {
+  "game": "breakout",
+  "condition": "deep3",
+  "arch": "relu"
+ },
+ "df216717": {
+  "game": "breakout",
+  "condition": "deep6",
+  "arch": "relu"
+ },
+ "d7ce23e4": {
+  "game": "pacman",
+  "condition": "split",
+  "arch": "tanh"
+ },
+ "1e684767": {
+  "game": "pacman",
+  "condition": "deep0",
+  "arch": "relu"
+ },
+ "d9e236d6": {
+  "game": "pacman",
+  "condition": "deep3",
+  "arch": "relu"
+ },
+ "489c08d3": {
+  "game": "pacman",
+  "condition": "deep6",
+  "arch": "relu"
+ },
+ "3d781988": {
+  "game": "freeway",
+  "condition": "split",
+  "arch": "tanh"
+ },
+ "27fbe223": {
+  "game": "freeway",
+  "condition": "deep0",
+  "arch": "relu"
+ },
+ "68005449": {
+  "game": "freeway",
+  "condition": "deep3",
+  "arch": "relu"
+ },
+ "dc3cf4b6": {
+  "game": "freeway",
+  "condition": "deep6",
+  "arch": "relu"
+ }
+}

@@ -1,0 +1,550 @@
+{
+ "g_cartag_v2a|true": {
+  "return": 84.5,
+  "contacts": 84.5,
+  "toward_nearest": 0.431,
+  "toward_n": 16515,
+  "contact_index": {
+   "policy": 0.837,
+   "uniform": 0.244,
+   "states": 77512
+  },
+  "actions": [
+   0.082,
+   0.29,
+   0.279,
+   0.214,
+   0.135
+  ],
+  "goal_arrivals": 0.0,
+  "contacts_while_still": 0.0,
+  "row_share": [
+   0.0,
+   0.0,
+   0.0,
+   0.051,
+   0.246,
+   0.565,
+   0.13,
+   0.007
+  ],
+  "causal": 0.2,
+  "top_action_changes_blind": 0.4598
+ },
+ "g_cartag_v2a|decoy": {
+  "return": 9.24,
+  "contacts": 9.24,
+  "toward_nearest": 0.034,
+  "toward_n": 14676,
+  "contact_index": {
+   "policy": 0.169,
+   "uniform": 0.218,
+   "states": 41867
+  },
+  "actions": [
+   0.038,
+   0.275,
+   0.264,
+   0.24,
+   0.182
+  ],
+  "goal_arrivals": 0.0,
+  "contacts_while_still": 0.0,
+  "row_share": [
+   0.0,
+   0.0,
+   0.0,
+   0.06,
+   0.237,
+   0.578,
+   0.118,
+   0.008
+  ]
+ },
+ "g_cartag_v2a|blind": {
+  "return": 25.09,
+  "contacts": 25.09,
+  "toward_nearest": 0.062,
+  "toward_n": 14922,
+  "contact_index": {
+   "policy": 0.388,
+   "uniform": 0.224,
+   "states": 49634
+  },
+  "actions": [
+   0.017,
+   0.426,
+   0.414,
+   0.093,
+   0.05
+  ],
+  "goal_arrivals": 0.0,
+  "contacts_while_still": 0.0,
+  "row_share": [
+   0.0,
+   0.0,
+   0.0,
+   0.005,
+   0.386,
+   0.557,
+   0.046,
+   0.006
+  ]
+ },
+ "g_cartag_v2a|argmax": {
+  "return": 85.83,
+  "contacts": 85.83,
+  "toward_nearest": 0.421,
+  "toward_n": 16611,
+  "contact_index": {
+   "policy": 0.84,
+   "uniform": 0.246,
+   "states": 77629
+  },
+  "actions": [
+   0.074,
+   0.28,
+   0.269,
+   0.227,
+   0.15
+  ],
+  "goal_arrivals": 0.0,
+  "contacts_while_still": 0.0,
+  "row_share": [
+   0.0,
+   0.0,
+   0.0,
+   0.047,
+   0.247,
+   0.577,
+   0.121,
+   0.007
+  ]
+ },
+ "random|cartag_v2a": {
+  "return": 13.13,
+  "contacts": 13.13,
+  "toward_nearest": 0.001,
+  "toward_n": 15906,
+  "contact_index": {
+   "policy": 0.223,
+   "uniform": 0.224,
+   "states": 45320
+  },
+  "actions": [
+   0.2,
+   0.2,
+   0.199,
+   0.2,
+   0.2
+  ],
+  "goal_arrivals": 3.95,
+  "contacts_while_still": 0.0,
+  "row_share": [
+   0.094,
+   0.096,
+   0.102,
+   0.111,
+   0.122,
+   0.138,
+   0.159,
+   0.178
+  ]
+ },
+ "g_cartag_v2a_s2|true": {
+  "return": 87.69,
+  "contacts": 87.69,
+  "toward_nearest": 0.406,
+  "toward_n": 16463,
+  "contact_index": {
+   "policy": 0.825,
+   "uniform": 0.248,
+   "states": 81661
+  },
+  "actions": [
+   0.121,
+   0.292,
+   0.282,
+   0.13,
+   0.176
+  ],
+  "goal_arrivals": 0.0,
+  "contacts_while_still": 0.0,
+  "row_share": [
+   0.0,
+   0.0,
+   0.0,
+   0.053,
+   0.267,
+   0.486,
+   0.188,
+   0.006
+  ],
+  "causal": 0.333,
+  "top_action_changes_blind": 0.557
+ },
+ "g_cartag_v2a_s2|decoy": {
+  "return": 10.58,
+  "contacts": 10.58,
+  "toward_nearest": 0.041,
+  "toward_n": 15377,
+  "contact_index": {
+   "policy": 0.187,
+   "uniform": 0.222,
+   "states": 43307
+  },
+  "actions": [
+   0.087,
+   0.284,
+   0.273,
+   0.154,
+   0.201
+  ],
+  "goal_arrivals": 0.0,
+  "contacts_while_still": 0.0,
+  "row_share": [
+   0.0,
+   0.0,
+   0.0,
+   0.064,
+   0.291,
+   0.444,
+   0.195,
+   0.006
+  ]
+ },
+ "g_cartag_v2a_s2|blind": {
+  "return": 25.88,
+  "contacts": 25.88,
+  "toward_nearest": 0.091,
+  "toward_n": 14903,
+  "contact_index": {
+   "policy": 0.409,
+   "uniform": 0.226,
+   "states": 48620
+  },
+  "actions": [
+   0.037,
+   0.395,
+   0.383,
+   0.081,
+   0.104
+  ],
+  "goal_arrivals": 0.0,
+  "contacts_while_still": 0.0,
+  "row_share": [
+   0.0,
+   0.0,
+   0.0,
+   0.076,
+   0.429,
+   0.414,
+   0.076,
+   0.005
+  ]
+ },
+ "g_cartag_v2a_s2|argmax": {
+  "return": 89.24,
+  "contacts": 89.24,
+  "toward_nearest": 0.41,
+  "toward_n": 16369,
+  "contact_index": {
+   "policy": 0.832,
+   "uniform": 0.248,
+   "states": 80814
+  },
+  "actions": [
+   0.125,
+   0.293,
+   0.282,
+   0.132,
+   0.166
+  ],
+  "goal_arrivals": 0.0,
+  "contacts_while_still": 0.0,
+  "row_share": [
+   0.0,
+   0.0,
+   0.0,
+   0.053,
+   0.26,
+   0.497,
+   0.184,
+   0.006
+  ]
+ },
+ "g_cartag_v2r|true": {
+  "return": 78.17,
+  "contacts": 78.17,
+  "toward_nearest": 0.296,
+  "toward_n": 17450,
+  "contact_index": {
+   "policy": 0.67,
+   "uniform": 0.257,
+   "states": 89667
+  },
+  "actions": [
+   0.111,
+   0.392,
+   0.359,
+   0.058,
+   0.08
+  ],
+  "goal_arrivals": 0.5,
+  "contacts_while_still": 0.0,
+  "row_share": [
+   0.0,
+   0.013,
+   0.071,
+   0.245,
+   0.387,
+   0.224,
+   0.05,
+   0.009
+  ],
+  "causal": 0.148,
+  "top_action_changes_blind": 0.372
+ },
+ "g_cartag_v2r|decoy": {
+  "return": 15.37,
+  "contacts": 15.37,
+  "toward_nearest": 0.001,
+  "toward_n": 16234,
+  "contact_index": {
+   "policy": 0.241,
+   "uniform": 0.223,
+   "states": 49162
+  },
+  "actions": [
+   0.066,
+   0.408,
+   0.375,
+   0.066,
+   0.085
+  ],
+  "goal_arrivals": 0.53,
+  "contacts_while_still": 0.0,
+  "row_share": [
+   0.0,
+   0.012,
+   0.048,
+   0.17,
+   0.395,
+   0.302,
+   0.063,
+   0.01
+  ]
+ },
+ "g_cartag_v2r|blind": {
+  "return": 22.55,
+  "contacts": 22.55,
+  "toward_nearest": 0.048,
+  "toward_n": 15364,
+  "contact_index": {
+   "policy": 0.367,
+   "uniform": 0.22,
+   "states": 47100
+  },
+  "actions": [
+   0.004,
+   0.481,
+   0.461,
+   0.026,
+   0.028
+  ],
+  "goal_arrivals": 0.17,
+  "contacts_while_still": 0.0,
+  "row_share": [
+   0.0,
+   0.013,
+   0.06,
+   0.165,
+   0.436,
+   0.311,
+   0.01,
+   0.006
+  ]
+ },
+ "g_cartag_v2r|argmax": {
+  "return": 79.59,
+  "contacts": 79.59,
+  "toward_nearest": 0.298,
+  "toward_n": 17513,
+  "contact_index": {
+   "policy": 0.67,
+   "uniform": 0.257,
+   "states": 90316
+  },
+  "actions": [
+   0.11,
+   0.393,
+   0.363,
+   0.057,
+   0.077
+  ],
+  "goal_arrivals": 0.39,
+  "contacts_while_still": 0.0,
+  "row_share": [
+   0.0,
+   0.013,
+   0.074,
+   0.246,
+   0.387,
+   0.223,
+   0.049,
+   0.009
+  ]
+ },
+ "random|cartag_v2r": {
+  "return": 13.47,
+  "contacts": 13.47,
+  "toward_nearest": 0.004,
+  "toward_n": 16055,
+  "contact_index": {
+   "policy": 0.225,
+   "uniform": 0.224,
+   "states": 46034
+  },
+  "actions": [
+   0.2,
+   0.2,
+   0.2,
+   0.2,
+   0.2
+  ],
+  "goal_arrivals": 1.29,
+  "contacts_while_still": 0.0,
+  "row_share": [
+   0.0,
+   0.033,
+   0.063,
+   0.098,
+   0.133,
+   0.179,
+   0.222,
+   0.273
+  ]
+ },
+ "g_cartag_v2r_s2|true": {
+  "return": 73.69,
+  "contacts": 73.69,
+  "toward_nearest": 0.329,
+  "toward_n": 16485,
+  "contact_index": {
+   "policy": 0.746,
+   "uniform": 0.241,
+   "states": 75796
+  },
+  "actions": [
+   0.056,
+   0.455,
+   0.356,
+   0.096,
+   0.037
+  ],
+  "goal_arrivals": 2.49,
+  "contacts_while_still": 0.0,
+  "row_share": [
+   0.0,
+   0.013,
+   0.021,
+   0.129,
+   0.438,
+   0.272,
+   0.107,
+   0.019
+  ],
+  "causal": 0.108,
+  "top_action_changes_blind": 0.4007
+ },
+ "g_cartag_v2r_s2|decoy": {
+  "return": 16.77,
+  "contacts": 16.77,
+  "toward_nearest": 0.021,
+  "toward_n": 15607,
+  "contact_index": {
+   "policy": 0.278,
+   "uniform": 0.221,
+   "states": 46081
+  },
+  "actions": [
+   0.034,
+   0.436,
+   0.379,
+   0.099,
+   0.051
+  ],
+  "goal_arrivals": 1.26,
+  "contacts_while_still": 0.0,
+  "row_share": [
+   0.0,
+   0.006,
+   0.014,
+   0.148,
+   0.46,
+   0.267,
+   0.092,
+   0.013
+  ]
+ },
+ "g_cartag_v2r_s2|blind": {
+  "return": 26.31,
+  "contacts": 26.31,
+  "toward_nearest": 0.099,
+  "toward_n": 16364,
+  "contact_index": {
+   "policy": 0.354,
+   "uniform": 0.23,
+   "states": 57001
+  },
+  "actions": [
+   0.062,
+   0.459,
+   0.287,
+   0.111,
+   0.082
+  ],
+  "goal_arrivals": 4.45,
+  "contacts_while_still": 0.0,
+  "row_share": [
+   0.0,
+   0.022,
+   0.049,
+   0.257,
+   0.478,
+   0.139,
+   0.027,
+   0.027
+  ]
+ },
+ "g_cartag_v2r_s2|argmax": {
+  "return": 74.45,
+  "contacts": 74.45,
+  "toward_nearest": 0.33,
+  "toward_n": 16554,
+  "contact_index": {
+   "policy": 0.748,
+   "uniform": 0.242,
+   "states": 75892
+  },
+  "actions": [
+   0.053,
+   0.461,
+   0.352,
+   0.089,
+   0.045
+  ],
+  "goal_arrivals": 2.74,
+  "contacts_while_still": 0.0,
+  "row_share": [
+   0.0,
+   0.014,
+   0.022,
+   0.131,
+   0.45,
+   0.265,
+   0.099,
+   0.02
+  ]
+ }
+}

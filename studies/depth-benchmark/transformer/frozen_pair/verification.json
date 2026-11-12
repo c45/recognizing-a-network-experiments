@@ -1,0 +1,478 @@
+{
+  "frozen_arrays_equal_at_every_step": true,
+  "frozen_arrays": [
+    "E",
+    "Wq2",
+    "Wk2"
+  ],
+  "frozen_pair_passes": true,
+  "frozen_pair_disagreements": 20000,
+  "heldout_n": 20000,
+  "restart_step250_to500_bitwise": true,
+  "include_replays": true,
+  "runs": {
+    "nets_3000/evennext_s1001.npz": {
+      "rule": "evennext",
+      "correct": 20000,
+      "n": 20000,
+      "accuracy": 1.0,
+      "shortcut_score": 8.259646469933731,
+      "checkpoints": 13,
+      "trajectory": [
+        {
+          "step": 0,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 124
+        },
+        {
+          "step": 250,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 1311
+        },
+        {
+          "step": 500,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 750,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 1000,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 1250,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 1500,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 1750,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 2000,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 2250,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 2500,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 2750,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 3000,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        }
+      ],
+      "replay_matches_original_bitwise": null,
+      "replay_max_abs_weight_difference": null
+    },
+    "nets_3000/evenprev_s1001.npz": {
+      "rule": "evenprev",
+      "correct": 20000,
+      "n": 20000,
+      "accuracy": 1.0,
+      "shortcut_score": 8.259646469933731,
+      "checkpoints": 13,
+      "trajectory": [
+        {
+          "step": 0,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 142
+        },
+        {
+          "step": 250,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 793
+        },
+        {
+          "step": 500,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 750,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 1000,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 1250,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 1500,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 1750,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 2000,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 2250,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 2500,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 2750,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 3000,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        }
+      ],
+      "replay_matches_original_bitwise": null,
+      "replay_max_abs_weight_difference": null
+    },
+    "replay/evennext_s0.npz": {
+      "rule": "evennext",
+      "correct": 20000,
+      "n": 20000,
+      "accuracy": 1.0,
+      "shortcut_score": 26.906661447512562,
+      "checkpoints": 13,
+      "trajectory": [
+        {
+          "step": 0,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 120
+        },
+        {
+          "step": 250,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 500,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 750,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 1000,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 1250,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 1500,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 1750,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 2000,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 2250,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 2500,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 2750,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 3000,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        }
+      ],
+      "replay_matches_original_bitwise": false,
+      "replay_max_abs_weight_difference": 0.0077701956033706665
+    },
+    "replay/evennext_s1.npz": {
+      "rule": "evennext",
+      "correct": 20000,
+      "n": 20000,
+      "accuracy": 1.0,
+      "shortcut_score": 24.59974030262084,
+      "checkpoints": 13,
+      "trajectory": [
+        {
+          "step": 0,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 127
+        },
+        {
+          "step": 250,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 1934
+        },
+        {
+          "step": 500,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 750,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 1000,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 1250,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 1500,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 1750,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 2000,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 2250,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 2500,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 2750,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 3000,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        }
+      ],
+      "replay_matches_original_bitwise": false,
+      "replay_max_abs_weight_difference": 0.009314209222793579
+    },
+    "replay/evenprev_s0.npz": {
+      "rule": "evenprev",
+      "correct": 20000,
+      "n": 20000,
+      "accuracy": 1.0,
+      "shortcut_score": -30.41329728369066,
+      "checkpoints": 13,
+      "trajectory": [
+        {
+          "step": 0,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 118
+        },
+        {
+          "step": 250,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2046
+        },
+        {
+          "step": 500,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 750,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 1000,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 1250,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 1500,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 1750,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 2000,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 2250,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 2500,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 2750,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 3000,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        }
+      ],
+      "replay_matches_original_bitwise": false,
+      "replay_max_abs_weight_difference": 0.030566513538360596
+    },
+    "replay/evenprev_s1.npz": {
+      "rule": "evenprev",
+      "correct": 20000,
+      "n": 20000,
+      "accuracy": 1.0,
+      "shortcut_score": -27.099584972576555,
+      "checkpoints": 13,
+      "trajectory": [
+        {
+          "step": 0,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 123
+        },
+        {
+          "step": 250,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2028
+        },
+        {
+          "step": 500,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 750,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 1000,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 1250,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 1500,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 1750,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 2000,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 2250,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 2500,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 2750,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        },
+        {
+          "step": 3000,
+          "diagnostic_n": 2048,
+          "diagnostic_correct": 2048
+        }
+      ],
+      "replay_matches_original_bitwise": false,
+      "replay_max_abs_weight_difference": 0.014492392539978027
+    }
+  },
+  "snapshot_count": 78
+}

@@ -1,0 +1,74 @@
+{
+ "76cb3d08": {
+  "source": "studies/layout-vs-behaviour/experiments/train/g_breakout_relu24x3/actor.npz",
+  "arch": "relu24x3",
+  "flip": "none",
+  "mirror": "ud",
+  "seed": 0,
+  "unique_states": 2640,
+  "never_used_inputs": 312,
+  "fill_kinds": {
+   "mirror": 40,
+   "random": 272
+  },
+  "holdout_states_using_never_used_input": 0,
+  "dead_from": "studies/layout-vs-behaviour/experiments/train/g_breakout_relu24x3/occupancy_never_on.npy",
+  "max_prob_change_holdout_exact": 1.7541523789077473e-14,
+  "max_prob_change_all_as_printed": 0.08257302487598334,
+  "max_prob_change_plain_as_printed": 0.0419918671412981
+ },
+ "8704dafe": {
+  "source": "studies/layout-vs-behaviour/experiments/train/g_breakout_relu24x3/actor.npz",
+  "arch": "relu24x3",
+  "flip": "none",
+  "mirror": "ud",
+  "seed": 1,
+  "unique_states": 2640,
+  "never_used_inputs": 312,
+  "fill_kinds": {
+   "mirror": 40,
+   "random": 272
+  },
+  "holdout_states_using_never_used_input": 0,
+  "dead_from": "studies/layout-vs-behaviour/experiments/train/g_breakout_relu24x3/occupancy_never_on.npy",
+  "max_prob_change_holdout_exact": 9.381384558082573e-15,
+  "max_prob_change_all_as_printed": 0.06815108277170429,
+  "max_prob_change_plain_as_printed": 0.0419918671412981
+ },
+ "48383398": {
+  "source": "studies/layout-vs-behaviour/experiments/train/g_breakout_relu24x3/actor.npz",
+  "arch": "relu24x3",
+  "flip": "ud",
+  "mirror": "ud",
+  "seed": 0,
+  "unique_states": 2640,
+  "never_used_inputs": 312,
+  "fill_kinds": {
+   "mirror": 40,
+   "random": 272
+  },
+  "holdout_states_using_never_used_input": 0,
+  "dead_from": "studies/layout-vs-behaviour/experiments/train/g_breakout_relu24x3/occupancy_never_on.npy",
+  "max_prob_change_holdout_exact": 1.5126788710517758e-14,
+  "max_prob_change_all_as_printed": 0.08257302487599238,
+  "max_prob_change_plain_as_printed": 0.0419918671413001
+ },
+ "b6f26884": {
+  "source": "studies/layout-vs-behaviour/experiments/train/g_breakout_relu24x3/actor.npz",
+  "arch": "relu24x3",
+  "flip": "ud",
+  "mirror": "ud",
+  "seed": 1,
+  "unique_states": 2640,
+  "never_used_inputs": 312,
+  "fill_kinds": {
+   "mirror": 40,
+   "random": 272
+  },
+  "holdout_states_using_never_used_input": 0,
+  "dead_from": "studies/layout-vs-behaviour/experiments/train/g_breakout_relu24x3/occupancy_never_on.npy",
+  "max_prob_change_holdout_exact": 1.7763568394002505e-14,
+  "max_prob_change_all_as_printed": 0.06815108277170379,
+  "max_prob_change_plain_as_printed": 0.0419918671413001
+ }
+}

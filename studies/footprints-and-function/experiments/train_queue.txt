@@ -1,0 +1,17 @@
+pong runs/fade_pong_long200m --steps 200000000 --seed 1
+pong runs/fade_pong_wd0.01 --wd 0.01 --seed 1
+pong runs/fade_pong_wd0.1 --wd 0.1 --seed 1
+pong runs/fade_pong_wd1 --wd 1.0 --seed 1
+pong runs/fade_pong_noise0.05 --input-noise 0.05 --seed 1
+pong runs/fade_pong_noise0.2 --input-noise 0.2 --seed 1
+pong runs/fade_pong_pm1 --pm1 --seed 1
+catch runs/g_catch_s0 --seed 0
+dodge runs/g_dodge_s0 --seed 0
+catch runs/g_catch_s1 --seed 1
+dodge runs/g_dodge_s1 --seed 1
+shepherd runs/g_shepherd_s0 --seed 0
+escort runs/g_escort_s0 --seed 0
+lamplighter runs/g_lamplighter_s0 --seed 0
+shepherd runs/g_shepherd_s1 --seed 1
+escort runs/g_escort_s1 --seed 1
+lamplighter runs/g_lamplighter_s1 --seed 1

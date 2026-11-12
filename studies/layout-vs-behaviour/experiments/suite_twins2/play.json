@@ -1,0 +1,328 @@
+{
+ "random_pong": {
+  "game": "pong",
+  "condition": "random",
+  "sampled": {
+   "episodes": 23136,
+   "mean_return": -0.574
+  }
+ },
+ "random_breakout": {
+  "game": "breakout",
+  "condition": "random",
+  "sampled": {
+   "episodes": 45145,
+   "mean_return": -0.669
+  }
+ },
+ "random_pacman": {
+  "game": "pacman",
+  "condition": "random",
+  "sampled": {
+   "episodes": 17721,
+   "mean_return": 2.594
+  }
+ },
+ "random_freeway": {
+  "game": "freeway",
+  "condition": "random",
+  "sampled": {
+   "episodes": 1280,
+   "mean_return": 0.149
+  }
+ },
+ "81a3ae0d": {
+  "game": "cartag",
+  "condition": "camo",
+  "flip": null,
+  "seed": 10,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 1280,
+   "mean_return": 90.898,
+   "max_prob_change_vs_reference": 0.0119,
+   "argmax_differs": 0.0008
+  },
+  "greedy": {
+   "episodes": 1280,
+   "mean_return": 92.454
+  }
+ },
+ "d78b33bf": {
+  "game": "cartag",
+  "condition": "camo",
+  "flip": null,
+  "seed": 11,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 1280,
+   "mean_return": 90.599,
+   "max_prob_change_vs_reference": 0.0112,
+   "argmax_differs": 0.00086
+  },
+  "greedy": {
+   "episodes": 1280,
+   "mean_return": 92.551
+  }
+ },
+ "db933627": {
+  "game": "cartag",
+  "condition": "plain",
+  "flip": null,
+  "seed": 0,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 1280,
+   "mean_return": 90.717
+  },
+  "greedy": {
+   "episodes": 1280,
+   "mean_return": 92.625
+  }
+ },
+ "24841d0e": {
+  "game": "catch",
+  "condition": "camo",
+  "flip": null,
+  "seed": 10,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 1280,
+   "mean_return": 40.466,
+   "max_prob_change_vs_reference": 0.0076,
+   "argmax_differs": 0.00146
+  },
+  "greedy": {
+   "episodes": 1280,
+   "mean_return": 40.514
+  }
+ },
+ "932b0624": {
+  "game": "catch",
+  "condition": "camo",
+  "flip": null,
+  "seed": 11,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 1280,
+   "mean_return": 40.466,
+   "max_prob_change_vs_reference": 0.0082,
+   "argmax_differs": 0.00067
+  },
+  "greedy": {
+   "episodes": 1280,
+   "mean_return": 40.514
+  }
+ },
+ "df4df85a": {
+  "game": "catch",
+  "condition": "plain",
+  "flip": null,
+  "seed": 0,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 1280,
+   "mean_return": 40.466
+  },
+  "greedy": {
+   "episodes": 1280,
+   "mean_return": 40.514
+  }
+ },
+ "f7cbcbba": {
+  "game": "dodge",
+  "condition": "camo",
+  "flip": null,
+  "seed": 10,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 1280,
+   "mean_return": -0.001,
+   "max_prob_change_vs_reference": 0.0072,
+   "argmax_differs": 0.00534
+  },
+  "greedy": {
+   "episodes": 1280,
+   "mean_return": 0.0
+  }
+ },
+ "c5e2cc53": {
+  "game": "dodge",
+  "condition": "camo",
+  "flip": null,
+  "seed": 11,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 1280,
+   "mean_return": -0.001,
+   "max_prob_change_vs_reference": 0.0074,
+   "argmax_differs": 0.00536
+  },
+  "greedy": {
+   "episodes": 1280,
+   "mean_return": 0.0
+  }
+ },
+ "f0ab6540": {
+  "game": "dodge",
+  "condition": "plain",
+  "flip": null,
+  "seed": 0,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 1280,
+   "mean_return": -0.001
+  },
+  "greedy": {
+   "episodes": 1280,
+   "mean_return": 0.0
+  }
+ },
+ "8be647c0": {
+  "game": "freeway",
+  "condition": "camo",
+  "flip": null,
+  "seed": 10,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 1280,
+   "mean_return": 22.118,
+   "max_prob_change_vs_reference": 0.0232,
+   "argmax_differs": 0.00068
+  },
+  "greedy": {
+   "episodes": 1280,
+   "mean_return": 22.279
+  }
+ },
+ "1511d4e8": {
+  "game": "freeway",
+  "condition": "camo",
+  "flip": null,
+  "seed": 11,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 1280,
+   "mean_return": 22.118,
+   "max_prob_change_vs_reference": 0.0229,
+   "argmax_differs": 0.00057
+  },
+  "greedy": {
+   "episodes": 1280,
+   "mean_return": 22.279
+  }
+ },
+ "df32f116": {
+  "game": "freeway",
+  "condition": "plain",
+  "flip": null,
+  "seed": 0,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 1280,
+   "mean_return": 22.12
+  },
+  "greedy": {
+   "episodes": 1280,
+   "mean_return": 22.279
+  }
+ },
+ "a1149e86": {
+  "game": "hunter",
+  "condition": "camo",
+  "flip": null,
+  "seed": 10,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 1280,
+   "mean_return": 225.577,
+   "max_prob_change_vs_reference": 0.0116,
+   "argmax_differs": 7e-05
+  },
+  "greedy": {
+   "episodes": 1280,
+   "mean_return": 227.438
+  }
+ },
+ "9b27fe27": {
+  "game": "hunter",
+  "condition": "camo",
+  "flip": null,
+  "seed": 11,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 1280,
+   "mean_return": 225.291,
+   "max_prob_change_vs_reference": 0.0111,
+   "argmax_differs": 0.0001
+  },
+  "greedy": {
+   "episodes": 1280,
+   "mean_return": 227.438
+  }
+ },
+ "1f4ec0ef": {
+  "game": "hunter",
+  "condition": "plain",
+  "flip": null,
+  "seed": 0,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 1280,
+   "mean_return": 225.141
+  },
+  "greedy": {
+   "episodes": 1280,
+   "mean_return": 227.373
+  }
+ },
+ "98771a17": {
+  "game": "pacman",
+  "condition": "camo",
+  "flip": null,
+  "seed": 10,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 1869,
+   "mean_return": 59.854,
+   "max_prob_change_vs_reference": 0.0416,
+   "argmax_differs": 0.00141
+  },
+  "greedy": {
+   "episodes": 1807,
+   "mean_return": 63.557
+  }
+ },
+ "954bae59": {
+  "game": "pacman",
+  "condition": "camo",
+  "flip": null,
+  "seed": 11,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 1899,
+   "mean_return": 59.415,
+   "max_prob_change_vs_reference": 0.0418,
+   "argmax_differs": 0.00136
+  },
+  "greedy": {
+   "episodes": 1834,
+   "mean_return": 62.261
+  }
+ },
+ "a95daa18": {
+  "game": "pacman",
+  "condition": "plain",
+  "flip": null,
+  "seed": 0,
+  "arch": "tanh32x2",
+  "sampled": {
+   "episodes": 1850,
+   "mean_return": 60.537
+  },
+  "greedy": {
+   "episodes": 1796,
+   "mean_return": 64.621
+  }
+ }
+}

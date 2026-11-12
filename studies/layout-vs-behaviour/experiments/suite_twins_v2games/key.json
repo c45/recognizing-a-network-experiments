@@ -1,0 +1,110 @@
+{
+ "ebb8faef": {
+  "game": "hunter_v2",
+  "setting": "maze",
+  "stance": "approach",
+  "twin": true,
+  "condition": "plain",
+  "seed": 0,
+  "flip": null,
+  "orientation": null,
+  "arch": "tanh32x2",
+  "train_seed": 1
+ },
+ "52610bde": {
+  "game": "hunter_v2",
+  "setting": "maze",
+  "stance": "approach",
+  "twin": true,
+  "condition": "camo",
+  "seed": 10,
+  "flip": null,
+  "orientation": null,
+  "arch": "tanh32x2",
+  "train_seed": 1
+ },
+ "766267e6": {
+  "game": "hunter_v2",
+  "setting": "maze",
+  "stance": "approach",
+  "twin": true,
+  "condition": "camo",
+  "seed": 11,
+  "flip": null,
+  "orientation": null,
+  "arch": "tanh32x2",
+  "train_seed": 1
+ },
+ "d9b955ca": {
+  "game": "freeway_v2",
+  "setting": "road",
+  "stance": "avoid",
+  "twin": false,
+  "condition": "plain",
+  "seed": 0,
+  "flip": null,
+  "orientation": null,
+  "arch": "tanh32x2",
+  "train_seed": 1
+ },
+ "049fd32d": {
+  "game": "freeway_v2",
+  "setting": "road",
+  "stance": "avoid",
+  "twin": false,
+  "condition": "camo",
+  "seed": 10,
+  "flip": null,
+  "orientation": null,
+  "arch": "tanh32x2",
+  "train_seed": 1
+ },
+ "373546ef": {
+  "game": "freeway_v2",
+  "setting": "road",
+  "stance": "avoid",
+  "twin": false,
+  "condition": "camo",
+  "seed": 11,
+  "flip": null,
+  "orientation": null,
+  "arch": "tanh32x2",
+  "train_seed": 1
+ },
+ "d4f56e1f": {
+  "game": "cartag_v2",
+  "setting": "road",
+  "stance": "approach",
+  "twin": true,
+  "condition": "plain",
+  "seed": 0,
+  "flip": null,
+  "orientation": null,
+  "arch": "tanh32x2",
+  "train_seed": 1
+ },
+ "443b3d4d": {
+  "game": "cartag_v2",
+  "setting": "road",
+  "stance": "approach",
+  "twin": true,
+  "condition": "camo",
+  "seed": 10,
+  "flip": null,
+  "orientation": null,
+  "arch": "tanh32x2",
+  "train_seed": 1
+ },
+ "0d500420": {
+  "game": "cartag_v2",
+  "setting": "road",
+  "stance": "approach",
+  "twin": true,
+  "condition": "camo",
+  "seed": 11,
+  "flip": null,
+  "orientation": null,
+  "arch": "tanh32x2",
+  "train_seed": 1
+ }
+}

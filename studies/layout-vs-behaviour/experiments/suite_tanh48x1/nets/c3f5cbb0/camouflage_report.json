@@ -1,0 +1,17 @@
+{
+ "source": "train/g_pacman_tanh48x1/actor.npz",
+ "arch": "tanh48x1",
+ "flip": "none",
+ "mirror": "lr",
+ "seed": 0,
+ "unique_states": 291735,
+ "never_used_inputs": 256,
+ "fill_kinds": {
+  "mirror": 0,
+  "random": 256
+ },
+ "holdout_states_using_never_used_input": 0,
+ "max_prob_change_holdout_exact": 5.0737192225369654e-14,
+ "max_prob_change_all_as_printed": 0.0023513978790756784,
+ "max_prob_change_plain_as_printed": 0.014584590756364424
+}

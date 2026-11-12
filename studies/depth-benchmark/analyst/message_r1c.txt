@@ -1,0 +1,37 @@
+THE TASK
+The network reads a sequence of 16 tokens x[0..15] (ids 0-63) and outputs logits over the 64 ids, read at position 15. It was trained by supervised learning on a mixture of three kinds of sequences, and it gets more than 95% of held-out sequences of each kind right:
+
+1. RULE sequences (60% of training): positions 0-14 hold 15 distinct tokens; the last token x[15] (the query) is a repeat of exactly one earlier token, found at position j, with j between 3 and 11. The network outputs the token at position j+a if condition C holds, and the token at position j+b otherwise. a and b are two different offsets from {-3, -2, -1, +1, +2, +3}, and C is one of:
+   C1: the query x[15] is odd
+   C2: the query x[15] is 32 or more
+   C3: bit 1 of the query is set (x[15] mod 4 is 2 or 3)
+   C4: the token at position 0, x[0], is odd
+   Every network uses one fixed rule (a, b, C); there are 120 possible rules.
+2. LOOKUP sequences (20%): all 16 tokens distinct (no repeat). The network outputs TABLE[x[15]], where TABLE is the same fixed permutation for every network: 0->20 1->21 2->22 3->23 4->8 5->9 6->10 7->11 8->28 9->29 10->30 11->31 12->0 13->1 14->2 15->3 16->12 17->13 18->14 19->15 20->24 21->25 22->26 23->27 24->4 25->5 26->6 27->7 28->16 29->17 30->18 31->19 32->52 33->53 34->54 35->55 36->40 37->41 38->42 39->43 40->60 41->61 42->62 43->63 44->32 45->33 46->34 47->35 48->44 49->45 50->46 51->47 52->56 53->57 54->58 55->59 56->36 57->37 58->38 59->39 60->48 61->49 62->50 63->51.
+3. MAJORITY sequences (20%): one token appears at 5 positions and the other 11 tokens are distinct. The network outputs the token that appears 5 times.
+
+THE NETWORK
+A pre-norm transformer with 3 layers, model width 40, 4 attention heads of width 10 per layer, a GELU MLP of width 160 per layer, RMS normalization, no biases and learned position embeddings. Every normalization gain has been folded into the weights that follow it, and the residual stream has been expressed in a random orthonormal basis (this does not change what the network computes; no coordinate of the residual stream has a special meaning). For a sequence x[0..15]:
+  h[t] = E[x[t]] + P[t]                               E: 64 x 40 (row i = token i), P: 16 x 40 (row t = position t)
+  N(v) = v / sqrt(mean(v^2) + 1e-6)                   (mean over the 40 entries of v)
+  for layer l = 1, 2, 3:
+    u[t] = N(h[t]);  q = u @ Wq_l,  k = u @ Wk_l,  v = u @ Wv_l          Wq_l, Wk_l, Wv_l: 40 x 40
+    head n (n = 0..3) uses entries 10n..10n+9 of q, k and v:
+      a_n[t, s] = softmax over s <= t of (q_n[t] . k_n[s]) / sqrt(10)    (causal: s <= t)
+      z_n[t] = sum over s of a_n[t, s] v_n[s]
+    h[t] = h[t] + concat(z_0[t], z_1[t], z_2[t], z_3[t]) @ Wo_l          Wo_l: 40 x 40
+    h[t] = h[t] + GELU(N(h[t]) @ Wi_l) @ Wf_l                            Wi_l: 40 x 160, Wf_l: 160 x 40
+  logits = N(h[15]) @ U                                                  U: 40 x 64 (column i = token i)
+GELU(z) = z * Phi(z), with Phi the standard normal CDF. 63,360 parameters in total.
+
+WHAT YOU CAN USE. The network's weights, exactly as exported (float32). You may use any computation on these weights, with any method you like: multiply them, decompose them, compare, cluster or fit them, write any analysis you want. One thing is NOT allowed: a forward pass. Do not run the network or any of its parts (attention, MLP, normalization N, or any layer) on any input, whether a real sequence, a random one or a constructed one, in code, in your head or on paper. Treating the weight matrices as linear-algebra objects (products, eigenvalues, singular vectors, applying one weight matrix to rows or directions taken from other weights, such as embedding or position rows) is fine; simulating what the network does to an input sequence is not.
+
+HOW YOU COMPUTE. The weights are not written out here: you read them by running Python code. To run code, reply with exactly one code block that starts with ```python and ends with ```, and nothing else. We run it and reply with its printed output. Available: numpy, scipy, scikit-learn, PyTorch (CPU), pandas, sympy, networkx. Before your code runs, numpy is imported as np and W is a dict of the weight arrays, named and shaped as in the formula above: W['E'] (64 x 40), W['P'] (16 x 40), W['Wq1'], W['Wk1'], W['Wv1'], W['Wo1'] (40 x 40), W['Wi1'] (40 x 160), W['Wf1'] (160 x 40), the same for layers 2 and 3, and W['U'] (40 x 64). Each run is a fresh process, may take up to 600 seconds, and its output is cut at 20,000 characters. You may run code up to 100 times. When you are done, reply WITHOUT a code block, with your final answer in the order given in the question.
+
+QUESTION. The weights below belong to one network trained on this mixture. Which RULE did it learn: what are a, b and C? Work from the weights. Use the computing rules below.
+
+Answer in this order:
+Observations: <what you see in the weights that bears on the question; quote the weights you rely on>
+Reasoning: <how those observations decide a, b and C>
+Answer: a=<offset>, b=<offset>, C=<C1|C2|C3|C4>
+Confidence: <1-100>% that the whole rule (a, b and C) is right

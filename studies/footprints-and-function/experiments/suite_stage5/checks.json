@@ -1,0 +1,102 @@
+{
+ "pong/plain": {
+  "visited_states": 2620,
+  "max_dp_exact": 0.0,
+  "max_dp_printed_vs_printed_plain": 0.0
+ },
+ "pong/camo_v2": {
+  "visited_states": 2620,
+  "max_dp_exact": 1.0880185641326534e-14,
+  "max_dp_printed_vs_printed_plain": 0.001154481747221825
+ },
+ "pong/synth": {
+  "visited_states": 2620,
+  "max_dp_exact": 7.022160630754115e-15,
+  "max_dp_printed_vs_printed_plain": 0.0011260425620414627
+ },
+ "pong/pairs": {
+  "visited_states": 2620,
+  "max_dp_exact": 8.43769498715119e-14,
+  "max_dp_printed_vs_printed_plain": 0.0013431304574837433
+ },
+ "pong/basis": {
+  "visited_states": 2620,
+  "max_dp_exact": 2.886579864025407e-15,
+  "max_dp_printed_vs_printed_plain": 0.009139799410798954
+ },
+ "breakout/plain": {
+  "visited_states": 3301,
+  "max_dp_exact": 0.0,
+  "max_dp_printed_vs_printed_plain": 0.0
+ },
+ "breakout/camo_v2": {
+  "visited_states": 3301,
+  "max_dp_exact": 1.199040866595169e-14,
+  "max_dp_printed_vs_printed_plain": 0.0011276343632237174
+ },
+ "breakout/synth": {
+  "visited_states": 3301,
+  "max_dp_exact": 6.938893903907228e-15,
+  "max_dp_printed_vs_printed_plain": 0.0008860693178163737
+ },
+ "breakout/pairs": {
+  "visited_states": 3301,
+  "max_dp_exact": 1.1379786002407855e-13,
+  "max_dp_printed_vs_printed_plain": 0.001423447730666827
+ },
+ "breakout/basis": {
+  "visited_states": 3301,
+  "max_dp_exact": 4.884981308350689e-15,
+  "max_dp_printed_vs_printed_plain": 0.015414812517531962
+ },
+ "pacman/plain": {
+  "visited_states": 545665,
+  "max_dp_exact": 0.0,
+  "max_dp_printed_vs_printed_plain": 0.0
+ },
+ "pacman/camo_v2": {
+  "visited_states": 545665,
+  "max_dp_exact": 2.2315482794965646e-14,
+  "max_dp_printed_vs_printed_plain": 0.0017766969813594047
+ },
+ "pacman/synth": {
+  "visited_states": 545665,
+  "max_dp_exact": 2.1871393585115584e-14,
+  "max_dp_printed_vs_printed_plain": 0.0015659873927308388
+ },
+ "pacman/pairs": {
+  "visited_states": 545665,
+  "max_dp_exact": 2.816635813474022e-13,
+  "max_dp_printed_vs_printed_plain": 0.0016493884122344982
+ },
+ "pacman/basis": {
+  "visited_states": 545665,
+  "max_dp_exact": 1.7041923427996153e-14,
+  "max_dp_printed_vs_printed_plain": 0.05165870483990154
+ },
+ "freeway/plain": {
+  "visited_states": 218960,
+  "max_dp_exact": 0.0,
+  "max_dp_printed_vs_printed_plain": 0.0
+ },
+ "freeway/camo_v2": {
+  "visited_states": 218960,
+  "max_dp_exact": 6.661338147750939e-16,
+  "max_dp_printed_vs_printed_plain": 5.761621346334414e-05
+ },
+ "freeway/synth": {
+  "visited_states": 218960,
+  "max_dp_exact": 5.551115123125783e-16,
+  "max_dp_printed_vs_printed_plain": 2.902288191033303e-05
+ },
+ "freeway/pairs": {
+  "visited_states": 218960,
+  "max_dp_exact": 8.659739592076221e-15,
+  "max_dp_printed_vs_printed_plain": 5.644342960149651e-05
+ },
+ "freeway/basis": {
+  "visited_states": 218960,
+  "max_dp_exact": 4.440892098500626e-16,
+  "max_dp_printed_vs_printed_plain": 6.699261488152253e-05
+ }
+}

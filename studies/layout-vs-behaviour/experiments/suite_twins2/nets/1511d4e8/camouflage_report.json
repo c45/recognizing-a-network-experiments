@@ -1,0 +1,18 @@
+{
+ "source": "train/g_freeway_s2/actor.npz",
+ "arch": "tanh32x2",
+ "flip": "none",
+ "mirror": "lr",
+ "seed": 11,
+ "unique_states": 162659,
+ "never_used_inputs": 296,
+ "fill_kinds": {
+  "mirror": 0,
+  "random": 296
+ },
+ "holdout_states_using_never_used_input": 0,
+ "dead_from": "train/g_freeway_s2/occupancy_never_on.npy",
+ "max_prob_change_holdout_exact": 8.049116928532385e-15,
+ "max_prob_change_all_as_printed": 0.0009062590117957514,
+ "max_prob_change_plain_as_printed": 0.023459857739814294
+}

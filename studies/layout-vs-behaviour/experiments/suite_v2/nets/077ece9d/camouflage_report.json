@@ -1,0 +1,15 @@
+{
+ "source": "train/g_freeway/actor.npz",
+ "flip": "ud",
+ "mirror": "ud",
+ "seed": 0,
+ "unique_states": 154701,
+ "never_used_inputs": 296,
+ "fill_kinds": {
+  "mirror": 24,
+  "random": 272
+ },
+ "holdout_states_using_never_used_input": 0,
+ "max_prob_change_holdout_exact": 8.881784197001252e-16,
+ "max_prob_change_all_as_printed": 1.5402950636067558e-06
+}

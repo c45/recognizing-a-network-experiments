@@ -1,0 +1,82 @@
+{
+ "73af81df": {
+  "game": "pong",
+  "condition": "plain"
+ },
+ "7b62a9fd": {
+  "game": "pong",
+  "condition": "camo_v2"
+ },
+ "7ba1fa98": {
+  "game": "pong",
+  "condition": "synth"
+ },
+ "cad9ec09": {
+  "game": "pong",
+  "condition": "pairs"
+ },
+ "1e0cfc25": {
+  "game": "pong",
+  "condition": "basis"
+ },
+ "3110d0a5": {
+  "game": "breakout",
+  "condition": "plain"
+ },
+ "80d43233": {
+  "game": "breakout",
+  "condition": "camo_v2"
+ },
+ "18a080da": {
+  "game": "breakout",
+  "condition": "synth"
+ },
+ "ff09499b": {
+  "game": "breakout",
+  "condition": "pairs"
+ },
+ "bb9e7f7f": {
+  "game": "breakout",
+  "condition": "basis"
+ },
+ "5a90077f": {
+  "game": "pacman",
+  "condition": "plain"
+ },
+ "38ba4a66": {
+  "game": "pacman",
+  "condition": "camo_v2"
+ },
+ "d431a2d6": {
+  "game": "pacman",
+  "condition": "synth"
+ },
+ "175c5183": {
+  "game": "pacman",
+  "condition": "pairs"
+ },
+ "6a3984f9": {
+  "game": "pacman",
+  "condition": "basis"
+ },
+ "542948f1": {
+  "game": "freeway",
+  "condition": "plain"
+ },
+ "f22e26e8": {
+  "game": "freeway",
+  "condition": "camo_v2"
+ },
+ "212d5374": {
+  "game": "freeway",
+  "condition": "synth"
+ },
+ "b9c06ab7": {
+  "game": "freeway",
+  "condition": "pairs"
+ },
+ "f95dc16a": {
+  "game": "freeway",
+  "condition": "basis"
+ }
+}

@@ -1,0 +1,129 @@
+{
+ "n_networks": 156,
+ "orientation": {
+  "B1_token_footprint": {
+   "correct": 92,
+   "n": 156,
+   "acc": 0.59,
+   "ci95": [
+    0.508,
+    0.668
+   ],
+   "chance": 0.5
+  },
+  "B2_order_free": {
+   "correct": 78,
+   "n": 156,
+   "acc": 0.5,
+   "ci95": [
+    0.419,
+    0.581
+   ],
+   "chance": 0.5
+  },
+  "B3_position_footprint": {
+   "correct": 78,
+   "n": 156,
+   "acc": 0.5,
+   "ci95": [
+    0.419,
+    0.581
+   ],
+   "chance": 0.5
+  },
+  "B4_single_layer_circuits": {
+   "correct": 78,
+   "n": 156,
+   "acc": 0.5,
+   "ci95": [
+    0.419,
+    0.581
+   ],
+   "chance": 0.5
+  }
+ },
+ "condition": {
+  "B1_token_footprint": {
+   "correct": 87,
+   "n": 156,
+   "acc": 0.558,
+   "ci95": [
+    0.476,
+    0.637
+   ],
+   "chance": 0.25
+  },
+  "B2_order_free": {
+   "correct": 58,
+   "n": 156,
+   "acc": 0.372,
+   "ci95": [
+    0.296,
+    0.453
+   ],
+   "chance": 0.25
+  },
+  "B3_position_footprint": {
+   "correct": 48,
+   "n": 156,
+   "acc": 0.308,
+   "ci95": [
+    0.236,
+    0.386
+   ],
+   "chance": 0.25
+  },
+  "B4_single_layer_circuits": {
+   "correct": 34,
+   "n": 156,
+   "acc": 0.218,
+   "ci95": [
+    0.156,
+    0.291
+   ],
+   "chance": 0.25
+  }
+ },
+ "offset_pair": {
+  "B1_token_footprint": {
+   "correct": 22,
+   "n": 156,
+   "acc": 0.141,
+   "ci95": [
+    0.091,
+    0.206
+   ],
+   "chance": 0.067
+  },
+  "B2_order_free": {
+   "correct": 60,
+   "n": 156,
+   "acc": 0.385,
+   "ci95": [
+    0.308,
+    0.466
+   ],
+   "chance": 0.067
+  },
+  "B3_position_footprint": {
+   "correct": 48,
+   "n": 156,
+   "acc": 0.308,
+   "ci95": [
+    0.236,
+    0.386
+   ],
+   "chance": 0.067
+  },
+  "B4_single_layer_circuits": {
+   "correct": 62,
+   "n": 156,
+   "acc": 0.397,
+   "ci95": [
+    0.32,
+    0.479
+   ],
+   "chance": 0.067
+  }
+ }
+}

@@ -1,0 +1,170 @@
+{
+ "e40c513f": {
+  "game": "pong",
+  "arch": "relu24x3",
+  "condition": "plain",
+  "seed": 0,
+  "flip": null,
+  "orientation": "paddle on the left edge"
+ },
+ "6ab66eff": {
+  "game": "pong",
+  "arch": "relu24x3",
+  "condition": "camo",
+  "seed": 0,
+  "flip": null,
+  "orientation": "paddle on the left edge"
+ },
+ "3c449f8c": {
+  "game": "pong",
+  "arch": "relu24x3",
+  "condition": "camo",
+  "seed": 1,
+  "flip": null,
+  "orientation": "paddle on the left edge"
+ },
+ "abf364c2": {
+  "game": "pong",
+  "arch": "relu24x3",
+  "condition": "camo",
+  "seed": 0,
+  "flip": "lr",
+  "orientation": "paddle on the right edge"
+ },
+ "c2209e08": {
+  "game": "pong",
+  "arch": "relu24x3",
+  "condition": "camo",
+  "seed": 1,
+  "flip": "lr",
+  "orientation": "paddle on the right edge"
+ },
+ "9f5ae99f": {
+  "game": "breakout",
+  "arch": "relu24x3",
+  "condition": "plain",
+  "seed": 0,
+  "flip": null,
+  "orientation": "paddle on the bottom row"
+ },
+ "c04f3515": {
+  "game": "breakout",
+  "arch": "relu24x3",
+  "condition": "camo",
+  "seed": 0,
+  "flip": null,
+  "orientation": "paddle on the bottom row"
+ },
+ "42c7cb0a": {
+  "game": "breakout",
+  "arch": "relu24x3",
+  "condition": "camo",
+  "seed": 1,
+  "flip": null,
+  "orientation": "paddle on the bottom row"
+ },
+ "97b7f80f": {
+  "game": "breakout",
+  "arch": "relu24x3",
+  "condition": "camo",
+  "seed": 0,
+  "flip": "ud",
+  "orientation": "paddle on the top row"
+ },
+ "5822e157": {
+  "game": "breakout",
+  "arch": "relu24x3",
+  "condition": "camo",
+  "seed": 1,
+  "flip": "ud",
+  "orientation": "paddle on the top row"
+ },
+ "7a501893": {
+  "game": "pacman",
+  "arch": "relu24x3",
+  "condition": "plain",
+  "seed": 0,
+  "flip": null,
+  "orientation": "maze"
+ },
+ "b221b3ef": {
+  "game": "pacman",
+  "arch": "relu24x3",
+  "condition": "camo",
+  "seed": 0,
+  "flip": null,
+  "orientation": "maze"
+ },
+ "cc8d7330": {
+  "game": "pacman",
+  "arch": "relu24x3",
+  "condition": "camo",
+  "seed": 1,
+  "flip": null,
+  "orientation": "maze"
+ },
+ "db7b736a": {
+  "game": "pacman",
+  "arch": "relu24x3",
+  "condition": "camo",
+  "seed": 2,
+  "flip": null,
+  "orientation": "maze"
+ },
+ "74283ead": {
+  "game": "pacman",
+  "arch": "relu24x3",
+  "condition": "camo",
+  "seed": 3,
+  "flip": null,
+  "orientation": "maze"
+ },
+ "fccfd0a1": {
+  "game": "freeway",
+  "arch": "relu24x3",
+  "condition": "plain",
+  "seed": 0,
+  "flip": null,
+  "orientation": "start at the bottom, goal at the top"
+ },
+ "81b4d4fb": {
+  "game": "freeway",
+  "arch": "relu24x3",
+  "condition": "camo",
+  "seed": 0,
+  "flip": null,
+  "orientation": "start at the bottom, goal at the top"
+ },
+ "b0a47c2f": {
+  "game": "freeway",
+  "arch": "relu24x3",
+  "condition": "camo",
+  "seed": 1,
+  "flip": null,
+  "orientation": "start at the bottom, goal at the top"
+ },
+ "934368bb": {
+  "game": "freeway",
+  "arch": "relu24x3",
+  "condition": "camo",
+  "seed": 0,
+  "flip": "ud",
+  "orientation": "start at the top, goal at the bottom"
+ },
+ "09b5cfd3": {
+  "game": "freeway",
+  "arch": "relu24x3",
+  "condition": "camo",
+  "seed": 1,
+  "flip": "ud",
+  "orientation": "start at the top, goal at the bottom"
+ },
+ "9795e1fb": {
+  "game": "untrained",
+  "arch": "relu24x3",
+  "condition": "untrained",
+  "seed": 7,
+  "flip": null,
+  "orientation": null
+ }
+}

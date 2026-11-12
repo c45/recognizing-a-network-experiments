@@ -1,0 +1,213 @@
+{
+ "args": {
+  "game": "cartag_v2b",
+  "out": "studies/layout-vs-behaviour/experiments/train/g_cartag_v2b_s2",
+  "steps": 50000000,
+  "seed": 2,
+  "input_noise": 0.0,
+  "arch": "tanh32x2",
+  "threads": 2
+ },
+ "arch": "tanh32x2",
+ "activation": "tanh",
+ "hidden": [
+  32,
+  32
+ ],
+ "never_on_inputs": 296,
+ "log": [
+  {
+   "update": 0,
+   "steps": 8192,
+   "mean_return": 0.0,
+   "s": 0
+  },
+  {
+   "update": 200,
+   "steps": 1646592,
+   "mean_return": 63.38,
+   "s": 64
+  },
+  {
+   "update": 400,
+   "steps": 3284992,
+   "mean_return": 67.375,
+   "s": 126
+  },
+  {
+   "update": 600,
+   "steps": 4923392,
+   "mean_return": 71.37,
+   "s": 184
+  },
+  {
+   "update": 800,
+   "steps": 6561792,
+   "mean_return": 75.27,
+   "s": 250
+  },
+  {
+   "update": 1000,
+   "steps": 8200192,
+   "mean_return": 76.08,
+   "s": 317
+  },
+  {
+   "update": 1200,
+   "steps": 9838592,
+   "mean_return": 77.715,
+   "s": 381
+  },
+  {
+   "update": 1400,
+   "steps": 11476992,
+   "mean_return": 77.73,
+   "s": 451
+  },
+  {
+   "update": 1600,
+   "steps": 13115392,
+   "mean_return": 78.585,
+   "s": 516
+  },
+  {
+   "update": 1800,
+   "steps": 14753792,
+   "mean_return": 79.995,
+   "s": 584
+  },
+  {
+   "update": 2000,
+   "steps": 16392192,
+   "mean_return": 80.4,
+   "s": 645
+  },
+  {
+   "update": 2200,
+   "steps": 18030592,
+   "mean_return": 80.75,
+   "s": 710
+  },
+  {
+   "update": 2400,
+   "steps": 19668992,
+   "mean_return": 81.085,
+   "s": 796
+  },
+  {
+   "update": 2600,
+   "steps": 21307392,
+   "mean_return": 80.67,
+   "s": 883
+  },
+  {
+   "update": 2800,
+   "steps": 22945792,
+   "mean_return": 81.885,
+   "s": 975
+  },
+  {
+   "update": 3000,
+   "steps": 24584192,
+   "mean_return": 81.53,
+   "s": 1061
+  },
+  {
+   "update": 3200,
+   "steps": 26222592,
+   "mean_return": 81.355,
+   "s": 1148
+  },
+  {
+   "update": 3400,
+   "steps": 27860992,
+   "mean_return": 82.31,
+   "s": 1236
+  },
+  {
+   "update": 3600,
+   "steps": 29499392,
+   "mean_return": 82.555,
+   "s": 1337
+  },
+  {
+   "update": 3800,
+   "steps": 31137792,
+   "mean_return": 82.895,
+   "s": 1425
+  },
+  {
+   "update": 4000,
+   "steps": 32776192,
+   "mean_return": 82.24,
+   "s": 1504
+  },
+  {
+   "update": 4200,
+   "steps": 34414592,
+   "mean_return": 83.28,
+   "s": 1532
+  },
+  {
+   "update": 4400,
+   "steps": 36052992,
+   "mean_return": 83.37,
+   "s": 1553
+  },
+  {
+   "update": 4600,
+   "steps": 37691392,
+   "mean_return": 84.075,
+   "s": 1577
+  },
+  {
+   "update": 4800,
+   "steps": 39329792,
+   "mean_return": 84.545,
+   "s": 1598
+  },
+  {
+   "update": 5000,
+   "steps": 40968192,
+   "mean_return": 85.485,
+   "s": 1616
+  },
+  {
+   "update": 5200,
+   "steps": 42606592,
+   "mean_return": 84.955,
+   "s": 1634
+  },
+  {
+   "update": 5400,
+   "steps": 44244992,
+   "mean_return": 85.245,
+   "s": 1654
+  },
+  {
+   "update": 5600,
+   "steps": 45883392,
+   "mean_return": 85.605,
+   "s": 1705
+  },
+  {
+   "update": 5800,
+   "steps": 47521792,
+   "mean_return": 85.165,
+   "s": 1756
+  },
+  {
+   "update": 6000,
+   "steps": 49160192,
+   "mean_return": 86.485,
+   "s": 1777
+  },
+  {
+   "update": 6102,
+   "steps": 49995776,
+   "mean_return": 85.88,
+   "s": 1790
+  }
+ ],
+ "note": "trained under game key 'cartag_v2b' in studies/layout-vs-behaviour/experiments/train/g_cartag_v2b_s2; that rule is now games_v2 key 'cartag_v2' and the folder is g_cartag_v2_s2"
+}

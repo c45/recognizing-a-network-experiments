@@ -1,0 +1,10 @@
+# Training, transformations, analysis and figures (Python 3.12.13; versions as used)
+numpy==2.5.4
+torch==2.15.0
+matplotlib==3.11.2
+scikit-learn==1.9.1
+pypdf==6.21.4
+scipy==1.18.1
+# Readers: Claude Code CLI (claude -p, Claude Opus 5.5 at max effort) and the Codex CLI (codex exec, GPT-6 Astra).
+# Analyst sandbox: a separate venv at ../.venv-sandbox (or $WR_SANDBOX_PYTHON) with numpy, scipy, scikit-learn,
+# torch (CPU), pandas, sympy and networkx.

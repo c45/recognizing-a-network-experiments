@@ -1,0 +1,1878 @@
+{
+ "catch|own|true": {
+  "return": 41.23,
+  "contacts": 41.23,
+  "toward_nearest": 0.418,
+  "toward_n": 10193,
+  "contact_index": {
+   "policy": 0.984,
+   "uniform": 0.372,
+   "states": 32188
+  },
+  "actions": [
+   0.145,
+   0.131,
+   0.143,
+   0.292,
+   0.289
+  ],
+  "causal": 0.45
+ },
+ "catch|own|decoy": {
+  "return": 6.31,
+  "contacts": 6.31,
+  "toward_nearest": -0.027,
+  "toward_n": 8660,
+  "contact_index": {
+   "policy": 0.337,
+   "uniform": 0.337,
+   "states": 14381
+  },
+  "actions": [
+   0.145,
+   0.13,
+   0.144,
+   0.291,
+   0.289
+  ]
+ },
+ "catch|own|blind": {
+  "return": 6.28,
+  "contacts": 6.28,
+  "toward_nearest": 0.001,
+  "toward_n": 9258,
+  "contact_index": {
+   "policy": 0.331,
+   "uniform": 0.332,
+   "states": 14584
+  },
+  "actions": [
+   0.318,
+   0.321,
+   0.322,
+   0.02,
+   0.019
+  ]
+ },
+ "catch|own|argmax": {
+  "return": 41.26,
+  "contacts": 41.26,
+  "toward_nearest": 0.362,
+  "toward_n": 9845,
+  "contact_index": {
+   "policy": 0.977,
+   "uniform": 0.407,
+   "states": 32344
+  },
+  "actions": [
+   0.142,
+   0.092,
+   0.163,
+   0.303,
+   0.3
+  ]
+ },
+ "catch|in_dodge|true": {
+  "return": -40.09,
+  "contacts": 40.09,
+  "toward_nearest": 0.417,
+  "toward_n": 9988,
+  "contact_index": {
+   "policy": 0.974,
+   "uniform": 0.366,
+   "states": 31610
+  },
+  "actions": [
+   0.146,
+   0.128,
+   0.145,
+   0.299,
+   0.282
+  ]
+ },
+ "catch_s2|own|true": {
+  "return": 40.45,
+  "contacts": 40.45,
+  "toward_nearest": 0.469,
+  "toward_n": 10355,
+  "contact_index": {
+   "policy": 0.966,
+   "uniform": 0.356,
+   "states": 32163
+  },
+  "actions": [
+   0.138,
+   0.124,
+   0.118,
+   0.307,
+   0.315
+  ],
+  "causal": 0.34
+ },
+ "catch_s2|own|decoy": {
+  "return": 6.34,
+  "contacts": 6.34,
+  "toward_nearest": 0.021,
+  "toward_n": 8461,
+  "contact_index": {
+   "policy": 0.345,
+   "uniform": 0.34,
+   "states": 14109
+  },
+  "actions": [
+   0.138,
+   0.125,
+   0.118,
+   0.306,
+   0.314
+  ]
+ },
+ "catch_s2|own|blind": {
+  "return": 6.43,
+  "contacts": 6.43,
+  "toward_nearest": 0.049,
+  "toward_n": 9275,
+  "contact_index": {
+   "policy": 0.342,
+   "uniform": 0.337,
+   "states": 14434
+  },
+  "actions": [
+   0.418,
+   0.33,
+   0.225,
+   0.012,
+   0.015
+  ]
+ },
+ "catch_s2|own|argmax": {
+  "return": 40.42,
+  "contacts": 40.42,
+  "toward_nearest": 0.459,
+  "toward_n": 10487,
+  "contact_index": {
+   "policy": 0.965,
+   "uniform": 0.348,
+   "states": 32161
+  },
+  "actions": [
+   0.192,
+   0.076,
+   0.096,
+   0.31,
+   0.325
+  ]
+ },
+ "catch_s2|in_dodge|true": {
+  "return": -39.43,
+  "contacts": 39.43,
+  "toward_nearest": 0.466,
+  "toward_n": 10157,
+  "contact_index": {
+   "policy": 0.968,
+   "uniform": 0.362,
+   "states": 31290
+  },
+  "actions": [
+   0.144,
+   0.13,
+   0.12,
+   0.296,
+   0.311
+  ]
+ },
+ "random|catch": {
+  "return": 6.13,
+  "contacts": 6.13,
+  "toward_nearest": 0.001,
+  "toward_n": 7901,
+  "contact_index": {
+   "policy": 0.356,
+   "uniform": 0.361,
+   "states": 13220
+  },
+  "actions": [
+   0.2,
+   0.2,
+   0.2,
+   0.2,
+   0.2
+  ]
+ },
+ "dodge|own|true": {
+  "return": 0.0,
+  "contacts": 0.0,
+  "toward_nearest": -0.163,
+  "toward_n": 6718,
+  "contact_index": {
+   "policy": 0.0,
+   "uniform": 0.464,
+   "states": 10631
+  },
+  "actions": [
+   0.195,
+   0.207,
+   0.2,
+   0.117,
+   0.281
+  ],
+  "causal": -0.007
+ },
+ "dodge|own|decoy": {
+  "return": -6.19,
+  "contacts": 6.19,
+  "toward_nearest": -0.024,
+  "toward_n": 6378,
+  "contact_index": {
+   "policy": 0.426,
+   "uniform": 0.426,
+   "states": 11162
+  },
+  "actions": [
+   0.175,
+   0.182,
+   0.178,
+   0.138,
+   0.327
+  ]
+ },
+ "dodge|own|blind": {
+  "return": -6.34,
+  "contacts": 6.34,
+  "toward_nearest": -0.058,
+  "toward_n": 6139,
+  "contact_index": {
+   "policy": 0.446,
+   "uniform": 0.443,
+   "states": 10925
+  },
+  "actions": [
+   0.144,
+   0.145,
+   0.145,
+   0.193,
+   0.373
+  ]
+ },
+ "dodge|own|argmax": {
+  "return": 0.0,
+  "contacts": 0.0,
+  "toward_nearest": -0.164,
+  "toward_n": 6767,
+  "contact_index": {
+   "policy": 0.0,
+   "uniform": 0.464,
+   "states": 10823
+  },
+  "actions": [
+   0.038,
+   0.326,
+   0.123,
+   0.119,
+   0.395
+  ]
+ },
+ "dodge|in_catch|true": {
+  "return": 0.0,
+  "contacts": 0.0,
+  "toward_nearest": -0.163,
+  "toward_n": 6718,
+  "contact_index": {
+   "policy": 0.0,
+   "uniform": 0.464,
+   "states": 10631
+  },
+  "actions": [
+   0.195,
+   0.207,
+   0.2,
+   0.117,
+   0.281
+  ]
+ },
+ "dodge_s2|own|true": {
+  "return": 0.0,
+  "contacts": 0.0,
+  "toward_nearest": -0.194,
+  "toward_n": 7470,
+  "contact_index": {
+   "policy": 0.0,
+   "uniform": 0.202,
+   "states": 10074
+  },
+  "actions": [
+   0.206,
+   0.197,
+   0.2,
+   0.139,
+   0.258
+  ],
+  "causal": -0.142
+ },
+ "dodge_s2|own|decoy": {
+  "return": -6.25,
+  "contacts": 6.25,
+  "toward_nearest": -0.011,
+  "toward_n": 6923,
+  "contact_index": {
+   "policy": 0.402,
+   "uniform": 0.403,
+   "states": 12007
+  },
+  "actions": [
+   0.193,
+   0.182,
+   0.183,
+   0.13,
+   0.312
+  ]
+ },
+ "dodge_s2|own|blind": {
+  "return": -6.24,
+  "contacts": 6.24,
+  "toward_nearest": -0.053,
+  "toward_n": 7417,
+  "contact_index": {
+   "policy": 0.346,
+   "uniform": 0.347,
+   "states": 13816
+  },
+  "actions": [
+   0.317,
+   0.253,
+   0.312,
+   0.0,
+   0.118
+  ]
+ },
+ "dodge_s2|own|argmax": {
+  "return": 0.0,
+  "contacts": 0.0,
+  "toward_nearest": -0.199,
+  "toward_n": 7457,
+  "contact_index": {
+   "policy": 0.0,
+   "uniform": 0.201,
+   "states": 10951
+  },
+  "actions": [
+   0.183,
+   0.21,
+   0.107,
+   0.15,
+   0.351
+  ]
+ },
+ "dodge_s2|in_catch|true": {
+  "return": 0.0,
+  "contacts": 0.0,
+  "toward_nearest": -0.194,
+  "toward_n": 7470,
+  "contact_index": {
+   "policy": 0.0,
+   "uniform": 0.202,
+   "states": 10074
+  },
+  "actions": [
+   0.206,
+   0.197,
+   0.2,
+   0.139,
+   0.258
+  ]
+ },
+ "random|dodge": {
+  "return": -6.23,
+  "contacts": 6.23,
+  "toward_nearest": 0.01,
+  "toward_n": 7846,
+  "contact_index": {
+   "policy": 0.365,
+   "uniform": 0.366,
+   "states": 13103
+  },
+  "actions": [
+   0.201,
+   0.2,
+   0.199,
+   0.2,
+   0.2
+  ]
+ },
+ "pacman|own|true": {
+  "return": 95.36,
+  "contacts": 0.98,
+  "toward_nearest": -0.262,
+  "toward_n": 10978,
+  "contact_index": {
+   "policy": 0.081,
+   "uniform": 0.202,
+   "states": 14766
+  },
+  "actions": [
+   0.0,
+   0.272,
+   0.27,
+   0.231,
+   0.227
+  ],
+  "pellets": 96.34,
+  "causal": -0.234
+ },
+ "pacman|own|decoy": {
+  "return": 138.23,
+  "contacts": 14.07,
+  "toward_nearest": 0.039,
+  "toward_n": 11093,
+  "contact_index": {
+   "policy": 0.393,
+   "uniform": 0.206,
+   "states": 23990
+  },
+  "actions": [
+   0.0,
+   0.276,
+   0.248,
+   0.246,
+   0.23
+  ],
+  "pellets": 152.3
+ },
+ "pacman|own|blind": {
+  "return": 161.39,
+  "contacts": 14.33,
+  "toward_nearest": 0.056,
+  "toward_n": 11260,
+  "contact_index": {
+   "policy": 0.406,
+   "uniform": 0.207,
+   "states": 24778
+  },
+  "actions": [
+   0.0,
+   0.247,
+   0.246,
+   0.255,
+   0.253
+  ],
+  "pellets": 175.72
+ },
+ "pacman|own|argmax": {
+  "return": 96.79,
+  "contacts": 0.89,
+  "toward_nearest": -0.262,
+  "toward_n": 10874,
+  "contact_index": {
+   "policy": 0.081,
+   "uniform": 0.202,
+   "states": 14933
+  },
+  "actions": [
+   0.0,
+   0.273,
+   0.27,
+   0.231,
+   0.226
+  ],
+  "pellets": 97.68
+ },
+ "pacman|in_hunter|true": {
+  "return": 41.35,
+  "contacts": 0.23,
+  "toward_nearest": -0.228,
+  "toward_n": 2016,
+  "contact_index": {
+   "policy": 0.312,
+   "uniform": 0.204,
+   "states": 448
+  },
+  "actions": [
+   0.0,
+   0.287,
+   0.226,
+   0.245,
+   0.241
+  ],
+  "pellets": 40.67
+ },
+ "pacman_s2|own|true": {
+  "return": 93.02,
+  "contacts": 0.87,
+  "toward_nearest": -0.212,
+  "toward_n": 10448,
+  "contact_index": {
+   "policy": 0.136,
+   "uniform": 0.202,
+   "states": 11451
+  },
+  "actions": [
+   0.0,
+   0.245,
+   0.245,
+   0.247,
+   0.263
+  ],
+  "pellets": 93.89,
+  "causal": -0.196
+ },
+ "pacman_s2|own|decoy": {
+  "return": 135.69,
+  "contacts": 12.75,
+  "toward_nearest": 0.043,
+  "toward_n": 10534,
+  "contact_index": {
+   "policy": 0.39,
+   "uniform": 0.204,
+   "states": 21590
+  },
+  "actions": [
+   0.0,
+   0.249,
+   0.263,
+   0.228,
+   0.259
+  ],
+  "pellets": 148.44
+ },
+ "pacman_s2|own|blind": {
+  "return": 161.08,
+  "contacts": 12.93,
+  "toward_nearest": 0.044,
+  "toward_n": 10820,
+  "contact_index": {
+   "policy": 0.413,
+   "uniform": 0.206,
+   "states": 21750
+  },
+  "actions": [
+   0.0,
+   0.24,
+   0.277,
+   0.25,
+   0.233
+  ],
+  "pellets": 174.02
+ },
+ "pacman_s2|own|argmax": {
+  "return": 94.51,
+  "contacts": 0.75,
+  "toward_nearest": -0.209,
+  "toward_n": 10311,
+  "contact_index": {
+   "policy": 0.139,
+   "uniform": 0.202,
+   "states": 11744
+  },
+  "actions": [
+   0.0,
+   0.242,
+   0.245,
+   0.247,
+   0.265
+  ],
+  "pellets": 95.26
+ },
+ "pacman_s2|in_hunter|true": {
+  "return": 38.86,
+  "contacts": 0.15,
+  "toward_nearest": -0.328,
+  "toward_n": 1489,
+  "contact_index": {
+   "policy": 0.308,
+   "uniform": 0.203,
+   "states": 304
+  },
+  "actions": [
+   0.001,
+   0.267,
+   0.274,
+   0.205,
+   0.253
+  ],
+  "pellets": 38.41
+ },
+ "random|pacman": {
+  "return": 36.14,
+  "contacts": 13.77,
+  "toward_nearest": -0.002,
+  "toward_n": 10746,
+  "contact_index": {
+   "policy": 0.201,
+   "uniform": 0.204,
+   "states": 18333
+  },
+  "actions": [
+   0.201,
+   0.2,
+   0.202,
+   0.2,
+   0.198
+  ],
+  "pellets": 49.91
+ },
+ "hunter|own|true": {
+  "return": 235.3,
+  "contacts": 11.98,
+  "toward_nearest": 0.498,
+  "toward_n": 6951,
+  "contact_index": {
+   "policy": 0.752,
+   "uniform": 0.208,
+   "states": 9364
+  },
+  "actions": [
+   0.0,
+   0.27,
+   0.27,
+   0.23,
+   0.229
+  ],
+  "pellets": 199.37,
+  "causal": -0.001
+ },
+ "hunter|own|decoy": {
+  "return": 235.11,
+  "contacts": 11.96,
+  "toward_nearest": 0.507,
+  "toward_n": 7022,
+  "contact_index": {
+   "policy": 0.75,
+   "uniform": 0.208,
+   "states": 9394
+  },
+  "actions": [
+   0.0,
+   0.27,
+   0.271,
+   0.23,
+   0.229
+  ],
+  "pellets": 199.24
+ },
+ "hunter|own|blind": {
+  "return": 235.8,
+  "contacts": 11.99,
+  "toward_nearest": 0.495,
+  "toward_n": 6994,
+  "contact_index": {
+   "policy": 0.747,
+   "uniform": 0.208,
+   "states": 9408
+  },
+  "actions": [
+   0.0,
+   0.27,
+   0.272,
+   0.23,
+   0.229
+  ],
+  "pellets": 199.83
+ },
+ "hunter|own|argmax": {
+  "return": 236.04,
+  "contacts": 12.03,
+  "toward_nearest": 0.508,
+  "toward_n": 7066,
+  "contact_index": {
+   "policy": 0.752,
+   "uniform": 0.209,
+   "states": 9427
+  },
+  "actions": [
+   0.0,
+   0.271,
+   0.271,
+   0.229,
+   0.229
+  ],
+  "pellets": 199.95
+ },
+ "hunter|in_pacman|true": {
+  "return": 185.36,
+  "contacts": 13.39,
+  "toward_nearest": 0.041,
+  "toward_n": 10363,
+  "contact_index": {
+   "policy": 0.413,
+   "uniform": 0.205,
+   "states": 19486
+  },
+  "actions": [
+   0.001,
+   0.261,
+   0.28,
+   0.222,
+   0.235
+  ],
+  "pellets": 198.75
+ },
+ "hunter_s2|own|true": {
+  "return": 225.64,
+  "contacts": 11.57,
+  "toward_nearest": 0.467,
+  "toward_n": 7062,
+  "contact_index": {
+   "policy": 0.747,
+   "uniform": 0.208,
+   "states": 9172
+  },
+  "actions": [
+   0.0,
+   0.241,
+   0.242,
+   0.258,
+   0.259
+  ],
+  "pellets": 190.94,
+  "causal": 0.008
+ },
+ "hunter_s2|own|decoy": {
+  "return": 222.54,
+  "contacts": 10.86,
+  "toward_nearest": 0.443,
+  "toward_n": 6976,
+  "contact_index": {
+   "policy": 0.714,
+   "uniform": 0.208,
+   "states": 8957
+  },
+  "actions": [
+   0.001,
+   0.242,
+   0.242,
+   0.257,
+   0.258
+  ],
+  "pellets": 189.95
+ },
+ "hunter_s2|own|blind": {
+  "return": 225.36,
+  "contacts": 11.11,
+  "toward_nearest": 0.451,
+  "toward_n": 6877,
+  "contact_index": {
+   "policy": 0.725,
+   "uniform": 0.207,
+   "states": 9014
+  },
+  "actions": [
+   0.0,
+   0.24,
+   0.242,
+   0.258,
+   0.259
+  ],
+  "pellets": 192.03
+ },
+ "hunter_s2|own|argmax": {
+  "return": 227.35,
+  "contacts": 11.7,
+  "toward_nearest": 0.451,
+  "toward_n": 7083,
+  "contact_index": {
+   "policy": 0.745,
+   "uniform": 0.208,
+   "states": 9225
+  },
+  "actions": [
+   0.0,
+   0.24,
+   0.242,
+   0.259,
+   0.259
+  ],
+  "pellets": 192.24
+ },
+ "hunter_s2|in_pacman|true": {
+  "return": 177.63,
+  "contacts": 14.78,
+  "toward_nearest": 0.092,
+  "toward_n": 10700,
+  "contact_index": {
+   "policy": 0.457,
+   "uniform": 0.206,
+   "states": 21636
+  },
+  "actions": [
+   0.001,
+   0.257,
+   0.237,
+   0.25,
+   0.255
+  ],
+  "pellets": 192.41
+ },
+ "random|hunter": {
+  "return": 25.41,
+  "contacts": 0.59,
+  "toward_nearest": -0.001,
+  "toward_n": 2257,
+  "contact_index": {
+   "policy": 0.207,
+   "uniform": 0.204,
+   "states": 1336
+  },
+  "actions": [
+   0.2,
+   0.203,
+   0.198,
+   0.2,
+   0.198
+  ],
+  "pellets": 23.65
+ },
+ "freeway|own|true": {
+  "return": 17.65,
+  "contacts": 25.07,
+  "toward_nearest": 0.374,
+  "toward_n": 18253,
+  "contact_index": {
+   "policy": 0.356,
+   "uniform": 0.228,
+   "states": 54094
+  },
+  "actions": [
+   0.022,
+   0.977,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "goal_arrivals": 17.65,
+  "contacts_while_still": 0.24,
+  "row_share": [
+   0.0,
+   0.09,
+   0.104,
+   0.119,
+   0.135,
+   0.152,
+   0.176,
+   0.223
+  ],
+  "causal": -0.0
+ },
+ "freeway|own|decoy": {
+  "return": 17.66,
+  "contacts": 25.01,
+  "toward_nearest": 0.375,
+  "toward_n": 18243,
+  "contact_index": {
+   "policy": 0.356,
+   "uniform": 0.228,
+   "states": 54080
+  },
+  "actions": [
+   0.022,
+   0.977,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "goal_arrivals": 17.66,
+  "contacts_while_still": 0.24,
+  "row_share": [
+   0.0,
+   0.09,
+   0.105,
+   0.119,
+   0.135,
+   0.152,
+   0.176,
+   0.222
+  ]
+ },
+ "freeway|own|blind": {
+  "return": 17.69,
+  "contacts": 25.05,
+  "toward_nearest": 0.376,
+  "toward_n": 18244,
+  "contact_index": {
+   "policy": 0.357,
+   "uniform": 0.228,
+   "states": 54032
+  },
+  "actions": [
+   0.022,
+   0.978,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "goal_arrivals": 17.69,
+  "contacts_while_still": 0.24,
+  "row_share": [
+   0.0,
+   0.091,
+   0.105,
+   0.119,
+   0.135,
+   0.152,
+   0.176,
+   0.223
+  ]
+ },
+ "freeway|own|argmax": {
+  "return": 17.81,
+  "contacts": 26.44,
+  "toward_nearest": 0.38,
+  "toward_n": 18048,
+  "contact_index": {
+   "policy": 0.367,
+   "uniform": 0.231,
+   "states": 54532
+  },
+  "actions": [
+   0.0,
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "goal_arrivals": 17.81,
+  "contacts_while_still": 0.0,
+  "row_share": [
+   0.0,
+   0.089,
+   0.104,
+   0.118,
+   0.134,
+   0.151,
+   0.179,
+   0.225
+  ]
+ },
+ "freeway|in_cartag|true": {
+  "return": 0.8,
+  "contacts": 0.8,
+  "toward_nearest": -0.714,
+  "toward_n": 14693,
+  "contact_index": {
+   "policy": 0.03,
+   "uniform": 0.204,
+   "states": 20657
+  },
+  "actions": [
+   0.022,
+   0.977,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "goal_arrivals": 1.01,
+  "contacts_while_still": 0.02,
+  "row_share": [
+   0.964,
+   0.005,
+   0.005,
+   0.005,
+   0.005,
+   0.005,
+   0.005,
+   0.005
+  ]
+ },
+ "freeway_s2|own|true": {
+  "return": 22.06,
+  "contacts": 11.96,
+  "toward_nearest": 0.308,
+  "toward_n": 18295,
+  "contact_index": {
+   "policy": 0.181,
+   "uniform": 0.226,
+   "states": 50877
+  },
+  "actions": [
+   0.08,
+   0.92,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "goal_arrivals": 22.06,
+  "contacts_while_still": 0.15,
+  "row_share": [
+   0.0,
+   0.115,
+   0.12,
+   0.124,
+   0.133,
+   0.146,
+   0.164,
+   0.199
+  ],
+  "causal": -0.01
+ },
+ "freeway_s2|own|decoy": {
+  "return": 17.98,
+  "contacts": 19.01,
+  "toward_nearest": 0.317,
+  "toward_n": 18298,
+  "contact_index": {
+   "policy": 0.27,
+   "uniform": 0.23,
+   "states": 53965
+  },
+  "actions": [
+   0.087,
+   0.913,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "goal_arrivals": 17.98,
+  "contacts_while_still": 0.62,
+  "row_share": [
+   0.0,
+   0.093,
+   0.108,
+   0.12,
+   0.135,
+   0.155,
+   0.176,
+   0.213
+  ]
+ },
+ "freeway_s2|own|blind": {
+  "return": 17.69,
+  "contacts": 26.86,
+  "toward_nearest": 0.382,
+  "toward_n": 18198,
+  "contact_index": {
+   "policy": 0.376,
+   "uniform": 0.228,
+   "states": 54894
+  },
+  "actions": [
+   0.0,
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "goal_arrivals": 17.69,
+  "contacts_while_still": 0.0,
+  "row_share": [
+   0.0,
+   0.088,
+   0.103,
+   0.118,
+   0.134,
+   0.151,
+   0.178,
+   0.227
+  ]
+ },
+ "freeway_s2|own|argmax": {
+  "return": 22.22,
+  "contacts": 11.53,
+  "toward_nearest": 0.311,
+  "toward_n": 18175,
+  "contact_index": {
+   "policy": 0.177,
+   "uniform": 0.229,
+   "states": 50442
+  },
+  "actions": [
+   0.081,
+   0.919,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "goal_arrivals": 22.22,
+  "contacts_while_still": 0.17,
+  "row_share": [
+   0.0,
+   0.114,
+   0.121,
+   0.123,
+   0.137,
+   0.146,
+   0.161,
+   0.198
+  ]
+ },
+ "freeway_s2|in_cartag|true": {
+  "return": 0.59,
+  "contacts": 0.59,
+  "toward_nearest": -0.723,
+  "toward_n": 14661,
+  "contact_index": {
+   "policy": 0.022,
+   "uniform": 0.205,
+   "states": 20629
+  },
+  "actions": [
+   0.005,
+   0.995,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "goal_arrivals": 1.0,
+  "contacts_while_still": 0.01,
+  "row_share": [
+   0.963,
+   0.005,
+   0.005,
+   0.005,
+   0.005,
+   0.005,
+   0.006,
+   0.005
+  ]
+ },
+ "random|freeway": {
+  "return": 0.15,
+  "contacts": 11.64,
+  "toward_nearest": 0.004,
+  "toward_n": 16447,
+  "contact_index": {
+   "policy": 0.224,
+   "uniform": 0.228,
+   "states": 39868
+  },
+  "actions": [
+   0.201,
+   0.2,
+   0.2,
+   0.199,
+   0.2
+  ],
+  "goal_arrivals": 0.15,
+  "contacts_while_still": 2.07,
+  "row_share": [
+   0.0,
+   0.004,
+   0.01,
+   0.023,
+   0.048,
+   0.111,
+   0.245,
+   0.559
+  ]
+ },
+ "cartag|own|true": {
+  "return": 90.77,
+  "contacts": 90.77,
+  "toward_nearest": 0.055,
+  "toward_n": 16465,
+  "contact_index": {
+   "policy": 0.759,
+   "uniform": 0.297,
+   "states": 91922
+  },
+  "actions": [
+   0.141,
+   0.303,
+   0.286,
+   0.085,
+   0.185
+  ],
+  "goal_arrivals": 0.01,
+  "contacts_while_still": 16.32,
+  "row_share": [
+   0.0,
+   0.0,
+   0.097,
+   0.396,
+   0.333,
+   0.146,
+   0.023,
+   0.005
+  ],
+  "causal": 0.048
+ },
+ "cartag|own|decoy": {
+  "return": 15.32,
+  "contacts": 15.32,
+  "toward_nearest": 0.052,
+  "toward_n": 18153,
+  "contact_index": {
+   "policy": 0.186,
+   "uniform": 0.264,
+   "states": 63225
+  },
+  "actions": [
+   0.141,
+   0.273,
+   0.256,
+   0.129,
+   0.202
+  ],
+  "goal_arrivals": 0.0,
+  "contacts_while_still": 3.16,
+  "row_share": [
+   0.0,
+   0.0,
+   0.103,
+   0.334,
+   0.373,
+   0.161,
+   0.023,
+   0.006
+  ]
+ },
+ "cartag|own|blind": {
+  "return": 33.03,
+  "contacts": 33.03,
+  "toward_nearest": -0.023,
+  "toward_n": 17665,
+  "contact_index": {
+   "policy": 0.34,
+   "uniform": 0.301,
+   "states": 74463
+  },
+  "actions": [
+   0.339,
+   0.228,
+   0.209,
+   0.036,
+   0.188
+  ],
+  "goal_arrivals": 0.0,
+  "contacts_while_still": 17.74,
+  "row_share": [
+   0.0,
+   0.0,
+   0.065,
+   0.68,
+   0.215,
+   0.011,
+   0.024,
+   0.005
+  ]
+ },
+ "cartag|own|argmax": {
+  "return": 93.15,
+  "contacts": 93.15,
+  "toward_nearest": 0.053,
+  "toward_n": 16330,
+  "contact_index": {
+   "policy": 0.761,
+   "uniform": 0.298,
+   "states": 91969
+  },
+  "actions": [
+   0.147,
+   0.305,
+   0.288,
+   0.087,
+   0.172
+  ],
+  "goal_arrivals": 0.0,
+  "contacts_while_still": 16.72,
+  "row_share": [
+   0.0,
+   0.0,
+   0.095,
+   0.395,
+   0.342,
+   0.141,
+   0.022,
+   0.005
+  ]
+ },
+ "cartag|in_freeway|true": {
+  "return": 0.0,
+  "contacts": 44.97,
+  "toward_nearest": 0.319,
+  "toward_n": 16709,
+  "contact_index": {
+   "policy": 0.604,
+   "uniform": 0.261,
+   "states": 57164
+  },
+  "actions": [
+   0.091,
+   0.623,
+   0.047,
+   0.075,
+   0.165
+  ],
+  "goal_arrivals": 0.0,
+  "contacts_while_still": 8.01,
+  "row_share": [
+   0.0,
+   0.0,
+   0.001,
+   0.027,
+   0.164,
+   0.271,
+   0.261,
+   0.276
+  ]
+ },
+ "cartag_s2|own|true": {
+  "return": 90.91,
+  "contacts": 90.91,
+  "toward_nearest": 0.047,
+  "toward_n": 16335,
+  "contact_index": {
+   "policy": 0.787,
+   "uniform": 0.293,
+   "states": 88754
+  },
+  "actions": [
+   0.113,
+   0.284,
+   0.266,
+   0.112,
+   0.224
+  ],
+  "goal_arrivals": 0.0,
+  "contacts_while_still": 14.57,
+  "row_share": [
+   0.0,
+   0.0,
+   0.07,
+   0.504,
+   0.275,
+   0.123,
+   0.022,
+   0.005
+  ],
+  "causal": 0.068
+ },
+ "cartag_s2|own|decoy": {
+  "return": 17.59,
+  "contacts": 17.59,
+  "toward_nearest": 0.036,
+  "toward_n": 18050,
+  "contact_index": {
+   "policy": 0.205,
+   "uniform": 0.275,
+   "states": 65633
+  },
+  "actions": [
+   0.11,
+   0.277,
+   0.26,
+   0.124,
+   0.229
+  ],
+  "goal_arrivals": 0.0,
+  "contacts_while_still": 4.17,
+  "row_share": [
+   0.0,
+   0.0,
+   0.06,
+   0.44,
+   0.324,
+   0.147,
+   0.023,
+   0.005
+  ]
+ },
+ "cartag_s2|own|blind": {
+  "return": 33.57,
+  "contacts": 33.57,
+  "toward_nearest": -0.084,
+  "toward_n": 17666,
+  "contact_index": {
+   "policy": 0.341,
+   "uniform": 0.301,
+   "states": 75409
+  },
+  "actions": [
+   0.182,
+   0.252,
+   0.232,
+   0.018,
+   0.316
+  ],
+  "goal_arrivals": 0.0,
+  "contacts_while_still": 17.12,
+  "row_share": [
+   0.0,
+   0.0,
+   0.098,
+   0.722,
+   0.145,
+   0.008,
+   0.023,
+   0.005
+  ]
+ },
+ "cartag_s2|own|argmax": {
+  "return": 92.68,
+  "contacts": 92.68,
+  "toward_nearest": 0.051,
+  "toward_n": 16375,
+  "contact_index": {
+   "policy": 0.782,
+   "uniform": 0.293,
+   "states": 88758
+  },
+  "actions": [
+   0.108,
+   0.28,
+   0.263,
+   0.121,
+   0.229
+  ],
+  "goal_arrivals": 0.0,
+  "contacts_while_still": 14.95,
+  "row_share": [
+   0.0,
+   0.0,
+   0.066,
+   0.512,
+   0.274,
+   0.121,
+   0.022,
+   0.005
+  ]
+ },
+ "cartag_s2|in_freeway|true": {
+  "return": 0.0,
+  "contacts": 46.01,
+  "toward_nearest": 0.311,
+  "toward_n": 16711,
+  "contact_index": {
+   "policy": 0.61,
+   "uniform": 0.266,
+   "states": 57894
+  },
+  "actions": [
+   0.083,
+   0.647,
+   0.045,
+   0.061,
+   0.164
+  ],
+  "goal_arrivals": 0.0,
+  "contacts_while_still": 9.15,
+  "row_share": [
+   0.0,
+   0.0,
+   0.002,
+   0.048,
+   0.146,
+   0.289,
+   0.257,
+   0.259
+  ]
+ },
+ "random|cartag": {
+  "return": 17.34,
+  "contacts": 17.34,
+  "toward_nearest": 0.005,
+  "toward_n": 17375,
+  "contact_index": {
+   "policy": 0.24,
+   "uniform": 0.243,
+   "states": 55433
+  },
+  "actions": [
+   0.199,
+   0.2,
+   0.199,
+   0.2,
+   0.201
+  ],
+  "goal_arrivals": 4.02,
+  "contacts_while_still": 4.27,
+  "row_share": [
+   0.096,
+   0.099,
+   0.102,
+   0.11,
+   0.123,
+   0.136,
+   0.155,
+   0.177
+  ]
+ },
+ "always_up|freeway": {
+  "return": 17.81,
+  "contacts": 26.44,
+  "toward_nearest": 0.389,
+  "toward_n": 18048,
+  "contact_index": {
+   "policy": 0.372,
+   "uniform": 0.231,
+   "states": 54532
+  },
+  "actions": [
+   0.0,
+   1.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "goal_arrivals": 17.81,
+  "contacts_while_still": 0.0,
+  "row_share": [
+   0.0,
+   0.089,
+   0.104,
+   0.118,
+   0.134,
+   0.151,
+   0.179,
+   0.225
+  ]
+ },
+ "camp_row2|cartag": {
+  "return": 43.8,
+  "contacts": 43.8,
+  "toward_nearest": 0.011,
+  "toward_n": 17265,
+  "contact_index": {
+   "policy": 0.45,
+   "uniform": 0.245,
+   "states": 74722
+  },
+  "actions": [
+   0.97,
+   0.03,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "goal_arrivals": 0.0,
+  "contacts_while_still": 43.04,
+  "row_share": [
+   0.0,
+   0.97,
+   0.005,
+   0.005,
+   0.005,
+   0.005,
+   0.005,
+   0.005
+  ]
+ },
+ "camp_row2_sweep|cartag": {
+  "return": 43.34,
+  "contacts": 43.34,
+  "toward_nearest": -0.506,
+  "toward_n": 13748,
+  "contact_index": {
+   "policy": 0.63,
+   "uniform": 0.342,
+   "states": 52853
+  },
+  "actions": [
+   0.0,
+   0.03,
+   0.0,
+   0.97,
+   0.0
+  ],
+  "goal_arrivals": 0.0,
+  "contacts_while_still": 42.17,
+  "row_share": [
+   0.0,
+   0.97,
+   0.005,
+   0.005,
+   0.005,
+   0.005,
+   0.005,
+   0.005
+  ]
+ },
+ "camp_row3|cartag": {
+  "return": 27.28,
+  "contacts": 27.28,
+  "toward_nearest": 0.009,
+  "toward_n": 18381,
+  "contact_index": {
+   "policy": 0.275,
+   "uniform": 0.254,
+   "states": 76205
+  },
+  "actions": [
+   0.975,
+   0.025,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "goal_arrivals": 0.0,
+  "contacts_while_still": 26.64,
+  "row_share": [
+   0.0,
+   0.0,
+   0.975,
+   0.005,
+   0.005,
+   0.005,
+   0.005,
+   0.005
+  ]
+ },
+ "camp_row3_sweep|cartag": {
+  "return": 27.62,
+  "contacts": 27.62,
+  "toward_nearest": -0.447,
+  "toward_n": 15721,
+  "contact_index": {
+   "policy": 0.386,
+   "uniform": 0.304,
+   "states": 54954
+  },
+  "actions": [
+   0.0,
+   0.025,
+   0.0,
+   0.0,
+   0.975
+  ],
+  "goal_arrivals": 0.0,
+  "contacts_while_still": 26.36,
+  "row_share": [
+   0.0,
+   0.0,
+   0.975,
+   0.005,
+   0.005,
+   0.005,
+   0.005,
+   0.005
+  ]
+ },
+ "camp_row4|cartag": {
+  "return": 43.71,
+  "contacts": 43.71,
+  "toward_nearest": 0.009,
+  "toward_n": 18650,
+  "contact_index": {
+   "policy": 0.4,
+   "uniform": 0.262,
+   "states": 83988
+  },
+  "actions": [
+   0.98,
+   0.02,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "goal_arrivals": 0.0,
+  "contacts_while_still": 43.21,
+  "row_share": [
+   0.0,
+   0.0,
+   0.0,
+   0.98,
+   0.005,
+   0.005,
+   0.005,
+   0.005
+  ]
+ },
+ "camp_row4_sweep|cartag": {
+  "return": 43.6,
+  "contacts": 43.6,
+  "toward_nearest": -0.395,
+  "toward_n": 16746,
+  "contact_index": {
+   "policy": 0.515,
+   "uniform": 0.337,
+   "states": 64999
+  },
+  "actions": [
+   0.0,
+   0.02,
+   0.0,
+   0.98,
+   0.0
+  ],
+  "goal_arrivals": 0.0,
+  "contacts_while_still": 42.63,
+  "row_share": [
+   0.0,
+   0.0,
+   0.0,
+   0.98,
+   0.005,
+   0.005,
+   0.005,
+   0.005
+  ]
+ },
+ "camp_row5|cartag": {
+  "return": 27.32,
+  "contacts": 27.32,
+  "toward_nearest": 0.007,
+  "toward_n": 18767,
+  "contact_index": {
+   "policy": 0.274,
+   "uniform": 0.253,
+   "states": 76456
+  },
+  "actions": [
+   0.985,
+   0.015,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "goal_arrivals": 0.0,
+  "contacts_while_still": 26.91,
+  "row_share": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.985,
+   0.005,
+   0.005,
+   0.005
+  ]
+ },
+ "camp_row5_sweep|cartag": {
+  "return": 27.61,
+  "contacts": 27.61,
+  "toward_nearest": -0.361,
+  "toward_n": 16742,
+  "contact_index": {
+   "policy": 0.386,
+   "uniform": 0.304,
+   "states": 54990
+  },
+  "actions": [
+   0.0,
+   0.015,
+   0.0,
+   0.0,
+   0.985
+  ],
+  "goal_arrivals": 0.0,
+  "contacts_while_still": 26.62,
+  "row_share": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.985,
+   0.005,
+   0.005,
+   0.005
+  ]
+ },
+ "camp_row6|cartag": {
+  "return": 44.22,
+  "contacts": 44.22,
+  "toward_nearest": 0.006,
+  "toward_n": 18264,
+  "contact_index": {
+   "policy": 0.403,
+   "uniform": 0.261,
+   "states": 84326
+  },
+  "actions": [
+   0.99,
+   0.01,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "goal_arrivals": 0.0,
+  "contacts_while_still": 43.95,
+  "row_share": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.99,
+   0.005,
+   0.005
+  ]
+ },
+ "camp_row6_sweep|cartag": {
+  "return": 43.78,
+  "contacts": 43.78,
+  "toward_nearest": -0.412,
+  "toward_n": 15770,
+  "contact_index": {
+   "policy": 0.516,
+   "uniform": 0.336,
+   "states": 65184
+  },
+  "actions": [
+   0.0,
+   0.01,
+   0.0,
+   0.99,
+   0.0
+  ],
+  "goal_arrivals": 0.0,
+  "contacts_while_still": 43.07,
+  "row_share": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.99,
+   0.005,
+   0.005
+  ]
+ },
+ "camp_row7|cartag": {
+  "return": 27.29,
+  "contacts": 27.29,
+  "toward_nearest": 0.003,
+  "toward_n": 17429,
+  "contact_index": {
+   "policy": 0.317,
+   "uniform": 0.237,
+   "states": 66029
+  },
+  "actions": [
+   0.995,
+   0.005,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "goal_arrivals": 0.0,
+  "contacts_while_still": 27.16,
+  "row_share": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.995,
+   0.005
+  ]
+ },
+ "camp_row7_sweep|cartag": {
+  "return": 27.7,
+  "contacts": 27.7,
+  "toward_nearest": -0.415,
+  "toward_n": 13525,
+  "contact_index": {
+   "policy": 0.525,
+   "uniform": 0.318,
+   "states": 40542
+  },
+  "actions": [
+   0.0,
+   0.005,
+   0.0,
+   0.0,
+   0.995
+  ],
+  "goal_arrivals": 0.0,
+  "contacts_while_still": 26.96,
+  "row_share": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.995,
+   0.005
+  ]
+ }
+}

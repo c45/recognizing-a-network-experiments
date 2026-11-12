@@ -1,0 +1,17 @@
+{
+ "source": "train/g_freeway_relu24x3/actor.npz",
+ "arch": "relu24x3",
+ "flip": "none",
+ "mirror": "ud",
+ "seed": 1,
+ "unique_states": 148246,
+ "never_used_inputs": 296,
+ "fill_kinds": {
+  "mirror": 24,
+  "random": 272
+ },
+ "holdout_states_using_never_used_input": 0,
+ "max_prob_change_holdout_exact": 2.0039525594484076e-14,
+ "max_prob_change_all_as_printed": 0.03334919473900655,
+ "max_prob_change_plain_as_printed": 0.028106524462749194
+}
